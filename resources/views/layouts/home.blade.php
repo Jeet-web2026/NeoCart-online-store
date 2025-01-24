@@ -41,9 +41,9 @@
 <body>
 
     {{--navbar--}}
-    <header class="fixed-top shadow">
+    <header class="fixed-top shadow bg-light">
         <section class="__latest-notifications">
-            <div class="alert py-2 alert-dismissible fade show mb-0" style="background-color: #FFc000;" role="alert">
+            <div class="alert py-2 alert-dismissible fade show mb-0 rounded-0" style="background-color: #FFc000;" role="alert">
                 <p class="text-center font-500 text-black">50% off on top brands <a href="javascript:void(0)" class="text-success">Buy now!</a></p>
                 <button type="button" class="btn-close pt-2" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
@@ -208,9 +208,9 @@
         </nav>
     </header>
     {{--navbar--}}
-
-    @yield('content')
-
+    <main id="main-content">
+        @yield('content')
+    </main>
     @yield('javascript')
 
 </body>
