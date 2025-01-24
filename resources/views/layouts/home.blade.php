@@ -115,18 +115,8 @@
                         <li class="nav-item me-4">
                             <a class="nav-link text-black" href="javascript:void(0)"><i class="bi bi-grid me-2 text-warning"></i>All Categories</a>
                         </li>
-                        <li class="nav-item dropdown me-2">
-                            <a class="nav-link text-black" href="{{ url('/') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Home
-                            </a>
-                            <ul class="dropdown-menu no-radius border-0 shadow">
-                                <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
-                            </ul>
+                        <li class="nav-item me-2">
+                            <a class="nav-link text-black" href="{{ url('/') }}">Home</a>
                         </li>
                         <li class="nav-item dropdown me-2">
                             <a class="nav-link text-black" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
