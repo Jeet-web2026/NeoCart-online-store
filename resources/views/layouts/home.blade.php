@@ -89,7 +89,7 @@
                                 <li><a class="dropdown-item" href="javascript:void(0)">View More</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item mx-2 border rounded-circle" style="padding: 0px 5px;">
+                        <li class="nav-item mx-2 border rounded-circle position-relative" style="padding: 0px 5px;">
                             <a class="nav-link text-black" href="javascript:void(0)"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </li>
                         <li class="nav-item mx-2 border rounded-circle" style="padding: 0px 5px;">
