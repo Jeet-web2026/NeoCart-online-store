@@ -123,12 +123,12 @@
                                 Shop<i class="fa-solid fa-angle-down ms-2"></i>
                             </a>
                             <ul class="dropdown-menu no-radius border-0 shadow">
-                                <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Latest Discounts</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">My Coupons</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">View More</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-2">
@@ -141,7 +141,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">View More</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-2">
@@ -154,7 +154,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">View More</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-2">
@@ -167,7 +167,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">View More</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown me-2">
@@ -180,7 +180,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">View More</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -188,12 +188,11 @@
                                 Seller<i class="fa-solid fa-angle-down ms-2"></i>
                             </a>
                             <ul class="dropdown-menu no-radius border-0 shadow">
-                                <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Seller Login</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">View More</a></li>
                             </ul>
                         </li>
                     </ul>
