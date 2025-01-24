@@ -23,8 +23,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    {{--universal css cdn--}}
-    <link rel="stylesheet" href="{{ asset('essentials/css/unv.css') }}">
+    {{--bootstrap icon cdn--}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    {{--universal css--}}
+    <style>
+        * {
+            font-family: "Figtree", serif;
+        }
+
+        body {
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .font-2 {
+            font-family: "Montserrat", serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        a {
+            text-decoration: none;
+            margin: 0px !important;
+        }
+
+        .no-radius {
+            border-radius: 0px !important;
+        }
+
+        .font-500 {
+            font-weight: 500;
+        }
+    </style>
+    {{--universal css--}}
 
     @yield('pages-css')
 </head>
@@ -32,26 +70,32 @@
 <body>
 
     {{--navbar--}}
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header class="fixed-top shadow">
+        <section class="__latest-notifications">
+            <div class="alert py-2 alert-dismissible fade show mb-0" style="background-color: #FFc000;" role="alert">
+                <p class="text-center font-500 text-black">50% off on top brands <a href="javascript:void(0)" class="text-success">Buy now!</a></p>
+                <button type="button" class="btn-close pt-2" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-lg px-5 py-3">
             <div class="container-fluid">
-                <a class="navbar-brand" href="{{ url('/') }}" class="fs-2 fw-bold">NeoCart</a>
+                <a class="navbar-brand fs-3 font-500 text-black" href="{{ url('/') }}"><i class="fa-solid fa-cart-flatbed-suitcase me-2"></i>NeoCart</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+                    <div class="ps-5 w-50">
+                        <form class="d-flex border px-2 py-1 rounded-3 w-100" role="search">
+                            <input class="form-control me-2 border-0 shadow-none" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn text-dark" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Language<i class="fa-solid fa-angle-down ms-2"></i>
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu no-radius border-0 shadow">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li>
@@ -60,18 +104,143 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Doller<i class="fa-solid fa-angle-down ms-2"></i>
+                            </a>
+                            <ul class="dropdown-menu no-radius border-0 shadow">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2 border rounded-circle" style="padding: 0px 5px;">
+                            <a class="nav-link text-black" href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                        </li>
+                        <li class="nav-item mx-2 border rounded-circle" style="padding: 0px 5px;">
+                            <a class="nav-link text-black" href="#"><i class="fa-regular fa-heart"></i></a>
+                        </li>
+                        <li class="nav-item ms-2 border rounded-circle" style="padding: 0px 5px;">
+                            <a class="nav-link text-black" href="#"><i class="fa-solid fa-bag-shopping"></i></a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg px-5 py-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-4">
+                            <a class="nav-link text-black" href="javascript:void(0)"><i class="bi bi-grid me-2 text-warning"></i>All Categories</a>
+                        </li>
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Home<i class="fa-solid fa-angle-down ms-2"></i>
+                            </a>
+                            <ul class="dropdown-menu no-radius border-0 shadow">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop<i class="fa-solid fa-angle-down ms-2"></i>
+                            </a>
+                            <ul class="dropdown-menu no-radius border-0 shadow">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Product<i class="fa-solid fa-angle-down ms-2"></i>
+                            </a>
+                            <ul class="dropdown-menu no-radius border-0 shadow">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Mega Menu<i class="fa-solid fa-angle-down ms-2"></i>
+                            </a>
+                            <ul class="dropdown-menu no-radius border-0 shadow">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog<i class="fa-solid fa-angle-down ms-2"></i>
+                            </a>
+                            <ul class="dropdown-menu no-radius border-0 shadow">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages<i class="fa-solid fa-angle-down ms-2"></i>
+                            </a>
+                            <ul class="dropdown-menu no-radius border-0 shadow">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Seller<i class="fa-solid fa-angle-down ms-2"></i>
+                            </a>
+                            <ul class="dropdown-menu no-radius border-0 shadow">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
+    {{--navbar--}}
+
+    @yield('content')
+
+    @yield('javascript')
 
 </body>
 
