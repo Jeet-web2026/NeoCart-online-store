@@ -36,8 +36,7 @@
             </div>
         </div>
     </div>
-</section>
-<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="viewCart" aria-labelledby="viewCartLabel">
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="viewCart" aria-labelledby="viewCartLabel">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="viewCartLabel">Offcanvas</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -48,6 +47,7 @@
         </div>
     </div>
 </div>
+</section>
 @endsection
 
 @section('javascript')
