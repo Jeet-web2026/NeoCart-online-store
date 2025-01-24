@@ -1,14 +1,8 @@
 @extends('layouts.home')
 @section('tittle', 'Home')
 
-@section('pages-css')
-
-{{--custom page css--}}
-<style>
-
-</style>
-{{--custom page css--}}
-
+@section('page-css')
+<link rel="stylesheet" href="{{ asset('essentials/css/home-style.css') }}">
 @endsection
 
 @section('content')

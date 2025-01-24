@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Csrf-token" content="{{ csrf_token() }}">
     <title>@yield ('tittle') | {{ config('app.name') }}</title>
+    <link rel="shortcut icon" href="{{ asset('essentials/images/logo.svg') }}" type="image/x-icon">
 
     {{--bootstarp css cdn--}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -26,43 +27,13 @@
     {{--bootstrap icon cdn--}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    {{--universal css--}}
-    <style>
-        * {
-            font-family: "Figtree", serif;
-        }
+    {{--universal css link--}}
+    <link rel="stylesheet" href="{{ asset('essentials/css/unv.css') }}">
+    {{--universal css link--}}
 
-        body {
-            height: 100%;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        .font-2 {
-            font-family: "Montserrat", serif;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        a {
-            text-decoration: none;
-            margin: 0px !important;
-        }
-
-        .no-radius {
-            border-radius: 0px !important;
-        }
-
-        .font-500 {
-            font-weight: 500;
-        }
-    </style>
-    {{--universal css--}}
+    {{--page css link--}}
+    @yield('page-css')
+    {{--page css link--}}
 
     @yield('pages-css')
 </head>
