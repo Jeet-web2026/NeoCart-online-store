@@ -113,7 +113,7 @@
                         </li>
                         <li class="nav-item dropdown me-2">
                             <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Home<i class="fa-solid fa-angle-down ms-2"></i>
+                                Home
                             </a>
                             <ul class="dropdown-menu no-radius border-0 shadow">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
