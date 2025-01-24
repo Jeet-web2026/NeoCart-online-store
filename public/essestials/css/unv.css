@@ -1,0 +1,12 @@
+* {
+    font-family: "Figtree", serif;
+}
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.font-2 {
+    font-family: "Montserrat", serif;
+}
