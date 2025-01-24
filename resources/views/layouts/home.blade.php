@@ -94,11 +94,11 @@
                             <span class="position-absolute bg-warning rounded-circle" style="padding: 0px 8px; right: -30%; top: -20%;">9</span>
                         </li>
                         <li class="nav-item mx-2 border rounded-circle position-relative" style="padding: 0px 5px;">
-                            <a class="nav-link text-black" href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                            <a class="nav-link text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#wishlist" aria-controls="wishlist"><i class="fa-regular fa-heart"></i></a>
                             <span class="position-absolute bg-warning rounded-circle" style="padding: 0px 8px; right: -30%; top: -20%;">9</span>
                         </li>
                         <li class="nav-item ms-2 border rounded-circle position-relative" style="padding: 0px 5px;">
-                            <a class="nav-link text-black"  type="button" data-bs-toggle="offcanvas" data-bs-target="#viewCart" aria-controls="viewCart"><i class="fa-solid fa-bag-shopping"></i></a>
+                            <a class="nav-link text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#viewCart" aria-controls="viewCart"><i class="fa-solid fa-bag-shopping"></i></a>
                             <span class="position-absolute bg-warning rounded-circle" style="padding: 0px 8px; right: -30%; top: -20%;">9</span>
                         </li>
                     </ul>
