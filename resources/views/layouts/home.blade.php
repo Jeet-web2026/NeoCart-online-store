@@ -57,7 +57,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="ps-5 w-50">
                         <form class="d-flex border px-2 py-1 rounded-3 w-100" role="search">
-                            <input class="form-control me-2 border-0 shadow-none" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control me-2 border-0 shadow-none bg-transparent" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn text-dark" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </form>
                     </div>

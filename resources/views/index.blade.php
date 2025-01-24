@@ -14,7 +14,7 @@
                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                     <div class="row p-3">
                         <div class="col-md-8">
-                            <h6 class="text-uppercase text-warning">organic</h6>
+                            <h6 class="text-uppercase text-warning">branded</h6>
                             <h5 class="card-title text-black fs-2 my-2 fw-bold text-capitalize font-500">office equipments</h5>
                             <p class="card-text text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <a href="javascript:void(0)" class="bg-warning btn border-0 mt-3 text-light">Shop Now</a>
