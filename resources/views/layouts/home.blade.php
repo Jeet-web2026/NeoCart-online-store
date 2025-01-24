@@ -116,7 +116,7 @@
                             <a class="nav-link text-black" href="javascript:void(0)"><i class="bi bi-grid me-2 text-warning"></i>All Categories</a>
                         </li>
                         <li class="nav-item dropdown me-2">
-                            <a class="nav-link text-black" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link text-black" href="{{ url('/') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Home
                             </a>
                             <ul class="dropdown-menu no-radius border-0 shadow">
