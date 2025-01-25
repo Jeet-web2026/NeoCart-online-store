@@ -1,7 +1,4 @@
 <x-home-layout>
-    @section('page-css')
-    <link rel="stylesheet" href="{{ asset('essentials/css/home-style.css') }}">
-    @endsection
     <section class="home-main-content w-100 p-5">
         <div class="row px-5 align-items-center">
             <div class="col-md-9 pe-2">
