@@ -1,14 +1,14 @@
 /* home-page css */
-#main-content {
+#main-content .home-main-content {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30vh;
+    padding-top: 35vh;
 }
 
-#main-content .home-main-content .card-img{
+#main-content .home-main-content .card-img {
     height: 50vh;
     object-fit: cover;
     width: 100%;
@@ -16,7 +16,7 @@
 /* home-page css */
 
 /* login-page css */
-#login-content{
-    padding-top: 15vh;
+#login-content {
+    padding-top: 35vh;
 }
 /* login-page css */

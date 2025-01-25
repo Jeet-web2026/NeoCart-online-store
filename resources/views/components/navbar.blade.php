@@ -18,7 +18,7 @@
                         <button class="btn text-dark" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
                 </div>
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-center">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link text-black" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Language<i class="fa-solid fa-angle-down ms-2"></i>
@@ -70,7 +70,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item me-4">
-                        <a class="nav-link text-black" href="javascript:void(0)"><i class="bi bi-grid me-2 text-warning"></i>All Categories</a>
+                        <a class="nav-link text-black ps-0" href="javascript:void(0)"><i class="bi bi-grid me-2 text-warning"></i>All Categories</a>
                     </li>
                     <li class="nav-item me-2">
                         <a class="nav-link text-black" href="{{ url('/') }}">Home</a>

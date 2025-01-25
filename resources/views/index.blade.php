@@ -1,6 +1,6 @@
 <x-home-layout>
-    <section class="home-main-content container-fluid w-100 p-5">
-        <div class="row px-5 align-items-center">
+    <section class="home-main-content container-fluid w-100 pb-5">
+        <div class="row px-5 align-items-center w-100">
             <div class="col-md-9 pe-2">
                 <div class="card border-0">
                     <img src="https://img.freepik.com/free-photo/desk-workspace-with-various-elements_23-2148043276.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357" class="card-img" alt="main-back">
