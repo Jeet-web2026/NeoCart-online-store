@@ -1,5 +1,5 @@
 <x-home-layout>
-    <section class="home-main-content w-100 p-5">
+    <section class="home-main-content container-fluid w-100 p-5">
         <div class="row px-5 align-items-center">
             <div class="col-md-9 pe-2">
                 <div class="card border-0">
