@@ -33,11 +33,11 @@
     {{--universal css link--}}
 
     {{--page css link--}}
-    @yield('page-css')
+    <link rel="stylesheet" href="{{ asset('essentials/css/home-style.css') }}">
     {{--page css link--}}
 </head>
 
-<body @if($bodyId)id="{{ $bodyId }}"@endif>
+<body @if($bodyId)id="{{ $bodyId }}" @endif>
     {{ $slot }}
 
     @yield('javascript')
