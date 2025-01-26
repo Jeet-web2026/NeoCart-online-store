@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="{{ asset('essentials/css/unv.css') }}">
     {{--universal css link--}}
 
+    @yield('extra-cdn')
+
     {{--page css link--}}
     <link rel="stylesheet" href="{{ asset('essentials/css/home-style.css') }}">
     {{--page css link--}}

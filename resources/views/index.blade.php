@@ -1,4 +1,5 @@
 <x-home-layout>
+    {{--main content--}}
     <section class="home-main-content container-fluid w-100 pb-5">
         <div class="row px-5 align-items-center w-100">
             <div class="col-md-9 pe-2">
@@ -30,4 +31,12 @@
             </div>
         </div>
     </section>
+    {{--main content--}}
+
+    {{--sort by categories--}}
+    <section class="category-wise-sort">
+        
+    </section>
+    {{--sort by categories--}}
+
 </x-home-layout>
