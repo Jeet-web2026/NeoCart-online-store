@@ -1,5 +1,5 @@
 <x-main-layout tittle="Home" bodyId="main-content" description="1">
-    @include('components.navbar')
+    <x-navbar-layout />
     {{ $slot }}
-    @include('components.home-popups')
+    <x-popup-layout />
 </x-main-layout>
