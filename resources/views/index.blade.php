@@ -36,6 +36,7 @@
     {{--sort by categories--}}
     <section class="category-wise-sort">
         <div class="container-fluid p-5">
+            <h3 class="text-capitalize text-black fs-5 mb-4 font-500 ps-2">shop by categories</h3>
             <div class="row category">
                 <div class="col p-2">
                     <div class="card border-0">

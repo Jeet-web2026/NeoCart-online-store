@@ -67,6 +67,8 @@
             $('.category-wise-sort .category .card:even').css({
                 'background-color': '#dc35451f',
             });
+
+            $('.slick-prev, .slick-next').addClass('shadow-lg rounded-1 bg-warning');
         });
     </script>
     @endsection

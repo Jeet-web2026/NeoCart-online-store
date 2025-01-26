@@ -13,6 +13,23 @@
     object-fit: cover;
     width: 100%;
 }
+
+/* categories start */
+.category-wise-sort .category .slick-prev{
+    height: 25px;
+    width: 25px;
+    top: -39%;
+    left: 95%;
+}
+.category-wise-sort .category .slick-next{
+    height: 25px;
+    width: 25px;
+    top: -39%;
+    right: .5%;
+}
+/* categories end */
+
+
 /* home-page css */
 
 /* login-page css */
