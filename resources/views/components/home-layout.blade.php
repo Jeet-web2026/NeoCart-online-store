@@ -26,37 +26,47 @@
 
     @section('custom-javascript')
     <script>
-        $('.category').slick({
-            dots: false,
-            infinite: true,
-            arrows:true,
-            speed: 300,
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 5,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
+        $(document).ready(function() {
+            $('.category').slick({
+                dots: false,
+                infinite: true,
+                arrows: true,
+                speed: 300,
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
                     }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
+                ]
+            });
+
+            $('.category-wise-sort .category .card:odd').css({
+                'background-color': '#ffc1071f',
+            })
+
+            $('.category-wise-sort .category .card:even').css({
+                'background-color': '#dc35451f',
+            });
         });
     </script>
     @endsection
