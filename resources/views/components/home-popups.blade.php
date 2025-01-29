@@ -18,8 +18,8 @@
         <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body d-flex justify-content-center align-items-center">
-        <x-signupform FormInputidName="order-user-name" FormInputemailName="order-user-email" pincode="order-user-pincode" FormInputpasswordName="order-user-password" FormId="order-signup-form" action="" />
-        <x-loginForm FormInputidName="order-user-name-login" FormInputemailName="order-user-email-login" FormInputpasswordName="order-user-password-login" FormId="order-login-form" action="" />
+        <!-- <x-signupform FormInputidName="order-user-name" FormInputemailName="order-user-email" pincode="order-user-pincode" FormInputpasswordName="order-user-password" FormId="order-signup-form" action="" />
+        <x-loginForm FormInputidName="order-user-name-login" FormInputemailName="order-user-email-login" FormInputpasswordName="order-user-password-login" FormId="order-login-form" action="" /> -->
     </div>
 </div>
 {{--cart--}}

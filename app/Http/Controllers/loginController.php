@@ -25,6 +25,8 @@ class loginController extends Controller
             'pincode' => $vallidatedata['user-pincode'],
         ]);
 
-        return "Register Successfully!";
+        return response()->json([
+            'message' => 'Data inserted successfully!'
+        ]);
     }
 }

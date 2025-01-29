@@ -110,15 +110,19 @@
                         type: "POST",
                         url: "{{ route('wishlist-register') }}",
                         data: $(this).serialize(),
-                        success: function(response){
-                            $(this).find('.results').html(`
+                        success: function(response) {
+                            $('#signup-form').find('.results').html(`
                             
-                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                                <strong>@${{ response }}</strong>
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>@verbatim${ response.message }@endverbatim</strong>
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                             </div>
                             
                             `);
+
+                            setTimeout(() => {
+                                $('#logn_form_open').click();
+                            }, 3000);
                         }
                     });
 
