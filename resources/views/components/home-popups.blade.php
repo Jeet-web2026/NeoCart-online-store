@@ -5,7 +5,7 @@
         <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body d-flex justify-content-center align-items-center">
-        <x-loginForm FormInputidName="admin-name" FormInputemailName="user-email" FormInputpasswordName="user-password" FormId="wishlist-form" action="{{ route('user-form') }}" />
+        <x-loginForm FormInputidName="admin-name" FormInputemailName="admin-email" FormInputpasswordName="admin-password" FormId="wishlist-form" action="{{ route('user-form') }}" />
     </div>
 </div>
 {{--wishlist--}}
@@ -17,7 +17,6 @@
         <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body d-flex justify-content-center align-items-center">
-        <x-loginForm  FormInputidName="user-name" FormInputemailName="user-email" FormInputpasswordName="user-password" FormId="wishlist-form" action="{{ route('user-form') }}" />
     </div>
 </div>
 {{--cart--}}
