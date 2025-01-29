@@ -17,6 +17,6 @@
         <label for="{{ $pincode }}" class="form-label">Pincode</label>
         <input type="text" class="form-control shadow-none" id="{{ $pincode }}" name="{{ $pincode }}">
     </div>
-    <p class="mb-3 text-start">Already have an account <button id="signup_form" class="btn p-0 border-0 shadow-none text-primary">Login here</button></p>
+    <p class="mb-3 text-start">Already have an account <button type="button" id="logn_form_open" class="btn p-0 border-0 shadow-none text-primary">Login here</button></p>
     <button type="submit" class="bg-warning btn border-0 mt-3 text-light">Submit</button>
 </form>

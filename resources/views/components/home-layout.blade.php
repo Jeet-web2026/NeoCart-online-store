@@ -69,6 +69,29 @@
             });
 
             $('.slick-prev, .slick-next').addClass('shadow-lg rounded-1 bg-warning');
+
+            $(document).on('click', '#logn_form_open', function() {
+                $('#signup-form').hide();
+                $('#login-form').fadeIn();
+            });
+
+            $(document).on('click', '#signup_form_open', function() {
+                $('#login-form').hide();
+                $('#signup-form').fadeIn();
+            });
+
+            $('#login-form, #order-login-form').hide();
+
+            $(document).on('click', '#logn_form_open', function() {
+                $('#order-signup-form').hide();
+                $('#order-login-form').fadeIn();
+            });
+
+            $(document).on('click', '#signup_form_open', function() {
+                $('#order-login-form').hide();
+                $('#order-signup-form').fadeIn();
+            });
+
         });
     </script>
     @endsection
