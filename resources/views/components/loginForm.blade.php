@@ -1,5 +1,6 @@
-@props(['FormInputidName' => '', 'FormInputemailName' => '', 'FormInputpasswordName' => ''])
-<form class="border p-3 rounded-3 bg-light shadow">
+@props(['FormInputidName' => '', 'FormInputemailName' => '', 'FormInputpasswordName' => '', 'FormId' => '', 'action' => ''])
+<form class="border p-3 rounded-3 bg-light shadow" method="POST" @if($FormId)id="{{ $FormId }}" @endif @if($action)action="{{ $action }}" @endif>
+    @csrf
     <div class="mb-3">
         <label for="{{ $FormInputidName }}" class="form-label">Name</label>
         <input type="text" class="form-control shadow-none" id="{{ $FormInputidName }}" name="{{ $FormInputidName }}">
