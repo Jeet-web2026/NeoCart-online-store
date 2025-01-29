@@ -129,6 +129,38 @@
                 }
             });
 
+            $('#login-form').on('submit', function(e) {
+                e.preventDefault();
+                if ($('#user-name-login').val() == '' || $('#user-email-login').val() == '' || $('#user-password-login').val() == '') {
+                    $(this).find('.situation').html(`
+                    
+                    <div class="alert alert-danger text-danger alert-dismissible fade show" role="alert">
+                        <strong>All fields required!</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+
+                    `);
+                } else {
+
+                    $.ajax({
+                        type: "POST",
+                        url: "{{ route('wishlist-login') }}",
+                        data: $(this).serialize(),
+                        success: function(response) {
+                            $('#login-form').find('.situation').html(`
+                            
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>@verbatim${ response.message }@endverbatim</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            
+                            `);
+                        },
+                    });
+
+                }
+            });
+
         });
     </script>
     @endsection

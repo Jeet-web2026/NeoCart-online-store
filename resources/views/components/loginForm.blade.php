@@ -2,6 +2,9 @@
 <form class="border p-3 rounded-3 w-100 bg-light shadow" method="POST" @if($FormId)id="{{ $FormId }}" @endif @if($action)action="{{ $action }}" @endif>
     @csrf
     <div class="mb-3">
+        <p class="situation"></p>
+    </div>
+    <div class="mb-3">
         <label for="{{ $FormInputidName }}" class="form-label">Name</label>
         <input type="text" class="form-control shadow-none" id="{{ $FormInputidName }}" name="{{ $FormInputidName }}">
     </div>

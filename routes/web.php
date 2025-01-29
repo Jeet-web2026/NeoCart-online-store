@@ -17,5 +17,5 @@ Route::controller(ordermanagementController::class)->group(function () {
 Route::controller(loginController::class)->group(function(){
     // wishlist
     Route::post('user-register', 'wishlistRegister')->name('wishlist-register');
-
+    Route::post('user-login', 'wishlistLogin')->name('wishlist-login');
 });

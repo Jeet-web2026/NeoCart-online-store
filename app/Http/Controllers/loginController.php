@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class loginController extends Controller
 {
@@ -28,5 +29,32 @@ class loginController extends Controller
         return response()->json([
             'message' => 'Data inserted successfully!'
         ]);
+    }
+
+
+    public function wishlistLogin(Request $request)
+    {
+        $vallidatedata = $request->validate([
+            'user-name-login' => 'required|min:2',
+            'user-email-login' => 'required|email',
+            'user-password-login' => 'required|min:5'
+
+        ]);
+
+        $credentials = [
+            'name' => $vallidatedata['user-name-login'],
+            'email' => $vallidatedata['user-email-login'],
+            'password' => $vallidatedata['user-password-login'],
+        ];
+
+        if (Auth::attempt($credentials)) {
+            return response()->json([
+                'message' => 'Login successfully!'
+            ]);
+        } else {
+            return response()->json([
+                'message' => 'Invalid credentials, please try again!'
+            ]);
+        };
     }
 }
