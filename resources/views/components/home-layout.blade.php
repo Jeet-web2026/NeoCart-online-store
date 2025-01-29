@@ -108,8 +108,18 @@
 
                     $.ajax({
                         type: "POST",
-                        url: url,
+                        url: "{{ route('wishlist-register') }}",
                         data: $(this).serialize(),
+                        success: function(response){
+                            $(this).find('.results').html(`
+                            
+                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                <strong>@${{ response }}</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            
+                            `);
+                        }
                     });
 
                 }
