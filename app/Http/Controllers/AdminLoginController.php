@@ -11,7 +11,7 @@ class AdminLoginController extends Controller
     public function index(Request $request)
     {
         $validatedData = $request->validate([
-            'admin-email' => 'required|email|unique:admins,email',
+            'admin-email' => 'required|email',
             'admin-name' => 'required|string|max:255',
             'admin-password' => 'required|min:8'
         ]);
@@ -22,6 +22,6 @@ class AdminLoginController extends Controller
             'admin_password' => Hash::make($validatedData['admin-password'])
         ]);
 
-        return view('admin.index');
+        return view('index')->with('Your account created successfully!');
     }
 }
