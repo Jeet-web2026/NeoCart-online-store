@@ -5,7 +5,7 @@
         <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body d-flex justify-content-center align-items-center">
-        <x-loginForm FormInputidName="user-name" FormInputemailName="user-email" FormInputpasswordName="user-password" FormId="wishlist-form" action="" />
+        <x-signupform FormInputidName="user-name" FormInputemailName="user-email" pincode="user-pincode" FormInputpasswordName="user-password" FormId="wishlist-form" action="" />
     </div>
 </div>
 {{--wishlist--}}
