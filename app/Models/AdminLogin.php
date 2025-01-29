@@ -9,5 +9,6 @@ class AdminLogin extends Model
 {
     use HasFactory;
     protected $timestamps = false;
-    
+
+    protected $fillable = ['admin_name', 'admin_email', 'admin_password'];
 }
