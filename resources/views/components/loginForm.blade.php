@@ -14,5 +14,5 @@
         <label for="{{ $FormInputpasswordName }}" class="form-label">Password</label>
         <input type="password" class="form-control shadow-none" id="{{ $FormInputpasswordName }}" name="{{ $FormInputpasswordName }}">
     </div>
-    <x-button-main btnDes="Submit" />
+    <x-button-main btnDes="Submit"  type="submit" />
 </form>
