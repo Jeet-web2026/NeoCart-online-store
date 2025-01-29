@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\AdminLoginController;
 use App\Http\Controllers\homeController;
+use App\Http\Controllers\loginController;
 use App\Http\Controllers\ordermanagementController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,4 +14,8 @@ Route::controller(ordermanagementController::class)->group(function () {
 });
 
 // authentication routes
+Route::controller(loginController::class)->group(function(){
+    // wishlist
+    Route::post('user-register', 'wishlistRegister')->name('wishlist-register');
 
+});
