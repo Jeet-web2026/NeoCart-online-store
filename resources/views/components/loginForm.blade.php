@@ -13,6 +13,6 @@
         <label for="{{ $FormInputpasswordName }}" class="form-label">Password</label>
         <input type="password" class="form-control shadow-none" id="{{ $FormInputpasswordName }}" name="{{ $FormInputpasswordName }}">
     </div>
-    <p class="mb-3 text-start"><button type="button" id="signup_form_open" class="btn p-0 border-0 shadow-none text-primary">Signup</button></p>
+    <p class="mb-3 text-start"><button type="button" id="signup_form_open" class="btn p-0 border-0 shadow-none text-primary">Back to Signup</button></p>
     <button type="submit" class="bg-warning btn border-0 mt-3 text-light">Submit</button>
 </form>

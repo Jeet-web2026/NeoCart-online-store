@@ -92,6 +92,29 @@
                 $('#order-signup-form').fadeIn();
             });
 
+            // ajax 
+            $('#signup-form').on('submit', function(e) {
+                e.preventDefault();
+                if ($('#user-name').val() == '' || $('#user-email').val() == '' || $('#user-pincode').val() == '' || $('#user-password').val() == '') {
+                    $(this).find('.results').html(`
+                    
+                    <div class="alert alert-danger text-danger alert-dismissible fade show" role="alert">
+                        <strong>All fields required!</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+
+                    `);
+                } else {
+
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: $(this).serialize(),
+                    });
+
+                }
+            });
+
         });
     </script>
     @endsection
