@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class AdminLogin extends Model
 {
     use HasFactory;
+    protected $timestamps = false;
+    
 }
