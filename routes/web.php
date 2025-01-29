@@ -14,7 +14,4 @@ Route::controller(ordermanagementController::class)->group(function () {
 });
 
 // authentication routes
-Route::controller(AdminLoginController::class)->group(function () {
-    Route::post('login-verification', 'index')->name('user-form');
-    Route::get('login-verification', 'index')->name('user-form');
-});
+
