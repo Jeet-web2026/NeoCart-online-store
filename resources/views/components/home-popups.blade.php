@@ -8,7 +8,7 @@
         @if(auth('web')->check())
         <form class="d-flex" method="POST" action="{{ route('wishlist-logout') }}">
             @csrf
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn text-black border-0 shadow-0 fs-5" type="submit"><i class="fa-solid fa-power-off"></i></button>
         </form>
         @else
         <x-signupform FormInputidName="user-name" FormInputemailName="user-email" pincode="user-pincode" FormInputpasswordName="user-password" FormId="signup-form" action="" />
