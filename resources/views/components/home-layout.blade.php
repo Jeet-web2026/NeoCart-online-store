@@ -65,13 +65,13 @@
                 'background-color': '#ffc1071f',
             })
 
-            $('.category-wise-sort .category .card h6:even').addClass('text-danger');
+            $('.category-wise-sort .category .card h6:even').addClass('text-danger font-medium');
 
             $('.category-wise-sort .category .card:even').css({
                 'background-color': '#dc35451f',
             });
 
-            $('.category-wise-sort .category .card h6:odd').addClass('text-danger');
+            $('.category-wise-sort .category .card h6:odd').addClass('text-danger font-medium');
 
             $('.slick-prev, .slick-next').addClass('shadow-lg rounded-1 bg-warning');
 

@@ -52,43 +52,73 @@
                 </div>
                 <div class="col p-2">
                     <div class="card border-0">
-                        <div class="card-body">
-                            This is some text within a card body.
+                        <div class="card-body row align-items-center">
+                            <div class="col-md-6">
+                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-capitalize">Attractive pen's</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col p-2">
                     <div class="card border-0">
-                        <div class="card-body">
-                            This is some text within a card body.
+                        <div class="card-body row align-items-center">
+                            <div class="col-md-6">
+                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-capitalize">Attractive pen's</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col p-2">
                     <div class="card border-0">
-                        <div class="card-body">
-                            This is some text within a card body.
+                        <div class="card-body row align-items-center">
+                            <div class="col-md-6">
+                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-capitalize">Attractive pen's</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col p-2">
                     <div class="card border-0">
-                        <div class="card-body">
-                            This is some text within a card body.
+                        <div class="card-body row align-items-center">
+                            <div class="col-md-6">
+                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-capitalize">Attractive pen's</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col p-2">
                     <div class="card border-0">
-                        <div class="card-body">
-                            This is some text within a card body.
+                        <div class="card-body row align-items-center">
+                            <div class="col-md-6">
+                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-capitalize">Attractive pen's</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col p-2">
                     <div class="card border-0">
-                        <div class="card-body">
-                            This is some text within a card body.
+                        <div class="card-body row align-items-center">
+                            <div class="col-md-6">
+                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-capitalize">Attractive pen's</h6>
+                            </div>
                         </div>
                     </div>
                 </div>

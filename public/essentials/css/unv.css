@@ -36,3 +36,7 @@ a {
 .row{
     --bs-gutter-x: 0rem;
 }
+
+.font-medium{
+    font-size: 2.8vh;
+}
