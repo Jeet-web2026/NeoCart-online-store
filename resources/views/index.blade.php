@@ -40,7 +40,7 @@
             <div class="row category">
                 <div class="col p-2">
                     <div class="card border-0">
-                        <div class="card-body">
+                        <div class="card-body d-flex justify-content-center align-items-center">
                             <img src="{{ asset('essentials/images/expences-1.jpg') }}" alt="office-expences-products" class="office-expences-products">
                         </div>
                     </div>

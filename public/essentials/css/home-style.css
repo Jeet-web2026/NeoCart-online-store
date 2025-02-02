@@ -29,9 +29,9 @@
 }
 
 .category-wise-sort .office-expences-products {
-    height: 3vh;
-    width: 3vw;
-    mix-blend-mode: screen;
+    height: 10vh;
+    width: 10vw;
+    mix-blend-mode: multiply;
 }
 /* categories end */
 
