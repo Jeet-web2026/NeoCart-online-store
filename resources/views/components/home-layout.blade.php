@@ -26,6 +26,7 @@
 
     @section('custom-javascript')
     <script>
+        $('#login-form, #order-login-form').hide();
         $(document).ready(function() {
             $('.category').slick({
                 dots: false,
@@ -79,8 +80,6 @@
                 $('#login-form').hide();
                 $('#signup-form').fadeIn();
             });
-
-            $('#login-form, #order-login-form').hide();
 
             $(document).on('click', '#logn_form_open', function() {
                 $('#order-signup-form').hide();
