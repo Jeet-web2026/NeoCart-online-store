@@ -188,24 +188,32 @@
                             <div class="card shadow">
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
-                                        <x-button-main icon="<i class='fa-solid fa-cart-plus'></i>" extraclass="rounded-pill px-4 font-medium mt-0" />
+                                        <x-button-main btnDes="HOT DEALS" extraclass="rounded-end-pill px-3 font-500 mt-0" />
+                                        <x-button-main icon="<i class='fa-solid fa-cart-plus'></i>" extraclass="rounded-2 px-3 font-medium mt-0" />
+                                    </div>
+                                    <div>
+                                        @php $startValue = 5; @endphp
+
+                                        @for ($i = 0; $i < $startValue; $i++)
+                                            {!! '<i class="fa-solid fa-star"></i>' !!}
+                                            @endfor
+
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 p-3">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        This is some text within a card body.
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 p-3">
-                            <div class="card shadow">
-                                <div class="card-body">
-                                    This is some text within a card body.
-                                </div>
-                            </div>
-                        </div>
                     </div>
+                    <div class="col-md-6"></div>
                 </div>
-                <div class="col-md-6"></div>
             </div>
-        </div>
     </section>
     {{--best deals--}}
 
