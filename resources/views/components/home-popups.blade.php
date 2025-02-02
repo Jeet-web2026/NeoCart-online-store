@@ -6,7 +6,10 @@
     </div>
     <div class="offcanvas-body d-flex justify-content-center align-items-center">
         @if(auth('web')->check())
-        <h2>You are logged in!</h2>
+        <form class="d-flex" method="POST" action="{{ route('wishlist-logout') }}">
+            @csrf
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
         @else
         <x-signupform FormInputidName="user-name" FormInputemailName="user-email" pincode="user-pincode" FormInputpasswordName="user-password" FormId="signup-form" action="" />
         <x-loginForm FormInputidName="user-name-login" FormInputemailName="user-email-login" FormInputpasswordName="user-password-login" FormId="login-form" action="" />
