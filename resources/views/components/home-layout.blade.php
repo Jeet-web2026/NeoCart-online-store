@@ -33,7 +33,7 @@
                 infinite: true,
                 arrows: true,
                 speed: 300,
-                slidesToShow: 6,
+                slidesToShow: 5,
                 slidesToScroll: 1,
                 responsive: [{
                         breakpoint: 1024,
@@ -65,9 +65,13 @@
                 'background-color': '#ffc1071f',
             })
 
+            $('.category-wise-sort .category .card h6:even').addClass('text-danger');
+
             $('.category-wise-sort .category .card:even').css({
                 'background-color': '#dc35451f',
             });
+
+            $('.category-wise-sort .category .card h6:odd').addClass('text-danger');
 
             $('.slick-prev, .slick-next').addClass('shadow-lg rounded-1 bg-warning');
 
