@@ -215,6 +215,12 @@
                                                     <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
                                                 </div>
                                             </div>
+                                            <div class="d-flex align-items-center justify-content-start">
+                                                <span class="badge bg-warning py-2 px-4 font-medium">14</span>:
+                                                <span class="badge bg-warning py-2 px-4 font-medium">23</span>:
+                                                <span class="badge bg-warning py-2 px-4 font-medium">59</span>:
+                                                <span class="badge bg-warning py-2 px-4 font-medium">51</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
