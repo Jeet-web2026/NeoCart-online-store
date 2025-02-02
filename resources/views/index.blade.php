@@ -191,14 +191,22 @@
                                         <x-button-main btnDes="HOT DEALS" extraclass="rounded-end-pill px-3 font-500 mt-0" />
                                         <x-button-main icon="<i class='fa-solid fa-cart-plus'></i>" extraclass="rounded-2 px-3 font-medium mt-0" />
                                     </div>
-                                    <div>
-                                        @php $startValue = 5; @endphp
+                                </div>
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                @php $startValue = 5; @endphp
 
-                                        @for ($i = 0; $i < $startValue; $i++)
-                                            {!! '<i class="fa-solid fa-star"></i>' !!}
-                                            @endfor
-
+                                                @for ($i = 0; $i < $startValue; $i++)
+                                                    {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                                    @endfor
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
+                                                    </div>
                                             </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
