@@ -42,22 +42,10 @@
                     <div class="card border-0">
                         <div class="card-body row align-items-center">
                             <div class="col-md-6">
-                                <img src="https://img.freepik.com/free-psd/wooden-pencils-white-cup-simple-stationery-supplies_632498-53758.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="office-expences-products" class="office-expences-products img-fluid">
+                                <img src="{{ asset('essentials/images/card-bg.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
                             </div>
                             <div class="col-md-6">
-                                <h6 class="text-capitalize">Attractive pen's</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-2">
-                    <div class="card border-0">
-                        <div class="card-body row align-items-center">
-                            <div class="col-md-6">
-                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
-                            </div>
-                            <div class="col-md-6">
-                                <h6 class="text-capitalize">Attractive pen's</h6>
+                                <h6 class="text-capitalize">Attractive equipment's</h6>
                             </div>
                         </div>
                     </div>
@@ -66,22 +54,10 @@
                     <div class="card border-0">
                         <div class="card-body row align-items-center">
                             <div class="col-md-6">
-                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                                <img src="{{ asset('essentials/images/card-bg.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
                             </div>
                             <div class="col-md-6">
-                                <h6 class="text-capitalize">Attractive pen's</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-2">
-                    <div class="card border-0">
-                        <div class="card-body row align-items-center">
-                            <div class="col-md-6">
-                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
-                            </div>
-                            <div class="col-md-6">
-                                <h6 class="text-capitalize">Attractive pen's</h6>
+                                <h6 class="text-capitalize">Attractive equipment's</h6>
                             </div>
                         </div>
                     </div>
@@ -90,22 +66,10 @@
                     <div class="card border-0">
                         <div class="card-body row align-items-center">
                             <div class="col-md-6">
-                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                                <img src="{{ asset('essentials/images/card-bg.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
                             </div>
                             <div class="col-md-6">
-                                <h6 class="text-capitalize">Attractive pen's</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col p-2">
-                    <div class="card border-0">
-                        <div class="card-body row align-items-center">
-                            <div class="col-md-6">
-                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
-                            </div>
-                            <div class="col-md-6">
-                                <h6 class="text-capitalize">Attractive pen's</h6>
+                                <h6 class="text-capitalize">Attractive equipment's</h6>
                             </div>
                         </div>
                     </div>
@@ -114,10 +78,46 @@
                     <div class="card border-0">
                         <div class="card-body row align-items-center">
                             <div class="col-md-6">
-                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                                <img src="{{ asset('essentials/images/card-bg.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
                             </div>
                             <div class="col-md-6">
-                                <h6 class="text-capitalize">Attractive pen's</h6>
+                                <h6 class="text-capitalize">Attractive equipment's</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card border-0">
+                        <div class="card-body row align-items-center">
+                            <div class="col-md-6">
+                                <img src="{{ asset('essentials/images/card-bg.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-capitalize">Attractive equipment's</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card border-0">
+                        <div class="card-body row align-items-center">
+                            <div class="col-md-6">
+                                <img src="{{ asset('essentials/images/card-bg.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-capitalize">Attractive equipment's</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-2">
+                    <div class="card border-0">
+                        <div class="card-body row align-items-center">
+                            <div class="col-md-6">
+                                <img src="{{ asset('essentials/images/card-bg.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-capitalize">Attractive equipment's</h6>
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
     {{--best value section--}}
     <section class="best-value-products">
         <div class="container-fluid px-5 py-2">
-        <h3 class="text-capitalize text-black fs-5 mb-4 font-500 ps-2">Products by best values</h3>
+            <h3 class="text-capitalize text-black fs-5 mb-4 font-500 ps-2">Products by best values</h3>
             <div class="row best-value-items">
                 <div class="col">
                     <div class="row">
