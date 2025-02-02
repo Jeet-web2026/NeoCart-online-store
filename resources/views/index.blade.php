@@ -42,7 +42,7 @@
                     <div class="card border-0">
                         <div class="card-body row align-items-center">
                             <div class="col-md-6">
-                                <img src="{{ asset('essentials/images/expences-1.png') }}" alt="office-expences-products" class="office-expences-products img-fluid">
+                                <img src="https://img.freepik.com/free-psd/wooden-pencils-white-cup-simple-stationery-supplies_632498-53758.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="office-expences-products" class="office-expences-products img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <h6 class="text-capitalize">Attractive pen's</h6>
@@ -126,5 +126,42 @@
         </div>
     </section>
     {{--sort by categories--}}
+
+    {{--best value section--}}
+    <section class="best-value-products">
+        <div class="container-fluid px-5 py-2">
+            <div class="row best-value-items">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-md-6 p-3 position-relative">
+                            <img src="https://img.freepik.com/free-photo/handcrafted-wooden-decorative-vase_23-2151003052.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images shadow">
+                            <div class="position-absolute offers_components bg-light shadow rounded-end-5 rounded-start-1 py-2 ps-2 pe-3  border">
+                                <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
+                                <p class="text-capitalize text-secondary">office equipments</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-3 position-relative">
+                            <img src="https://img.freepik.com/free-photo/bowl-cookies-pine-cones-marble_114579-46476.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images shadow">
+                            <div class="position-absolute offers_components bg-light shadow rounded-end-5 rounded-start-1 py-2 ps-2 pe-3  border">
+                                <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
+                                <p class="text-capitalize text-secondary">office equipments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-md-6 pe-2">
+                            <img src="https://img.freepik.com/free-photo/top-close-view-red-currant-crystal-glass-berry-cake-cocoa-cake-red-oval-lace-doily-red-white-checkered-tablecloth-white-wooden-table_140725-89802.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images">
+                        </div>
+                        <div class="col-md-6 ps-2">
+                            <img src="https://img.freepik.com/free-photo/flat-lay-tablet-clock-paper-plane_23-2148281074.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{--best value section--}}
 
 </x-home-layout>

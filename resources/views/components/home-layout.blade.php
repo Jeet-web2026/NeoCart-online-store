@@ -171,7 +171,7 @@
             $('#alert-popups').css({
                 'position': 'fixed',
                 'top': '90%',
-                'right': '0%', 
+                'right': '0%',
             });
 
             $('#check-fill-img').css({
@@ -182,6 +182,23 @@
             setTimeout(() => {
                 $('#alert-popups .notification-btn').click();
             }, 2000);
+
+            $('.best-value-items').slick({
+                dots: false,
+                infinite: true,
+                arrows: true,
+            });
+
+            $('.best-value-products .best-value-products-images').css({
+                'height': '50vh',
+                'width': '100%',
+                'object-fit': 'cover'
+            });
+
+            $('.best-value-products .offers_components').css({
+                'top': '8%',
+                'left': '4.5%'
+            });
 
         });
     </script>
