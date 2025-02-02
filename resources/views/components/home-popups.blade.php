@@ -25,8 +25,6 @@
         <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body d-flex justify-content-center align-items-center">
-        <x-signupform FormInputidName="user-name" FormInputemailName="user-email" pincode="user-pincode" FormInputpasswordName="user-password" FormId="signup-form" action="" />
-        <x-loginForm FormInputidName="user-name-login" FormInputemailName="user-email-login" FormInputpasswordName="user-password-login" FormId="login-form" action="" />
     </div>
 </div>
 {{--cart--}}

@@ -185,58 +185,178 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-6 p-3">
-                            <div class="card shadow">
+                            <div class="card">
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between align-items-center">
                                         <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
                                         <x-button-main icon="<i class='fa-solid fa-cart-plus'></i>" extraclass="rounded-2 px-3 font-medium mt-0" />
                                     </div>
-                                </div>
-                                <div class="card border-0">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-7 pe-5">
-                                                <div class="mb-2">
-                                                    @php $startValue = 5; @endphp
+                                    <div class="card border-0">
+                                        <div class="card-body px-0 pb-0">
+                                            <div class="row">
+                                                <div class="col-md-7 pe-5">
+                                                    <div class="mb-2">
+                                                        @php $startValue = 5; @endphp
 
-                                                    @for ($i = 0; $i < $startValue; $i++)
-                                                        {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
-                                                        @endfor
-                                                        </div>
-                                                        <h4 class="font-500 font-medium text-capitalize mb-2">laptop cover</h4>
-                                                        <h4 class="font-500 font-medium text-capitalize mb-2"><span class="text-warning">$74.50</span> <span class="text-decoration-line-through">$65.20</span></h4>
-                                                        <div class="progress mt-2 mb-3">
-                                                            <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        </div>
-                                                        <p class="text-capitalize text-secondary font-small">sold: <span class="text-black">30 items</span></p>
-                                                        <p class="text-capitalize text-secondary font-small">hurry up offer ends in</p>
+                                                        @for ($i = 0; $i < $startValue; $i++)
+                                                            {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                                            @endfor
+                                                            </div>
+                                                            <h4 class="font-500 font-medium text-capitalize mb-2">laptop cover</h4>
+                                                            <h4 class="font-500 font-medium text-capitalize mb-2"><span class="text-warning">$74.50</span> <span class="text-decoration-line-through">$65.20</span></h4>
+                                                            <div class="progress mt-2 mb-3">
+                                                                <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                            <p class="text-capitalize text-secondary font-small">sold: <span class="text-black">30 items</span></p>
+                                                            <p class="text-capitalize text-secondary font-small">hurry up offer ends in</p>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
+                                                    </div>
                                                 </div>
-                                                <div class="col-md-5">
-                                                    <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
+                                                <div class="d-flex align-items-center justify-content-start mt-2">
+                                                    <span class="badge bg-warning py-2 px-4 font-medium">14</span>&nbsp:&nbsp
+                                                    <span class="badge bg-warning py-2 px-4 font-medium">23</span>&nbsp:&nbsp
+                                                    <span class="badge bg-warning py-2 px-4 font-medium">59</span>&nbsp:&nbsp
+                                                    <span class="badge bg-warning py-2 px-4 font-medium">51</span>
                                                 </div>
-                                            </div>
-                                            <div class="d-flex align-items-center justify-content-start">
-                                                <span class="badge bg-warning py-2 px-4 font-medium">14</span>:
-                                                <span class="badge bg-warning py-2 px-4 font-medium">23</span>:
-                                                <span class="badge bg-warning py-2 px-4 font-medium">59</span>:
-                                                <span class="badge bg-warning py-2 px-4 font-medium">51</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 p-3">
-                                <div class="card shadow">
+                                <div class="card">
                                     <div class="card-body">
-                                        This is some text within a card body.
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
+                                            <x-button-main icon="<i class='fa-solid fa-cart-plus'></i>" extraclass="rounded-2 px-3 font-medium mt-0" />
+                                        </div>
+                                        <div class="card border-0">
+                                            <div class="card-body px-0 pb-0">
+                                                <div class="row">
+                                                    <div class="col-md-7 pe-5">
+                                                        <div class="mb-2">
+                                                            @php $startValue = 5; @endphp
+
+                                                            @for ($i = 0; $i < $startValue; $i++)
+                                                                {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                                                @endfor
+                                                                </div>
+                                                                <h4 class="font-500 font-medium text-capitalize mb-2">laptop cover</h4>
+                                                                <h4 class="font-500 font-medium text-capitalize mb-2"><span class="text-warning">$74.50</span> <span class="text-decoration-line-through">$65.20</span></h4>
+                                                                <div class="progress mt-2 mb-3">
+                                                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                                <p class="text-capitalize text-secondary font-small">sold: <span class="text-black">30 items</span></p>
+                                                                <p class="text-capitalize text-secondary font-small">hurry up offer ends in</p>
+                                                        </div>
+                                                        <div class="col-md-5">
+                                                            <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-start mt-2">
+                                                        <span class="badge bg-warning py-2 px-4 font-medium">14</span>&nbsp:&nbsp
+                                                        <span class="badge bg-warning py-2 px-4 font-medium">23</span>&nbsp:&nbsp
+                                                        <span class="badge bg-warning py-2 px-4 font-medium">59</span>&nbsp:&nbsp
+                                                        <span class="badge bg-warning py-2 px-4 font-medium">51</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 p-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
+                                                <x-button-main icon="<i class='fa-solid fa-cart-plus'></i>" extraclass="rounded-2 px-3 font-medium mt-0" />
+                                            </div>
+                                            <div class="card border-0">
+                                                <div class="card-body px-0 pb-0">
+                                                    <div class="row">
+                                                        <div class="col-md-7 pe-5">
+                                                            <div class="mb-2">
+                                                                @php $startValue = 5; @endphp
+
+                                                                @for ($i = 0; $i < $startValue; $i++)
+                                                                    {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                                                    @endfor
+                                                                    </div>
+                                                                    <h4 class="font-500 font-medium text-capitalize mb-2">laptop cover</h4>
+                                                                    <h4 class="font-500 font-medium text-capitalize mb-2"><span class="text-warning">$74.50</span> <span class="text-decoration-line-through">$65.20</span></h4>
+                                                                    <div class="progress mt-2 mb-3">
+                                                                        <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                    </div>
+                                                                    <p class="text-capitalize text-secondary font-small">sold: <span class="text-black">30 items</span></p>
+                                                                    <p class="text-capitalize text-secondary font-small">hurry up offer ends in</p>
+                                                            </div>
+                                                            <div class="col-md-5">
+                                                                <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-start mt-2">
+                                                            <span class="badge bg-warning py-2 px-4 font-medium">14</span>&nbsp:&nbsp
+                                                            <span class="badge bg-warning py-2 px-4 font-medium">23</span>&nbsp:&nbsp
+                                                            <span class="badge bg-warning py-2 px-4 font-medium">59</span>&nbsp:&nbsp
+                                                            <span class="badge bg-warning py-2 px-4 font-medium">51</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
+                                                    <x-button-main icon="<i class='fa-solid fa-cart-plus'></i>" extraclass="rounded-2 px-3 font-medium mt-0" />
+                                                </div>
+                                                <div class="card border-0">
+                                                    <div class="card-body px-0 pb-0">
+                                                        <div class="row">
+                                                            <div class="col-md-7 pe-5">
+                                                                <div class="mb-2">
+                                                                    @php $startValue = 5; @endphp
+
+                                                                    @for ($i = 0; $i < $startValue; $i++)
+                                                                        {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                                                        @endfor
+                                                                        </div>
+                                                                        <h4 class="font-500 font-medium text-capitalize mb-2">laptop cover</h4>
+                                                                        <h4 class="font-500 font-medium text-capitalize mb-2"><span class="text-warning">$74.50</span> <span class="text-decoration-line-through">$65.20</span></h4>
+                                                                        <div class="progress mt-2 mb-3">
+                                                                            <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                        </div>
+                                                                        <p class="text-capitalize text-secondary font-small">sold: <span class="text-black">30 items</span></p>
+                                                                        <p class="text-capitalize text-secondary font-small">hurry up offer ends in</p>
+                                                                </div>
+                                                                <div class="col-md-5">
+                                                                    <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex align-items-center justify-content-start mt-2">
+                                                                <span class="badge bg-warning py-2 px-4 font-medium">14</span>&nbsp:&nbsp
+                                                                <span class="badge bg-warning py-2 px-4 font-medium">23</span>&nbsp:&nbsp
+                                                                <span class="badge bg-warning py-2 px-4 font-medium">59</span>&nbsp:&nbsp
+                                                                <span class="badge bg-warning py-2 px-4 font-medium">51</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6"></div>
-                </div>
-            </div>
     </section>
     {{--best deals--}}
 
