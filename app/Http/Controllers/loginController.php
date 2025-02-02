@@ -27,7 +27,7 @@ class loginController extends Controller
         ]);
 
         return response()->json([
-            'message' => 'Register successfully!'
+            'message' => 'Registered successfully!'
         ]);
     }
 
