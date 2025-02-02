@@ -139,6 +139,7 @@
                                 <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
                                 <p class="text-capitalize text-secondary">office equipments</p>
                             </div>
+                            <x-button-main btnDes="View offer" style="position: absolute; right: 4.5%; bottom: 8%;" extraclass="rounded-pill px-4 font-medium" />
                         </div>
                         <div class="col-md-6 p-3 position-relative">
                             <img src="https://img.freepik.com/free-photo/bowl-cookies-pine-cones-marble_114579-46476.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images shadow">
@@ -146,16 +147,27 @@
                                 <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
                                 <p class="text-capitalize text-secondary">office equipments</p>
                             </div>
+                            <x-button-main btnDes="View offer" style="position: absolute; right: 4.5%; bottom: 8%;" extraclass="rounded-pill px-4 font-medium" />
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="row">
-                        <div class="col-md-6 pe-2">
-                            <img src="https://img.freepik.com/free-photo/top-close-view-red-currant-crystal-glass-berry-cake-cocoa-cake-red-oval-lace-doily-red-white-checkered-tablecloth-white-wooden-table_140725-89802.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images">
+                        <div class="col-md-6 p-3 position-relative">
+                            <img src="https://img.freepik.com/free-photo/top-close-view-red-currant-crystal-glass-berry-cake-cocoa-cake-red-oval-lace-doily-red-white-checkered-tablecloth-white-wooden-table_140725-89802.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images shadow">
+                            <div class="position-absolute offers_components bg-light shadow rounded-end-5 rounded-start-1 py-2 ps-2 pe-3  border">
+                                <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
+                                <p class="text-capitalize text-secondary">office equipments</p>
+                            </div>
+                            <x-button-main btnDes="View offer" style="position: absolute; right: 4.5%; bottom: 8%;" extraclass="rounded-pill px-4 font-medium" />
                         </div>
-                        <div class="col-md-6 ps-2">
-                            <img src="https://img.freepik.com/free-photo/flat-lay-tablet-clock-paper-plane_23-2148281074.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images">
+                        <div class="col-md-6 p-3 position-relative">
+                            <img src="https://img.freepik.com/free-photo/flat-lay-tablet-clock-paper-plane_23-2148281074.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images shadow">
+                            <div class="position-absolute offers_components bg-light shadow rounded-end-5 rounded-start-1 py-2 ps-2 pe-3  border">
+                                <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
+                                <p class="text-capitalize text-secondary">office equipments</p>
+                            </div>
+                            <x-button-main btnDes="View offer" style="position: absolute; right: 4.5%; bottom: 8%;" extraclass="rounded-pill px-4 font-medium" />
                         </div>
                     </div>
                 </div>

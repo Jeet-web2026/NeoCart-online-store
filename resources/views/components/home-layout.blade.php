@@ -73,7 +73,7 @@
 
             $('.category-wise-sort .category .card h6:odd').addClass('text-danger font-medium');
 
-            $('.slick-prev, .slick-next').addClass('shadow-lg rounded-1 bg-warning');
+            $(document).find('.slick-prev, .slick-next').addClass('shadow-lg rounded-1 bg-warning');
 
             $(document).on('click', '#logn_form_open', function() {
                 $('#signup-form').hide();
@@ -199,6 +199,8 @@
                 'top': '8%',
                 'left': '4.5%'
             });
+
+            $('.best-value-products .slick-next, .slick-prev').addClass('shadow rounded-1 bg-warning');
 
         });
     </script>

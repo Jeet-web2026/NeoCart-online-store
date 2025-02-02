@@ -33,6 +33,21 @@
 }
 /* categories end */
 
+/* best-value-products start */
+.best-value-products .best-value-items .slick-prev {
+    height: 25px;
+    width: 25px;
+    top: -3%;
+    left: 95%;
+}
+.best-value-products .best-value-items .slick-next {
+    height: 25px;
+    width: 25px;
+    top: -3%;
+    right: 0.5%;
+}
+/* best-value-products start */
+
 /* home-page css */
 
 /* login-page css */
