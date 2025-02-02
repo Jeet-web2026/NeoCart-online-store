@@ -47,13 +47,13 @@ class loginController extends Controller
             'password' => $vallidatedata['user-password-login'],
         ];
 
-        if (Auth::attempt($credentials)) {
+        if (Auth::guard('web')->attempt($credentials)) {
             return response()->json([
-                'message' => 'Login successfully!'
+                'message' => 'Login successfully!',
             ]);
         } else {
             return response()->json([
-                'message' => 'Invalid credentials, please try again!'
+                'message' => 'Invalid credentials, please try again!',
             ]);
         };
     }
