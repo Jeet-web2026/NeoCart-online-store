@@ -46,7 +46,22 @@
     top: -5%;
     right: 0.5%;
 }
-/* best-value-products start */
+/* best-value-products end */
+
+/* best-deals-products start */
+.best-deals .best-deals-items .slick-prev {
+    height: 25px;
+    width: 25px;
+    top: -30%;
+    left: 95%;
+}
+.best-deals .best-deals-items .slick-next {
+    height: 25px;
+    width: 25px;
+    top: -30%;
+    right: 0.5%;
+}
+/* best-deals-products end */
 
 /* home-page css */
 

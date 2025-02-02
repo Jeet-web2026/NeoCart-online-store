@@ -189,6 +189,12 @@
                 arrows: true,
             });
 
+            $('.best-deals-items').slick({
+                dots: false,
+                infinite: true,
+                arrows: true,
+            });
+
             $('.best-value-products .best-value-products-images').css({
                 'height': '50vh',
                 'width': '100%',
@@ -201,6 +207,7 @@
             });
 
             $('.best-value-products .slick-next, .slick-prev').addClass('shadow rounded-1 bg-warning');
+            $('.best-deals .slick-next, .slick-prev').addClass('shadow rounded-1 bg-warning');
 
         });
     </script>

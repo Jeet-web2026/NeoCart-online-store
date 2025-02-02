@@ -177,4 +177,33 @@
     </section>
     {{--best value section--}}
 
+    {{--best deals--}}
+    <section class="best-deals">
+        <div class="container-fluid px-5 py-2">
+            <h3 class="text-capitalize text-black fs-5 mb-4 font-500 ps-2">deals of the day</h3>
+            <div class="row best-deals-items">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 p-3">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    This is some text within a card body.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-3">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    This is some text within a card body.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </section>
+    {{--best deals--}}
+
 </x-home-layout>
