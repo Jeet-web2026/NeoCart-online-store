@@ -41,7 +41,7 @@
                 <div class="col p-2">
                     <div class="card border-0">
                         <div class="card-body">
-                            This is some text within a card body.
+                            <img src="{{ asset('essentials/images/expences-1.jpg') }}" alt="office-expences-products" class="office-expences-products">
                         </div>
                     </div>
                 </div>

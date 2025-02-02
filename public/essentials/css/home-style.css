@@ -15,20 +15,25 @@
 }
 
 /* categories start */
-.category-wise-sort .category .slick-prev{
+.category-wise-sort .category .slick-prev {
     height: 25px;
     width: 25px;
     top: -39%;
     left: 95%;
 }
-.category-wise-sort .category .slick-next{
+.category-wise-sort .category .slick-next {
     height: 25px;
     width: 25px;
     top: -39%;
-    right: .5%;
+    right: 0.5%;
+}
+
+.category-wise-sort .office-expences-products {
+    height: 3vh;
+    width: 3vw;
+    mix-blend-mode: screen;
 }
 /* categories end */
-
 
 /* home-page css */
 
