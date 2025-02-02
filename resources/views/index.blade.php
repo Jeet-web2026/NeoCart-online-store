@@ -11,7 +11,7 @@
                                 <h6 class="text-uppercase text-warning">branded</h6>
                                 <h5 class="card-title text-black fs-2 my-2 fw-bold text-capitalize font-500">office equipments</h5>
                                 <p class="card-text text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <x-button-main btnDes="Shop now" />
+                                <x-button-main btnDes="Shop now" extraclass="mt-3" />
                             </div>
                             <div class="col-md-4"></div>
                         </div>
@@ -24,7 +24,7 @@
                     <div class="card-img-overlay p-3">
                         <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <center class="mt-3">
-                            <x-button-main btnDes="Shop now" />
+                            <x-button-main btnDes="Shop now" extraclass="mt-3" />
                         </center>
                     </div>
                 </div>
@@ -187,7 +187,10 @@
                         <div class="col-md-6 p-3">
                             <div class="card shadow">
                                 <div class="card-body">
-                                    This is some text within a card body.
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
+                                        <x-button-main icon="<i class='fa-solid fa-cart-plus'></i>" extraclass="rounded-pill px-4 font-medium mt-0" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
