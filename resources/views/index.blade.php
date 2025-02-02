@@ -194,17 +194,26 @@
                                 </div>
                                 <div class="card border-0">
                                     <div class="card-body">
-                                        <div class="row align-items-center">
-                                            <div class="col-md-6">
-                                                @php $startValue = 5; @endphp
+                                        <div class="row">
+                                            <div class="col-md-6 pe-3">
+                                                <div class="mb-2">
+                                                    @php $startValue = 5; @endphp
 
-                                                @for ($i = 0; $i < $startValue; $i++)
-                                                    {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
-                                                    @endfor
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
-                                                    </div>
+                                                    @for ($i = 0; $i < $startValue; $i++)
+                                                        {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                                        @endfor
+                                                        </div>
+                                                        <h4 class="font-500 font-medium text-capitalize mb-2">laptop cover</h4>
+                                                        <h4 class="font-500 font-medium text-capitalize mb-2"><span class="text-warning">$74.50</span> <span class="text-decoration-line-through">$65.20</span></h4>
+                                                        <div class="progress mt-2 mb-3">
+                                                            <div class="progress-bar bg-warning" role="progressbar" aria-label="Basic example" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                        <p class="text-capitalize text-secondary font-small">sold: <span class="text-black">30 items</span></p>
+                                                        <p class="text-capitalize text-secondary font-small">hurry up offer ends in</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
