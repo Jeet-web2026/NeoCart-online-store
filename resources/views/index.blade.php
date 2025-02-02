@@ -188,14 +188,14 @@
                             <div class="card shadow">
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <x-button-main btnDes="HOT DEALS" extraclass="rounded-end-pill px-3 font-500 mt-0" />
+                                        <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
                                         <x-button-main icon="<i class='fa-solid fa-cart-plus'></i>" extraclass="rounded-2 px-3 font-medium mt-0" />
                                     </div>
                                 </div>
                                 <div class="card border-0">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-md-6 pe-3">
+                                            <div class="col-md-7 pe-5">
                                                 <div class="mb-2">
                                                     @php $startValue = 5; @endphp
 
@@ -211,7 +211,7 @@
                                                         <p class="text-capitalize text-secondary font-small">sold: <span class="text-black">30 items</span></p>
                                                         <p class="text-capitalize text-secondary font-small">hurry up offer ends in</p>
                                                 </div>
-                                                <div class="col-md-6">
+                                                <div class="col-md-5">
                                                     <img src="https://img.freepik.com/free-photo/digital-arrangement-with-desk-decor_23-2148223240.jpg" alt="deals-product-image" class="img-fluid deals-product-image rounded-2">
                                                 </div>
                                             </div>
