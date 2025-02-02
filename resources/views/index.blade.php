@@ -130,6 +130,7 @@
     {{--best value section--}}
     <section class="best-value-products">
         <div class="container-fluid px-5 py-2">
+        <h3 class="text-capitalize text-black fs-5 mb-4 font-500 ps-2">Products by best values</h3>
             <div class="row best-value-items">
                 <div class="col">
                     <div class="row">
