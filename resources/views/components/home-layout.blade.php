@@ -161,12 +161,27 @@
 
                             setTimeout(() => {
                                 window.location.reload();
-                            }, 3000);
+                            }, 1500);
                         },
                     });
 
                 }
             });
+
+            $('#alert-popups').css({
+                'position': 'fixed',
+                'top': '90%',
+                'right': '0%', 
+            });
+
+            $('#check-fill-img').css({
+                'height': '3.5vh',
+                'width': '3.5vh',
+            });
+
+            setTimeout(() => {
+                $('#alert-popups .notification-btn').click();
+            }, 2000);
 
         });
     </script>

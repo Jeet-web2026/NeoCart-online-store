@@ -6,15 +6,18 @@ use App\Http\Controllers\ordermanagementController;
 use Illuminate\Support\Facades\Route;
 
 // home routes
-Route::get('/', [homeController::class, 'index'])->name('home-view');
+Route::get('/', [homeController::class, 'index'])->name('login');
 
-// ordering management routes
-Route::controller(ordermanagementController::class)->group(function () {
-    Route::get('order-summery', 'orderSummery')->name('order-summery');
+Route::middleware(['auth:web'])->group(function () {
+    Route::controller(ordermanagementController::class)->group(function () {
+        Route::get('/order-summary', 'orderSummery')->name('order-summery');
+    });
 });
 
+
+
 // authentication routes
-Route::controller(loginController::class)->group(function(){
+Route::controller(loginController::class)->group(function () {
     // wishlist
     Route::post('user-register', 'wishlistRegister')->name('wishlist-register');
     Route::post('user-login', 'wishlistLogin')->name('wishlist-login');
