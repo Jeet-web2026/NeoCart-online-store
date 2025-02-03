@@ -130,20 +130,20 @@
     {{--best value section--}}
     <section class="best-value-products">
         <div class="container-fluid px-5 py-2">
-            <h3 class="text-capitalize text-black fs-5 mb-4 font-500 ps-2">Products by best values</h3>
+            <h3 class="text-capitalize text-black fs-5 mb-4 font-500">Products by best values</h3>
             <div class="row best-value-items">
                 <div class="col">
                     <div class="row">
-                        <div class="col-md-6 p-3 position-relative">
-                            <img src="https://img.freepik.com/free-photo/handcrafted-wooden-decorative-vase_23-2151003052.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images shadow">
+                        <div class="col-md-6 py-3 pe-3 ps-0 position-relative">
+                            <img src="https://img.freepik.com/free-photo/handcrafted-wooden-decorative-vase_23-2151003052.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images">
                             <div class="position-absolute offers_components bg-light shadow rounded-end-5 rounded-start-1 py-2 ps-2 pe-3  border">
                                 <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
                                 <p class="text-capitalize text-secondary">office equipments</p>
                             </div>
                             <x-button-main btnDes="View offer" style="position: absolute; right: 4.5%; bottom: 8%;" extraclass="rounded-pill px-4 font-medium" />
                         </div>
-                        <div class="col-md-6 p-3 position-relative">
-                            <img src="https://img.freepik.com/free-photo/bowl-cookies-pine-cones-marble_114579-46476.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images shadow">
+                        <div class="col-md-6  py-3 pe-0 ps-3 position-relative">
+                            <img src="https://img.freepik.com/free-photo/bowl-cookies-pine-cones-marble_114579-46476.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images">
                             <div class="position-absolute offers_components bg-light shadow rounded-end-5 rounded-start-1 py-2 ps-2 pe-3  border">
                                 <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
                                 <p class="text-capitalize text-secondary">office equipments</p>
@@ -154,16 +154,16 @@
                 </div>
                 <div class="col">
                     <div class="row">
-                        <div class="col-md-6 p-3 position-relative">
-                            <img src="https://img.freepik.com/free-photo/top-close-view-red-currant-crystal-glass-berry-cake-cocoa-cake-red-oval-lace-doily-red-white-checkered-tablecloth-white-wooden-table_140725-89802.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images shadow">
+                        <div class="col-md-6  py-3 pe-3 ps-0 position-relative">
+                            <img src="https://img.freepik.com/free-photo/top-close-view-red-currant-crystal-glass-berry-cake-cocoa-cake-red-oval-lace-doily-red-white-checkered-tablecloth-white-wooden-table_140725-89802.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images">
                             <div class="position-absolute offers_components bg-light shadow rounded-end-5 rounded-start-1 py-2 ps-2 pe-3  border">
                                 <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
                                 <p class="text-capitalize text-secondary">office equipments</p>
                             </div>
                             <x-button-main btnDes="View offer" style="position: absolute; right: 4.5%; bottom: 8%;" extraclass="rounded-pill px-4 font-medium" />
                         </div>
-                        <div class="col-md-6 p-3 position-relative">
-                            <img src="https://img.freepik.com/free-photo/flat-lay-tablet-clock-paper-plane_23-2148281074.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images shadow">
+                        <div class="col-md-6  py-3 pe-0 ps-3 position-relative">
+                            <img src="https://img.freepik.com/free-photo/flat-lay-tablet-clock-paper-plane_23-2148281074.jpg" alt="best-value-products-1" class="img-fluid rounded-4 best-value-products-images">
                             <div class="position-absolute offers_components bg-light shadow rounded-end-5 rounded-start-1 py-2 ps-2 pe-3  border">
                                 <p class="text-capitalize text-warning font-500 font-medium">buy more...save more..</p>
                                 <p class="text-capitalize text-secondary">office equipments</p>
@@ -180,11 +180,11 @@
     {{--best deals--}}
     <section class="best-deals">
         <div class="container-fluid px-5 py-2">
-            <h3 class="text-capitalize text-black fs-5 mb-4 font-500 ps-2">deals of the day</h3>
+            <h3 class="text-capitalize text-black fs-5 mb-4 font-500">deals of the day</h3>
             <div class="row best-deals-items">
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-md-6 p-3">
+                        <div class="col-md-6 py-3 pe-3 ps-0">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between align-items-center">
@@ -225,7 +225,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 p-3">
+                            <div class="col-md-6 py-3 pe-0 ps-3">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -270,7 +270,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="row">
-                                <div class="col-md-6 p-3">
+                                <div class="col-md-6 py-3 pe-3 ps-0">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between align-items-center">
@@ -311,7 +311,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 p-3">
+                                    <div class="col-md-6 py-3 pe-0 ps-3">
                                         <div class="card">
                                             <div class="card-body">
                                                 <div class="d-flex justify-content-between align-items-center">
@@ -375,10 +375,46 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
+                <div class="col-md-3 p-2">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
