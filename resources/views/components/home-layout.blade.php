@@ -215,6 +215,8 @@
                 $(this).siblings().removeClass('bg-warning text-light border-0').addClass('btn-outline-warning');
             });
 
+            $('.products').find('.wishlist-btn').removeClass('bg-warning text-light').addClass('bg-transparent text-dark');
+
         });
     </script>
     @endsection

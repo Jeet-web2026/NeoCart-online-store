@@ -376,47 +376,90 @@
                     </div>
                 </div>
                 <div class="col-md-3 p-2">
-                    <div class="card">
+                    <div class="card overflow-hidden">
                         <img src="https://img.freepik.com/free-photo/top-view-keyboard-mouse-arrangement_23-2149386333.jpg" class="card-img-top" alt="products-images">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="mb-1">
+                                @php $starValue = 5; @endphp
+
+                                @for ($i = 0; $i < $starValue; $i++)
+                                    {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                    @endfor
+                                    </div>
+                                    <h5 class="card-title font-medium text-capitalize mb-1">keyboard</h5>
+                                    <p class="font-small mb-2"><span class="text-warning me-2">$70.21</span><span class="text-secondary text-decoration-line-through">$65.23</span></p>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <x-button-main btnDes="View details" extraclass="font-small px-3 py-1 text-capitalize" />
+                                        <x-button-main icon="<i class='fa-regular fa-heart'></i>" extraclass="font-small text-capitalize wishlist-btn" />
+                                    </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 p-2">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="col-md-3 p-2">
+                        <div class="card overflow-hidden">
+                            <img src="https://img.freepik.com/free-photo/top-view-cyber-monday-essentials-with-clock-mouse_23-2148657691.jpg" class="card-img-top" alt="products-images">
+                            <div class="card-body">
+                                <div class="mb-1">
+                                    @php $starValue = 5; @endphp
+
+                                    @for ($i = 0; $i < $starValue; $i++)
+                                        {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                        @endfor
+                                        </div>
+                                        <h5 class="card-title font-medium text-capitalize mb-1">mouse</h5>
+                                        <p class="font-small mb-2"><span class="text-warning me-2">$70.21</span><span class="text-secondary text-decoration-line-through">$65.23</span></p>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <x-button-main btnDes="View details" extraclass="font-small px-3 py-1 text-capitalize" />
+                                            <x-button-main icon="<i class='fa-regular fa-heart'></i>" extraclass="font-small text-capitalize wishlist-btn" />
+                                        </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3 p-2">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="col-md-3 p-2">
+                            <div class="card overflow-hidden">
+                                <img src="https://img.freepik.com/free-photo/top-view-laptop-with-fake-news-keyboard_23-2148824770.jpg" class="card-img-top" alt="products-images">
+                                <div class="card-body">
+                                    <div class="mb-1">
+                                        @php $starValue = 5; @endphp
+
+                                        @for ($i = 0; $i < $starValue; $i++)
+                                            {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                            @endfor
+                                            </div>
+                                            <h5 class="card-title font-medium text-capitalize mb-1">keyboard cover</h5>
+                                            <p class="font-small mb-2"><span class="text-warning me-2">$70.21</span><span class="text-secondary text-decoration-line-through">$65.23</span></p>
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <x-button-main btnDes="View details" extraclass="font-small px-3 py-1 text-capitalize" />
+                                                <x-button-main icon="<i class='fa-regular fa-heart'></i>" extraclass="font-small text-capitalize wishlist-btn" />
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 p-2">
+                                <div class="card overflow-hidden">
+                                    <img src="https://img.freepik.com/free-vector/modern-green-cpu-background_23-2147971833.jpg" class="card-img-top" alt="products-images">
+                                    <div class="card-body">
+                                        <div class="mb-1">
+                                            @php $starValue = 5; @endphp
+
+                                            @for ($i = 0; $i < $starValue; $i++)
+                                                {!! '<i class="fa-solid fa-star text-warning"></i>' !!}
+                                                @endfor
+                                                </div>
+                                                <h5 class="card-title font-medium text-capitalize mb-1">processor</h5>
+                                                <p class="font-small mb-2"><span class="text-warning me-2">$70.21</span><span class="text-secondary text-decoration-line-through">$65.23</span></p>
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <x-button-main btnDes="View details" extraclass="font-small px-3 py-1 text-capitalize" />
+                                                    <x-button-main icon="<i class='fa-regular fa-heart'></i>" extraclass="font-small text-capitalize wishlist-btn" />
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 py-3 d-flex justify-content-center align-items-center">
+                                    <x-button-main btnDes="load more" extraclass="text-capitalize px-4 py-2 font-medium fw-bold" />
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3 p-2">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
     {{--products section--}}
 
