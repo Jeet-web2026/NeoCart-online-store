@@ -377,7 +377,7 @@
                 </div>
                 <div class="col-md-3 p-2">
                     <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://img.freepik.com/free-photo/top-view-keyboard-mouse-arrangement_23-2149386333.jpg" class="card-img-top" alt="products-images">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

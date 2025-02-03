@@ -70,6 +70,14 @@
 }
 /* best-deals-products end */
 
+/* products start */
+.products .card-img-top{
+    height: 30vh;
+    object-fit: cover;
+    width: 100%;
+}
+/* products end */
+
 /* home-page css */
 
 /* login-page css */
