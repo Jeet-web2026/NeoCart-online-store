@@ -366,7 +366,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="d-flex justify-content-between align-items-center">
-                        <h3 class="text-capitalize text-black fs-5 mb-4 font-500 ps-2">deals of the day</h3>
+                        <h3 class="text-capitalize text-black fs-5 mb-4 font-500">deals of the day</h3>
                         <div class="d-flex align-items-center products-category">
                             <x-button-main btnDes="all" type="button" extraclass="px-3 py-1 font-medium text-capitalize me-2" />
                             <x-button-main btnDes="laptops" type="button" extraclass="px-3 py-1 font-medium text-capitalize me-2" />
