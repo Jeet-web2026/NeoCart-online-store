@@ -209,6 +209,12 @@
             $('.best-value-products .slick-next, .slick-prev').addClass('shadow rounded-1 bg-warning');
             $('.best-deals .slick-next, .slick-prev').addClass('shadow rounded-1 bg-warning');
 
+            $('.products .products-category .btn').eq(0).siblings().removeClass('bg-warning border-0 text-light').addClass('btn-outline-warning');
+            $('.products .products-category .btn').on('click', function() {
+                $(this).removeClass('btn-outine-warning').addClass('bg-warning text-light');
+                $(this).siblings().removeClass('bg-warning text-light border-0').addClass('btn-outline-warning');
+            });
+
         });
     </script>
     @endsection

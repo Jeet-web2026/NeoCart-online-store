@@ -360,4 +360,28 @@
     </section>
     {{--best deals--}}
 
+    {{--products section--}}
+    <section class="products">
+        <div class="container-fluid py-2 px-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h3 class="text-capitalize text-black fs-5 mb-4 font-500 ps-2">deals of the day</h3>
+                        <div class="d-flex align-items-center products-category">
+                            <x-button-main btnDes="all" type="button" extraclass="px-3 py-1 font-medium text-capitalize me-2" />
+                            <x-button-main btnDes="laptops" type="button" extraclass="px-3 py-1 font-medium text-capitalize me-2" />
+                            <x-button-main btnDes="papers" type="button" extraclass="px-3 py-1 font-medium text-capitalize me-2" />
+                            <x-button-main btnDes="decoration & designing" type="button" extraclass="px-3 py-1 font-medium text-capitalize" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+    {{--products section--}}
+
 </x-home-layout>
