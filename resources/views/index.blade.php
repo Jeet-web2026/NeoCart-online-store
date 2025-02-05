@@ -469,13 +469,30 @@
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="row">
+                            <div class="col-md-6 pe-2">
+                                <img src="https://img.freepik.com/free-photo/photographic-equipment-spiral-notebook-personal-accessories-background_23-2147856118.jpg" alt="avail-discount" class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-6 ps-2">
+                                <img src="https://img.freepik.com/free-photo/photographic-equipment-spiral-notebook-personal-accessories-background_23-2147856118.jpg" alt="avail-discount" class="img-fluid rounded-3">
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                            </div>
+                            <div class="col-md-6"></div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                            </div>
+                            <div class="col-md-6"></div>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
