@@ -185,7 +185,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-6 py-3 pe-3 ps-0">
-                            <div class="card">
+                            <div class="card border-0">
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between align-items-center">
                                         <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
@@ -226,7 +226,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 py-3 pe-0 ps-3">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
@@ -271,7 +271,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-6 py-3 pe-3 ps-0">
-                                    <div class="card">
+                                    <div class="card border-0">
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
@@ -312,7 +312,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 py-3 pe-0 ps-3">
-                                        <div class="card">
+                                        <div class="card border-0">
                                             <div class="card-body">
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <x-button-main btnDes="HOT DEALS" extraclass="rounded-pill px-3 font-500 mt-0" />
