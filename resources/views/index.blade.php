@@ -465,7 +465,7 @@
 
     {{--available discount--}}
     <section class="available-discount">
-        <div class="container-fluid p-5">
+        <div class="container-fluid px-5 py-3">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
