@@ -474,35 +474,21 @@
                                 <img src="https://img.freepik.com/free-photo/photographic-equipment-spiral-notebook-personal-accessories-background_23-2147856118.jpg" alt="avail-discount" class="img-fluid rounded-3">
                             </div>
                             <div class="col-md-6 ps-2">
-                                <img src="https://img.freepik.com/free-photo/photographic-equipment-spiral-notebook-personal-accessories-background_23-2147856118.jpg" alt="avail-discount" class="img-fluid rounded-3">
+                                <img src="https://img.freepik.com/free-photo/disassembled-radio-device-cabels_140725-8977.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid_sidr" alt="avail-discount" class="img-fluid rounded-3">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-6">
-
+                            <div class="col-md-6 pe-2">
+                                <img src="https://img.freepik.com/free-photo/top-view-office-material-table_23-2148148327.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid_sidr" alt="avail-discount" class="img-fluid rounded-3">
                             </div>
-                            <div class="col-md-6"></div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-6">
-
+                            <div class="col-md-6 ps-2">
+                                <img src="https://img.freepik.com/free-photo/shopping-cart-with-gift-alarm-clock_23-2148288247.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid_sidr" alt="avail-discount" class="img-fluid rounded-3">
                             </div>
-                            <div class="col-md-6"></div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     </section>
