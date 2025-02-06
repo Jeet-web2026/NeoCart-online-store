@@ -177,7 +177,7 @@
     </section>
     {{--best value section--}}
 
-    {{--best deals--}}
+    {{--best deals
     <section class="best-deals">
         <div class="container-fluid px-5 py-2">
             <h3 class="text-capitalize text-black fs-5 mb-4 font-500">deals of the day</h3>
@@ -358,7 +358,7 @@
                         </div>
                     </div>
     </section>
-    {{--best deals--}}
+    best deals--}}
 
     {{--products section--}}
     <section class="products">
