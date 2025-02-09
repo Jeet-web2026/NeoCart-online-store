@@ -1,5 +1,5 @@
 <section class="backtop">
-    <button class="container-fluid py-3 border-0 shadow-none">
+    <button class="container-fluid py-3 border-0 shadow-none" style="background-color: #faebd7a6;">
         <h5 class="text-black fze-2 text-center text-capitalize">back to top</h5>
     </button>
 </section>
@@ -76,9 +76,21 @@
         <div class="col-md-12">
             <div class="card border-0 bg-transparent">
                 <div class="card-body">
-                    <p class="text-secondary text-center">We are accepted:<i class="fa-regular fa-credit-card ms-2"></i><i class="fa-brands fa-amazon-pay ms-2"></i></p>
+                    <p class="text-secondary text-center">We are accepted:<i class="fa-regular fa-credit-card ms-2"></i><i class="fa-brands fa-amazon-pay ms-2"></i><i class="fa-brands fa-paypal ms-2"></i><i class="fa-brands fa-google-pay ms-2"></i><i class="fa-solid fa-wallet ms-2"></i></p>
                 </div>
             </div>
         </div>
     </div>
 </footer>
+<div class="row px-5 py-2" style="background-color: #0000002e;">
+    <div class="col-md-6">
+        <p class="text-secondary">Copyright @ jeetnath2110@gmail.com</p>
+    </div>
+    <div class="col-md-6">
+        <div class="d-flex align-items-center justify-content-end">
+            <a href="javascript:void(0)" class="text-secondary">Privacy policy</a>
+            <p class="mx-2 text-secondary">|</p>
+            <a href="javascript:void(0)" class="text-secondary">Our initiatives</a>
+        </div>
+    </div>
+</div>
