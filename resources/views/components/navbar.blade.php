@@ -45,7 +45,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand fze-3" href="javascript:void(0)"><img src="{{ asset('essentials/images/logo.png') }}" alt="logo-img" class="main-logo">NeoCart</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="javascript:void(0)navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars fze-2"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
