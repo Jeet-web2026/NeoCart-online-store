@@ -84,13 +84,13 @@
 </footer>
 <div class="row px-5 py-2" style="background-color: #0000002e;">
     <div class="col-md-6">
-        <p class="text-secondary">Copyright @ jeetnath2110@gmail.com</p>
+        <p class="text-secondary fze-1">Copyright @ jeetnath2110@gmail.com</p>
     </div>
     <div class="col-md-6">
         <div class="d-flex align-items-center justify-content-end">
-            <a href="javascript:void(0)" class="text-secondary">Privacy policy</a>
+            <a href="javascript:void(0)" class="text-secondary fze-1">Privacy policy</a>
             <p class="mx-2 text-secondary">|</p>
-            <a href="javascript:void(0)" class="text-secondary">Our initiatives</a>
+            <a href="javascript:void(0)" class="text-secondary fze-1">Our initiatives</a>
         </div>
     </div>
 </div>
