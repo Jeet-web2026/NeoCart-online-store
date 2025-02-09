@@ -10,7 +10,7 @@
                         <div class="col text-center">
                             <div class="dropdown">
                                 <button class="btn border-0 shadow-none fze-1 text-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa-solid fa-location-dot me-2"></i>Country<i class="fa-solid fa-chevron-down ms-3"></i>
+                                    <i class="fa-solid fa-location-dot me-2"></i>Country<i class="fa-solid fa-chevron-down ms-2"></i>
                                 </button>
                                 <ul class="dropdown-menu border-0 shadow no-radius">
                                     <li><a class="dropdown-item" href="javascript:void(0)">India</a></li>
@@ -22,7 +22,7 @@
                         <div class="col text-center">
                             <div class="dropdown">
                                 <button class="btn border-0 shadow-none fze-1 text-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa-solid fa-globe me-2"></i>Language<i class="fa-solid fa-chevron-down ms-3"></i>
+                                    <i class="fa-solid fa-globe me-2"></i>Language<i class="fa-solid fa-chevron-down ms-2"></i>
                                 </button>
                                 <ul class="dropdown-menu border-0 shadow no-radius">
                                     <li><a class="dropdown-item" href="javascript:void(0)">English</a></li>
