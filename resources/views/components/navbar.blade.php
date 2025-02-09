@@ -13,9 +13,9 @@
                                     <i class="fa-solid fa-location-dot me-2"></i>Country<i class="fa-solid fa-chevron-down ms-3"></i>
                                 </button>
                                 <ul class="dropdown-menu border-0 shadow no-radius">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">India</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Russia</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Japan</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -25,9 +25,9 @@
                                     <i class="fa-solid fa-globe me-2"></i>Language<i class="fa-solid fa-chevron-down ms-3"></i>
                                 </button>
                                 <ul class="dropdown-menu border-0 shadow no-radius">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">English</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Russian</a></li>
+                                    <li><a class="dropdown-item" href="javascript:void(0)">Japanise</a></li>
                                 </ul>
                             </div>
                         </div>
