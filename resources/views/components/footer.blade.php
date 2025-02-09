@@ -72,4 +72,13 @@
             </div>
         </div>
     </div>
+    <div class="row position-absolute bottom-0 left-0 w-100">
+        <div class="col-md-12">
+            <div class="card border-0 bg-transparent">
+                <div class="card-body">
+                    This is some text within a card body.
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>

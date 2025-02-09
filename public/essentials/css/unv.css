@@ -70,5 +70,6 @@ li {
 }
 #footer {
     background-color: #f8f3f0;
+    position: relative;
 }
 /* footer end */
