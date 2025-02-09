@@ -1,4 +1,4 @@
-<section class="shadow fixed-top">
+<section class="shadow fixed-top px-2">
     <section id="top-nav">
         <div class="container-fluid py-2">
             <div class="row align-items-center">
@@ -7,26 +7,28 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row align-items-center">
-                        <div class="col">
-                            <div class="input-group">
-                                <label class="input-group-text border-0 bg-transparent pe-0 fze-1 text-secondary" for="inputGroupSelect01"><i class="fa-solid fa-location-dot"></i></label>
-                                <select class="form-select border-0 shadow-none" id="inputGroupSelect01">
-                                    <option selected class="fze-1 text-secondary">India</option>
-                                    <option value="1" class="fze-1 text-secondary">Russia</option>
-                                    <option value="2" class="fze-1 text-secondary">Japan</option>
-                                    <option value="3" class="fze-1 text-secondary">Usa</option>
-                                </select>
+                        <div class="col text-center">
+                            <div class="dropdown">
+                                <button class="btn border-0 shadow-none fze-1 text-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-location-dot me-2"></i>Country<i class="fa-solid fa-chevron-down ms-3"></i>
+                                </button>
+                                <ul class="dropdown-menu border-0 shadow no-radius">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="input-group">
-                                <label class="input-group-text border-0 bg-transparent pe-0 fze-1 text-secondary" for="inputGroupSelect02"><i class="fa-solid fa-globe"></i></label>
-                                <select class="form-select border-0 shadow-none" id="inputGroupSelect02">
-                                    <option selected class="fze-1 text-secondary">Eng</option>
-                                    <option value="1" class="fze-1 text-secondary">Russian</option>
-                                    <option value="2" class="fze-1 text-secondary">Japanise</option>
-                                    <option value="3" class="fze-1 text-secondary">Chinese</option>
-                                </select>
+                        <div class="col text-center">
+                            <div class="dropdown">
+                                <button class="btn border-0 shadow-none fze-1 text-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-globe me-2"></i>Language<i class="fa-solid fa-chevron-down ms-3"></i>
+                                </button>
+                                <ul class="dropdown-menu border-0 shadow no-radius">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col text-center">
