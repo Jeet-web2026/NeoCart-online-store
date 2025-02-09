@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\homeController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 // home routes
