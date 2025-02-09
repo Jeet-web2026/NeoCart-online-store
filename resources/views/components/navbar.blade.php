@@ -7,17 +7,13 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col">
-                            <div class="dropdown">
-                                <button class="btn shadow-none border-0 fze-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa-solid fa-globe me-2"></i>Country<i class="fa-solid fa-chevron-down ms-2"></i>
-                                </button>
-                                <ul class="dropdown-menu no-radius border-0 shadow">
-                                    <li><a class="dropdown-item fze-1" href="javascript:void(0)">Action</a></li>
-                                    <li><a class="dropdown-item fze-1" href="javascript:void(0)">Another action</a></li>
-                                    <li><a class="dropdown-item fze-1" href="javascript:void(0)">Something else here</a></li>
-                                </ul>
-                            </div>
+                        <div class="col d-flex align-items-center">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Country</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
                         </div>
                         <div class="col">
                             <div class="dropdown">
