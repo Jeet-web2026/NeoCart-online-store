@@ -29,6 +29,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     {{--google fonts link 2--}}
 
+    {{--universal css link--}}
+    <link rel="stylesheet" href="{{ asset('essentials/css/unv.css') }}">
+    {{--universal css link--}}
+
     @yield('extracsscdns')
     @yield('extracss')
 
