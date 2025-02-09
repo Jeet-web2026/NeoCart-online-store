@@ -64,27 +64,17 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="javascript:void(0)">Home</a>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-solid fa-magnifying-glass me-3"></i>search</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-solid fa-user"></i></a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i></a>
                     </li>
                 </ul>
             </div>
