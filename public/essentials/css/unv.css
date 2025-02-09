@@ -44,7 +44,8 @@ h4,
 h5,
 h6,
 p,
-a {
+a,
+li {
     margin: 0;
     list-style: none;
     text-decoration: none;
