@@ -53,3 +53,7 @@ a {
 .row{
     --bs-gutter-x: 0rem;
 }
+
+.no-radius{
+    border-radius: 0px;
+}
