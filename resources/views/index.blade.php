@@ -59,11 +59,12 @@
             <div class="swiper mainslider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="row w-100">
+                        <div class="row w-100 px-5">
                             <div class="col-md-6">
-                                <div class="card">
+                                <div class="card border-0 bg-transparent">
                                     <div class="card-body">
-                                        This is some text within a card body.
+                                       <h1 class="text-uppercase fw-bold m-font fze-5">shop computers & accessories</h1>
+                                       <p class="text-black">shop laptops, desktops, monitors, tablets, PC, gaming hardware devices & storage accessories and more...</p>
                                     </div>
                                 </div>
                             </div>
