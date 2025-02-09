@@ -3,7 +3,7 @@
         <div class="container-fluid py-2">
             <div class="row">
                 <div class="col-md-6">
-                    <a href="javascript:void(0)" class="tetx-secondary">Latest news: Covid 19</a>
+                    <a href="javascript:void(0)" class="text-secondary">Latest news: Covid 19</a>
                 </div>
                 <div class="col-md-6"></div>
             </div>
@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-black" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
