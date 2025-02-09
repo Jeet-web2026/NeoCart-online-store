@@ -1,4 +1,4 @@
-<section class="shadow px-2 bg-light">
+<section class="shadow px-2 fixed-top bg-light">
     <section id="top-nav">
         <div class="container-fluid py-2">
             <div class="row align-items-center">

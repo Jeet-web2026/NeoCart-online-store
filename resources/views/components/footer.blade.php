@@ -52,8 +52,8 @@
                         <h5 class="text-black fze-2 text-capitalize">neoCart payments</h5>
                         <ul class="ps-0 mt-3">
                             <li class="fze-1 text-capitalize mb-1"><a href="javascript:void(0)" class="text-black">Payment with card</a></li>
-                            <li class="fze-1 text-capitalize mb-1"><a href="javascript:void(0)" class="text-black">Pay with EMI</a></li>
                             <li class="fze-1 text-capitalize mb-1"><a href="javascript:void(0)" class="text-black">Pay with UPI</a></li>
+                            <li class="fze-1 text-capitalize mb-1"><a href="javascript:void(0)" class="text-black">EMI options</a></li>
                         </ul>
                     </div>
                 </div>
