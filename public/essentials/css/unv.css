@@ -50,14 +50,21 @@ a {
     text-decoration: none;
 }
 
-.row{
+.row {
     --bs-gutter-x: 0rem;
 }
 
-.no-radius{
+.no-radius {
     border-radius: 0px;
 }
 
-.navbar .main-logo{
+/* navbar start */
+.navbar .main-logo {
     height: 10vh;
 }
+/* navbar end */
+/* footer start */
+#footer {
+    background-color: #f8f3f0;
+}
+/* footer end */
