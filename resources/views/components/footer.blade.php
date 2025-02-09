@@ -76,7 +76,7 @@
         <div class="col-md-12">
             <div class="card border-0 bg-transparent">
                 <div class="card-body">
-                    This is some text within a card body.
+                    <p class="text-secondary text-center">We are accepted:<i class="fa-regular fa-credit-card ms-2"></i><i class="fa-brands fa-amazon-pay ms-2"></i></p>
                 </div>
             </div>
         </div>
