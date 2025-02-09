@@ -2,10 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\LoginUser;
-use Illuminate\Http\Request;
-
-class homeController extends Controller
+class HomeController extends Controller
 {
     public function index(){
 
