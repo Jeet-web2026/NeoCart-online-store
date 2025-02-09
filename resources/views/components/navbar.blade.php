@@ -44,33 +44,23 @@
     </section>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand fze-3" href="javascript:void(0)"><img src="{{ asset('essentials/images/logo.png') }}" alt="logo-img" class="main-logo">NeoCart</a>
+            <a class="navbar-brand fze-3 text-black" href="javascript:void(0)"><img src="{{ asset('essentials/images/logo.png') }}" alt="logo-img" class="main-logo">NeoCart</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars fze-2"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="javascript:void(0)"><i class="bi bi-grid me-2"></i>All</a>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-black fze-1" href="javascript:void(0)"><i class="bi bi-grid me-2"></i>All</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)">Today's deals</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)">gift cards</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)">registry & gifting</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
