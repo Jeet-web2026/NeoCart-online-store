@@ -51,7 +51,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-black" href="javascript:void(0)">Home</a>
+                        <a class="nav-link text-black" href="javascript:void(0)"><i class="bi bi-grid me-2"></i>All</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)">Link</a>
