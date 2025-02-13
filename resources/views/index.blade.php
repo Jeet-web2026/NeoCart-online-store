@@ -73,7 +73,7 @@
                             <div class="col-md-6">
                                 <div class="card border-0 bg-transparent">
                                     <div class="card-body">
-                                        This is some text within a card body.
+                                        <img src="{{ asset('essentials/images/side_back.png') }}" alt="side-back" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
