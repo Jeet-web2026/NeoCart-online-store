@@ -31,6 +31,7 @@
         #mainContent {
             height: 100vh;
             width: 100%;
+            padding-top: 10vh;
         }
 
         #mainContent .swiper {
@@ -64,7 +65,7 @@
                                 <div class="card border-0 bg-transparent">
                                     <div class="card-body">
                                        <h1 class="text-uppercase fw-bold m-font fze-5">shop computers & accessories</h1>
-                                       <p class="text-black">shop laptops, desktops, monitors, tablets, PC, gaming hardware devices & storage accessories and more...</p>
+                                       <p class="text-black text-capitalize">shop laptops, desktops, monitors, tablets, PC, gaming hardware devices & storage accessories and more...</p>
                                     </div>
                                 </div>
                             </div>
