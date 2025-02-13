@@ -15,14 +15,16 @@
     @endsection
     @section('extrajs')
     <script>
-        var swiper = new Swiper(".mainslider", {
-            cssMode: true,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            mousewheel: true,
-            keyboard: true,
+        $(document).ready(function() {
+            var swiper = new Swiper(".mainslider", {
+                cssMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                mousewheel: true,
+                keyboard: true,
+            });
         });
     </script>
     @endsection
@@ -77,22 +79,25 @@
                                 </div>
                             </div>
                             <div class="col-md-6 position-relative">
+                                <div class="bg-warning position-absolute z-1 rounded-circle p-2 text-light" style="top: 10%; right: 15%;">
+                                    <p class="text-center text-capitalize fze-2">50%</p>
+                                </div>
                                 <div class="card border-0 bg-transparent">
                                     <div class="card-body">
                                         <img src="{{ asset('essentials/images/side_back.png') }}" alt="side-back" class="side-back float-end">
                                     </div>
                                 </div>
-                                <div class="card border-0 shadow position-absolute w-50" style="bottom: 20%; left: -5%; z-index: -1;">
+                                <div class="card border-0 shadow position-absolute w-50 rounded-start-pill ps-3" style="bottom: 20%; left: -5%; z-index: -1;">
                                     <div class="card-body">
                                         <p class="text-capitalize text-truncate text-black fze-2 fw-bold">dells laptop</p>
-                                        <div class="d-flex align-items-center mt-2">
+                                        <div class="d-flex align-items-center mt-1">
                                             <i class="fa-solid fa-star text-warning me-1"></i>
                                             <i class="fa-solid fa-star text-warning me-1"></i>
                                             <i class="fa-solid fa-star text-warning me-1"></i>
                                             <i class="fa-solid fa-star text-warning me-1"></i>
                                             <i class="fa-solid fa-star text-warning me-2"></i>
-                                            <p>(1,368 reviews)</p>
                                         </div>
+                                        <p class="text-black mt-1">(1,368 reviews)</p>
                                     </div>
                                 </div>
                             </div>
@@ -108,11 +113,5 @@
     </main>
     {{--main-content--}}
     <x-Footer />
-
-    @section('extrajs')
-    <script>
-        $(document).ready(function() {});
-    </script>
-    @endsection
 
 </x-DefaultLayout>
