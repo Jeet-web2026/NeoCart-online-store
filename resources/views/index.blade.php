@@ -103,8 +103,42 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide px-3">
+                        <div class="row w-100 px-5 align-items-center">
+                            <div class="col-md-6">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="card-body">
+                                        <h1 class="text-uppercase fw-bold m-font fze-5 mb-3 mt-4">buy hardwares & softwares</h1>
+                                        <p class="text-black text-capitalize">shop laptops, desktops, monitors, tablets, PC, gaming hardware devices & storage accessories and more...</p>
+                                        <x-main-button buttondes="View more" xtraclass="mt-3" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 position-relative">
+                                <div class="bg-warning position-absolute z-1 rounded-circle p-2 text-light" style="top: 10%; right: 15%;">
+                                    <p class="text-center text-capitalize fze-2">50%</p>
+                                </div>
+                                <div class="card border-0 bg-transparent">
+                                    <div class="card-body">
+                                        <img src="{{ asset('essentials/images/side_back.png') }}" alt="side-back" class="side-back float-end">
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow position-absolute w-50 rounded-start-pill ps-3" style="bottom: 20%; left: -5%; z-index: -1;">
+                                    <div class="card-body">
+                                        <p class="text-capitalize text-truncate text-black fze-2 fw-bold">dells laptop</p>
+                                        <div class="d-flex align-items-center mt-1">
+                                            <i class="fa-solid fa-star text-warning me-1"></i>
+                                            <i class="fa-solid fa-star text-warning me-1"></i>
+                                            <i class="fa-solid fa-star text-warning me-1"></i>
+                                            <i class="fa-solid fa-star text-warning me-1"></i>
+                                            <i class="fa-solid fa-star text-warning me-2"></i>
+                                        </div>
+                                        <p class="text-black mt-1">(1,368 reviews)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-button-next shadow rounded-circle text-black"></div>
                 <div class="swiper-button-prev shadow rounded-circle text-black"></div>
@@ -113,5 +147,6 @@
     </main>
     {{--main-content--}}
     <x-Footer />
+    <x-Modals/>
 
 </x-DefaultLayout>

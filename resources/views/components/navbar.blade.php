@@ -65,7 +65,7 @@
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item me-2">
-                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-solid fa-magnifying-glass me-3"></i>search</a>
+                        <button class="nav-link text-black text-capitalize fze-1" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa-solid fa-magnifying-glass me-3"></i>search</button>
                     </li>
                     <li class="nav-item me-2">
                         <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-solid fa-user"></i></a>
