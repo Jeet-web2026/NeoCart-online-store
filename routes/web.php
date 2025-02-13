@@ -9,5 +9,5 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Authentication routes
 Route::controller(AuthController::class)->group(function () {
-    Route::get('user-login', 'index')->name('sign-up');
+    Route::get('user-sgnup', 'index')->name('sign-up');
 });
