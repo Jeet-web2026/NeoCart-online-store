@@ -11,7 +11,7 @@
     </style>
     @endsection
 
-    {{--login form start--}}
+    {{--signup form start--}}
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <div class="border shadow w-50 p-4 rounded-3">
             <h3 class="text-center fze-4 fw-bold text-black text-uppercase my-3">signup</h3>
@@ -26,7 +26,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary border-0 shadow-none">Submit</button>
             </form>
-            <p class="text-center text-capitalize fze-1 mt-3">already have an account? <a href="">Login now</a></p>
+            <p class="text-center text-capitalize fze-1 mt-3">already have an account? <a href="">signup now</a></p>
         </div>
     </div>
     {{--login form end--}}
