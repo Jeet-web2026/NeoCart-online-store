@@ -71,7 +71,7 @@
                         <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-solid fa-user"></i></a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                        <a class="nav-link text-black text-capitalize fze-1" data-bs-toggle="offcanvas" data-bs-target="#wishlist-section" aria-controls="wishlist-section" href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i></a>
