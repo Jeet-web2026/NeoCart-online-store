@@ -1,0 +1,2 @@
+@props(['link' => '', 'buttondes' => '', 'xtraclass' => ''])
+<a @if($link)href="{{ $link }}"@endif class="btn btn-outline-dark px-4 py-2 rounded-2 shadow-none fze-2 @if($xtraclass){{ $xtraclass }}@endif">@if($buttondes){{ $buttondes }}@endif</a>

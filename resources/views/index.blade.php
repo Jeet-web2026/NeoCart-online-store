@@ -31,7 +31,7 @@
         #mainContent {
             height: 100vh;
             width: 100%;
-            padding-top: 10vh;
+            padding-top: 18vh;
         }
 
         #mainContent .swiper {
@@ -55,22 +55,23 @@
 
     <x-Navbar />
     {{--main-content--}}
-    <main id="mainContent" class="position-relative">
+    <main id="mainContent" class="position-relative bg-secondary  bg-opacity-10">
         <div class="container-fluid h-100">
             <div class="swiper mainslider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="row w-100 px-5">
+                        <div class="row w-100 px-5 align-items-center">
                             <div class="col-md-6">
                                 <div class="card border-0 bg-transparent">
                                     <div class="card-body">
-                                       <h1 class="text-uppercase fw-bold m-font fze-5">shop computers & accessories</h1>
+                                       <h1 class="text-uppercase fw-bold m-font fze-5 mb-3">shop computers & accessories</h1>
                                        <p class="text-black text-capitalize">shop laptops, desktops, monitors, tablets, PC, gaming hardware devices & storage accessories and more...</p>
+                                       <x-main-button buttondes="View more" xtraclass="mt-3"/>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="card">
+                                <div class="card border-0 bg-transparent">
                                     <div class="card-body">
                                         This is some text within a card body.
                                     </div>
