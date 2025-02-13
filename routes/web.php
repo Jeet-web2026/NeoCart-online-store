@@ -3,5 +3,7 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-// home routes
+// Home routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
+
+// Authentication routes
