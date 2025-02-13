@@ -65,7 +65,7 @@
         <div class="container-fluid h-100">
             <div class="swiper mainslider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide px-4">
                         <div class="row w-100 px-5 align-items-center">
                             <div class="col-md-6">
                                 <div class="card border-0 bg-transparent">
