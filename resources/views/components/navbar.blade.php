@@ -2,10 +2,10 @@
     <section id="top-nav">
         <div class="container-fluid py-2">
             <div class="row align-items-center">
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <a href="javascript:void(0)" class="text-secondary fze-1">Latest news: Covid 19</a>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="row align-items-center">
                         <div class="col text-center">
                             <div class="dropdown">
