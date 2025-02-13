@@ -1,3 +1,3 @@
-<x-DefaultLayout>
-    
+<x-DefaultLayout title="Signup">
+
 </x-DefaultLayout>

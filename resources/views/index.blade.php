@@ -1,4 +1,4 @@
-<x-DefaultLayout title="NeoCart" bodyClass="position-relative">
+<x-DefaultLayout bodyClass="position-relative">
 
     @section('extracsscdns')
     {{--swiper css cdn--}}
