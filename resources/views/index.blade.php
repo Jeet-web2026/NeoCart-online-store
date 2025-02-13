@@ -49,11 +49,11 @@
             width: 40vw;
         }
 
-        #mainContent .swiper-button-next{
+        #mainContent .swiper-button-next {
             padding: 2.3%;
         }
 
-        #mainContent .swiper-button-prev{
+        #mainContent .swiper-button-prev {
             padding: 2.3%;
         }
     </style>
@@ -65,7 +65,7 @@
         <div class="container-fluid h-100">
             <div class="swiper mainslider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide px-4">
+                    <div class="swiper-slide px-3">
                         <div class="row w-100 px-5 align-items-center">
                             <div class="col-md-6">
                                 <div class="card border-0 bg-transparent">
@@ -76,10 +76,23 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 position-relative">
                                 <div class="card border-0 bg-transparent">
                                     <div class="card-body">
                                         <img src="{{ asset('essentials/images/side_back.png') }}" alt="side-back" class="side-back float-end">
+                                    </div>
+                                </div>
+                                <div class="card border-0 shadow position-absolute w-50" style="bottom: 20%; left: -5%; z-index: -1;">
+                                    <div class="card-body">
+                                        <p class="text-capitalize text-truncate text-black fze-2 fw-bold">dells laptop</p>
+                                        <div class="d-flex align-items-center mt-2">
+                                            <i class="fa-solid fa-star text-warning me-1"></i>
+                                            <i class="fa-solid fa-star text-warning me-1"></i>
+                                            <i class="fa-solid fa-star text-warning me-1"></i>
+                                            <i class="fa-solid fa-star text-warning me-1"></i>
+                                            <i class="fa-solid fa-star text-warning me-2"></i>
+                                            <p>(1,368 reviews)</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -98,8 +111,7 @@
 
     @section('extrajs')
     <script>
-        $(document).ready(function() {
-        });
+        $(document).ready(function() {});
     </script>
     @endsection
 
