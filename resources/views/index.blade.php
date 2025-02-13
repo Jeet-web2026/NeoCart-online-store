@@ -44,9 +44,17 @@
             align-items: center;
         }
 
-        #mainContent .side-back{
+        #mainContent .side-back {
             height: 70vh;
             width: 40vw;
+        }
+
+        #mainContent .swiper-button-next{
+            padding: 2.3%;
+        }
+
+        #mainContent .swiper-button-prev{
+            padding: 2.3%;
         }
     </style>
     @endsection
@@ -62,9 +70,9 @@
                             <div class="col-md-6">
                                 <div class="card border-0 bg-transparent">
                                     <div class="card-body">
-                                       <h1 class="text-uppercase fw-bold m-font fze-5 mb-3 mt-4">shop computers & accessories</h1>
-                                       <p class="text-black text-capitalize">shop laptops, desktops, monitors, tablets, PC, gaming hardware devices & storage accessories and more...</p>
-                                       <x-main-button buttondes="View more" xtraclass="mt-3"/>
+                                        <h1 class="text-uppercase fw-bold m-font fze-5 mb-3 mt-4">shop computers & accessories</h1>
+                                        <p class="text-black text-capitalize">shop laptops, desktops, monitors, tablets, PC, gaming hardware devices & storage accessories and more...</p>
+                                        <x-main-button buttondes="View more" xtraclass="mt-3" />
                                     </div>
                                 </div>
                             </div>
@@ -80,12 +88,19 @@
                     <div class="swiper-slide">Slide 2</div>
                     <div class="swiper-slide">Slide 3</div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next shadow rounded-circle text-black"></div>
+                <div class="swiper-button-prev shadow rounded-circle text-black"></div>
             </div>
         </div>
     </main>
     {{--main-content--}}
     <x-Footer />
+
+    @section('extrajs')
+    <script>
+        $(document).ready(function() {
+        });
+    </script>
+    @endsection
 
 </x-DefaultLayout>
