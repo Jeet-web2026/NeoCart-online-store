@@ -44,11 +44,9 @@
             align-items: center;
         }
 
-        #mainContent .swiper-slide img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+        #mainContent .side-back{
+            height: 70vh;
+            width: 40vw;
         }
     </style>
     @endsection
@@ -64,7 +62,7 @@
                             <div class="col-md-6">
                                 <div class="card border-0 bg-transparent">
                                     <div class="card-body">
-                                       <h1 class="text-uppercase fw-bold m-font fze-5 mb-3">shop computers & accessories</h1>
+                                       <h1 class="text-uppercase fw-bold m-font fze-5 mb-3 mt-4">shop computers & accessories</h1>
                                        <p class="text-black text-capitalize">shop laptops, desktops, monitors, tablets, PC, gaming hardware devices & storage accessories and more...</p>
                                        <x-main-button buttondes="View more" xtraclass="mt-3"/>
                                     </div>
@@ -73,7 +71,7 @@
                             <div class="col-md-6">
                                 <div class="card border-0 bg-transparent">
                                     <div class="card-body">
-                                        <img src="{{ asset('essentials/images/side_back.png') }}" alt="side-back" class="img-fluid">
+                                        <img src="{{ asset('essentials/images/side_back.png') }}" alt="side-back" class="side-back float-end">
                                     </div>
                                 </div>
                             </div>
