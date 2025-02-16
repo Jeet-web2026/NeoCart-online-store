@@ -24,13 +24,33 @@
 {{--wishlist offcanvas--}}
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="wishlist-section" aria-labelledby="wishlist-sectionLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="wishlist-sectionLabel">Backdrop with scrolling</h5>
+        <h5 class="offcanvas-title" id="wishlist-sectionLabel">
+            <div class="card border-0 bg-transaprent">
+                <div class="card-body px-0">
+                    @if(Auth::guard('web')->check())
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h3 class="text-capitalize fze-2">welcome</h3>
+                            <h3 class="text-capitalize fze-2 fw-bold">{{ Auth::guard('web')->user()->username }}</h3>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+                        </div>
+                    </div>
+                    @else
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h3 class="text-capitalize fze-2">welcome to NeoCart</h3>
+                        </div>
+                    </div>
+                    @endif
+                </div>
+            </div>
+        </h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-        @if(Auth::guard('web')->check())
-        <p>Welcome {{ Auth::guard('web')->user()->username }}!</p>
-        @endif
+
     </div>
 </div>
 {{--wishlist offcanvas--}}
