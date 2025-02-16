@@ -17,7 +17,7 @@ class AuthController extends Controller
         return view('login-page');
     }
 
-    public function signupverifcation(Request $request){
+    public function signupVerification(Request $request){
         $request->validate([
             'user-full-name' => 'required|min:3',
             'user-email-address' => 'required|email',
@@ -32,5 +32,6 @@ class AuthController extends Controller
         ];
 
         User::create($matchDetails);
+        return redirect()->route('user.login');
     }
 }
