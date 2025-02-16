@@ -32,6 +32,6 @@ class AuthController extends Controller
         ];
 
         User::create($matchDetails);
-        return redirect()->route('user.login');
+        return view('login-page');
     }
 }
