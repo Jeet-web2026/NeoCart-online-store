@@ -74,7 +74,7 @@
                         <a class="nav-link text-black text-capitalize fze-1" data-bs-toggle="offcanvas" data-bs-target="#wishlist-section" aria-controls="wishlist-section" href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-black text-capitalize fze-1" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a class="nav-link text-black text-capitalize fze-1" data-bs-toggle="offcanvas" data-bs-target="#cart-offcanvas" aria-controls="cart-offcanvas" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i></a>
                     </li>
                 </ul>
             </div>
