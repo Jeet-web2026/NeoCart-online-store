@@ -30,7 +30,7 @@
                     @if(Auth::guard('web')->check())
                     <div class="d-flex justify-content-between align-items-center">
                         <div>
-                            <h3 class="text-capitalize fze-2">welcome</h3>
+                            <h3 class="text-capitalize fze-2 mb-2"><i class="fa-solid fa-heart me-2"></i>wishlist</h3>
                             <h3 class="text-capitalize fze-2 fw-bold">{{ Auth::guard('web')->user()->username }}</h3>
                         </div>
                         <div>
@@ -62,6 +62,7 @@
         <button type="button" class="position-absolute btn btn-dark" style="bottom: 2%; left: 80%;" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
     </div>
     <div class="offcanvas-body">
+        @if(Auth::guard('web')->check())
         <div class="card mb-3 shadow border-0 overflow-hidden">
             <div class="row g-0">
                 <div class="col-md-4">
@@ -70,12 +71,24 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title text-capitalize fze-1">product name</h5>
-                        <p class="card-text text-capitalize fze text-warning">product ratings</p>
+                        <p class="card-text text-capitalize fze text-warning mb-2">product ratings</p>
                         <p class="card-text text-capitalize fze">300/-</p>
+                        <a href="javascript:void(0)" class="btn btn-dark border-0 shadow-none fze mt-2">Order now</a>
                     </div>
                 </div>
             </div>
         </div>
+        @else
+        <div class="d-flex justify-content-center align-items-center h-100 w-100">
+            <div>
+                <h3 class="fze-2">You are not login yet!</h3>
+                <div class="d-flex align-items-center mt-3 justify-content-center">
+                    <a href="{{ route('user-login') }}" class="btn btn-dark border-0 shadow-none fze-1 me-2">Login</a>
+                    <a href="{{ route('user-signup') }}" class="btn btn-dark border-0 shadow-none fze-1">Signup</a>
+                </div>
+            </div>
+        </div>
+        @endif
     </div>
 </div>
 {{--wishlist offcanvas--}}
@@ -83,11 +96,71 @@
 {{--cart offcanvas--}}
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="cart-offcanvas" aria-labelledby="cart-offcanvasLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="cart-offcanvasLabel">Backdrop with scrolling</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h5 class="offcanvas-title w-100" id="cart-offcanvasLabel">
+            <div class="card border-0 bg-transaprent w-100">
+                <div class="card-body px-0">
+                    @if(Auth::guard('web')->check())
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h3 class="text-capitalize fze-2 mb-2"><i class="fa-solid fa-heart me-2"></i>wishlist</h3>
+                            <h3 class="text-capitalize fze-2 fw-bold">{{ Auth::guard('web')->user()->username }}</h3>
+                        </div>
+                        <div>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn shadow-none border-0" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bars-staggered"></i>
+                                </button>
+                                <ul class="dropdown-menu ms-3">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Extra items</a></li>
+                                    <form action="{{ route('user-logout') }}" method="POST">
+                                        @csrf
+                                        <li><button class="dropdown-item" type="submit">Logout</button></li>
+                                    </form>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    @else
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h3 class="text-capitalize fze-2">welcome to NeoCart</h3>
+                        </div>
+                    </div>
+                    @endif
+                </div>
+            </div>
+        </h5>
+        <button type="button" class="position-absolute btn btn-dark" style="bottom: 2%; left: 80%;" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
     </div>
     <div class="offcanvas-body">
-        <p>Try scrolling the rest of the page to see this option in action.</p>
+        @if(Auth::guard('web')->check())
+        <div class="card mb-3 shadow border-0 overflow-hidden">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://img.freepik.com/free-photo/workplace-with-open-laptop-modern-wooden-desk-with-camera-alarm-clock_23-2147979104.jpg" class="rounded-start" style="height: 16vh; width: 20vh;" alt="product-image">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-capitalize fze-1">product name</h5>
+                        <p class="card-text text-capitalize fze text-warning mb-2">product ratings</p>
+                        <p class="card-text text-capitalize fze">300/-</p>
+                        <a href="javascript:void(0)" class="btn btn-dark border-0 shadow-none fze mt-2">Order now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @else
+        <div class="d-flex justify-content-center align-items-center h-100 w-100">
+            <div>
+                <h3 class="fze-2">You are not login yet!</h3>
+                <div class="d-flex align-items-center mt-3 justify-content-center">
+                    <a href="{{ route('user-login') }}" class="btn btn-dark border-0 shadow-none fze-1 me-2">Login</a>
+                    <a href="{{ route('user-signup') }}" class="btn btn-dark border-0 shadow-none fze-1">Signup</a>
+                </div>
+            </div>
+        </div>
+        @endif
     </div>
 </div>
 {{--cart offcanvas--}}
