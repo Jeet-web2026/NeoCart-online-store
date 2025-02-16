@@ -15,7 +15,12 @@
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <div class="border shadow w-50 p-4 rounded-3">
             <h3 class="text-center fze-4 fw-bold text-black text-uppercase my-3">Login</h3>
-            <form>
+            <form action="">
+                @if (session('success'))
+                <div class="alert alert-success text-center">
+                    {{ session('success') }}
+                </div>
+                @endif
                 <div class="mb-3">
                     <label for="user-email-address" class="form-label fze-2 font-500 text-black">Email address</label>
                     <input type="email" class="form-control shadow-none" id="user-email-address" name="user-email-address">

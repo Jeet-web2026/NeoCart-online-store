@@ -42,6 +42,6 @@ class AuthController extends Controller
             'useraddress' => $userData['user-address'],
         ]);
 
-        return redirect()->route('user-login')->with('success', 'Account created successfully.');
+        return redirect()->route('user-login')->with('success', 'Account created successfully, login now!');
     }
 }
