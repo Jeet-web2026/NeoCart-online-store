@@ -19,7 +19,7 @@
                 @csrf
                 <div class="mb-3">
                     <label for="user-full-name" class="form-label fze-2 font-500 text-black">Full name</label>
-                    <input type="email" class="form-control shadow-none" id="user-full-name" name="user-full-name">
+                    <input type="text" class="form-control shadow-none" id="user-full-name" name="user-full-name">
                 </div>
                 <div class="mb-3">
                     <label for="user-email-address" class="form-label fze-2 font-500 text-black">Email address</label>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="user-address" class="form-label fze-2 font-500 text-black">Address</label>
-                    <input type="email" class="form-control shadow-none" id="user-address" name="user-address">
+                    <input type="text" class="form-control shadow-none" id="user-address" name="user-address">
                 </div>
                 <button type="submit" class="btn btn-primary border-0 shadow-none">Submit</button>
                 <a class="btn btn-primary border-0 shadow-none" href="{{ url('/') }}">Back</a>
