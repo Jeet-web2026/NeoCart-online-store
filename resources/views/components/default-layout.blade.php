@@ -41,12 +41,21 @@
 
 </head>
 
-<body @if($bodyId)id="{{ $bodyId }}"@endif @if($bodyClass)class="{{ $bodyClass }}"@endif>
+<body @if($bodyId)id="{{ $bodyId }}" @endif @if($bodyClass)class="{{ $bodyClass }}" @endif>
     {{ $slot }}
 
     @yield('extrajscdns')
     {{--bootstrap js cdn--}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    {{--bootstrap js cdn--}}
+    {{--js--}}
+    <script>
+        let logoutMessage = "{{ session('logout') }}";
+        if (logoutMessage) {
+            let toastElement = new bootstrap.Toast(document.getElementById('liveToast'));
+            toastElement.show();
+        }
+    </script>
     {{--bootstrap js cdn--}}
     @yield('extrajs')
 </body>

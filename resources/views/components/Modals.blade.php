@@ -62,7 +62,20 @@
         <button type="button" class="position-absolute btn btn-dark" style="bottom: 2%; left: 80%;" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
     </div>
     <div class="offcanvas-body">
-
+        <div class="card mb-3 shadow border-0 overflow-hidden">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://img.freepik.com/free-photo/workplace-with-open-laptop-modern-wooden-desk-with-camera-alarm-clock_23-2147979104.jpg" class="rounded-start" style="height: 16vh; width: 20vh;" alt="product-image">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-capitalize fze-1">product name</h5>
+                        <p class="card-text text-capitalize fze text-warning">product ratings</p>
+                        <p class="card-text text-capitalize fze">300/-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 {{--wishlist offcanvas--}}
