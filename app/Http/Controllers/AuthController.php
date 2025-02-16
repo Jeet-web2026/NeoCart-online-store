@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class AuthController extends Controller
@@ -24,7 +25,12 @@ class AuthController extends Controller
             'user-address' => 'required'
         ]);
         $matchDetails = [
-            
+            'username' => 'user-full-name',
+            'useremail' => 'user-email-address',
+            'userpassword' => 'user-password',
+            'useraddress' => 'user-address',
         ];
+
+        User::create($matchDetails);
     }
 }

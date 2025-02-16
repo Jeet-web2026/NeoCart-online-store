@@ -11,20 +11,23 @@ class User extends Authenticatable
 {
     use HasFactory, Notifiable;
 
+    public $table = 'users';
+    protected $timestamps = false;
+
     protected $fillable = [
-        'name',
-        'pincode',
-        'email',
-        'password',
+        'username',
+        'useremail',
+        'userpassword',
+        'useraddress',
     ];
 
     protected $hidden = [
-        'password',
+        'userpassword',
     ];
     protected function casts(): array
     {
         return [
-            'password' => 'hashed',
+            'userpassword' => 'hashed',
         ];
     }
 }
