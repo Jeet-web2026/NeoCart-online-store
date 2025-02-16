@@ -24,8 +24,8 @@
 {{--wishlist offcanvas--}}
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="wishlist-section" aria-labelledby="wishlist-sectionLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="wishlist-sectionLabel">
-            <div class="card border-0 bg-transaprent">
+        <h5 class="offcanvas-title w-100" id="wishlist-sectionLabel">
+            <div class="card border-0 bg-transaprent w-100">
                 <div class="card-body px-0">
                     @if(Auth::guard('web')->check())
                     <div class="d-flex justify-content-between align-items-center">
@@ -34,7 +34,7 @@
                             <h3 class="text-capitalize fze-2 fw-bold">{{ Auth::guard('web')->user()->username }}</h3>
                         </div>
                         <div>
-                            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+                            <button class="btn shadow-none border-0"><i class="fa-solid fa-bars-staggered"></i></button>
                         </div>
                     </div>
                     @else
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" class="position-absolute btn btn-dark" style="bottom: 2%; left: 80%;" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
     </div>
     <div class="offcanvas-body">
 
