@@ -24,11 +24,17 @@
                 @endif
                 <div class="mb-3">
                     <label for="user-loginemail-address" class="form-label fze-2 font-500 text-black">Email address</label>
-                    <input type="email" class="form-control shadow-none" id="user-loginemail-address" name="user-loginemail-address">
+                    <input type="email" class="form-control shadow-none" id="user-loginemail-address" name="user-loginemail-address" value="{{ old('user-loginemail-address') }}">
+                    @error('user-loginemail-address')
+                    <p class="text-danger fst-italic fze">{{ $message }}</p>
+                    @enderror
                 </div>
                 <div class="mb-3">
                     <label for="user-loginpassword" class="form-label fze-2 font-500 text-black">Password</label>
-                    <input type="password" class="form-control shadow-none" id="user-loginpassword" name="user-loginpassword">
+                    <input type="password" class="form-control shadow-none" id="user-loginpassword" name="user-loginpassword" value="{{ old('user-loginpassword') }}">
+                    @error('user-loginpassword')
+                    <p class="text-danger fst-italic fze">{{ $message }}</p>
+                    @enderror
                 </div>
                 <button type="submit" class="btn btn-primary border-0 shadow-none">Submit</button>
             </form>

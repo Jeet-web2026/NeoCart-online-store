@@ -52,6 +52,7 @@ class AuthController extends Controller
             'user-loginemail-address' => 'required|email',
             'user-loginpassword' => 'required',
         ], [
+            'user-loginemail-address.required'    => 'Email address is required.',
             'user-loginemail-address.email'    => 'Please enter a valid email address.',
             'user-loginpassword.required'      => 'Please enter a password.',
         ]);
