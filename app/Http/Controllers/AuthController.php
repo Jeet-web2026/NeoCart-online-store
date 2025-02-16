@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
@@ -43,5 +44,27 @@ class AuthController extends Controller
         ]);
 
         return redirect()->route('user-login')->with('success', 'Account created successfully, login now!');
+    }
+
+    public function loginVerification(Request $request)
+    {
+        $userData = $request->validate([
+            'user-loginemail-address' => 'required|email',
+            'user-loginpassword' => 'required',
+        ], [
+            'user-loginemail-address.email'    => 'Please enter a valid email address.',
+            'user-loginpassword.required'      => 'Please enter a password.',
+        ]);
+
+        $matchData = ([
+            'useremail' => strtolower($userData['user-loginemail-address']),
+            'userpassword' => $userData['user-loginpassword'],
+        ]);
+
+        if (Auth::guard('web')->attempt($matchData)) {
+            return redirect()->route('home')->with('success', 'You are successfully logged in!');
+        };
+
+        return redirect()->route('user-login')->with('error', 'Invalid credentials!');
     }
 }

@@ -15,19 +15,20 @@
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <div class="border shadow w-50 p-4 rounded-3">
             <h3 class="text-center fze-4 fw-bold text-black text-uppercase my-3">Login</h3>
-            <form action="">
+            <form action="{{ route('user-login-verification') }}" method="POST" enctype="multipart/form-data">
+                @csrf
                 @if (session('success'))
                 <div class="alert alert-success text-center">
                     {{ session('success') }}
                 </div>
                 @endif
                 <div class="mb-3">
-                    <label for="user-email-address" class="form-label fze-2 font-500 text-black">Email address</label>
-                    <input type="email" class="form-control shadow-none" id="user-email-address" name="user-email-address">
+                    <label for="user-loginemail-address" class="form-label fze-2 font-500 text-black">Email address</label>
+                    <input type="email" class="form-control shadow-none" id="user-loginemail-address" name="user-loginemail-address">
                 </div>
                 <div class="mb-3">
-                    <label for="user-password" class="form-label fze-2 font-500 text-black">Password</label>
-                    <input type="password" class="form-control shadow-none" id="user-password" name="user-password">
+                    <label for="user-loginpassword" class="form-label fze-2 font-500 text-black">Password</label>
+                    <input type="password" class="form-control shadow-none" id="user-loginpassword" name="user-loginpassword">
                 </div>
                 <button type="submit" class="btn btn-primary border-0 shadow-none">Submit</button>
             </form>
