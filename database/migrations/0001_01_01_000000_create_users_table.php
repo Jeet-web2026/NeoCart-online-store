@@ -11,10 +11,9 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('username');
-            $table->string('useremail');
+            $table->string('useremail')->unique();
             $table->string('userpassword');
             $table->text('useraddress');
-            $table->timestamp('created-at')->useCurrent();
         });
     }
     public function down(): void

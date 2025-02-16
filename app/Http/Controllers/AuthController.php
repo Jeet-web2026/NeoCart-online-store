@@ -17,21 +17,22 @@ class AuthController extends Controller
         return view('login-page');
     }
 
-    public function signupVerification(Request $request){
-        $request->validate([
+    public function signupVerification(Request $request)
+    {
+        $Data = $request->validate([
             'user-full-name' => 'required|min:3',
             'user-email-address' => 'required|email',
             'user-password' => 'required|min:6',
             'user-address' => 'required'
         ]);
         $matchDetails = [
-            'username' => 'user-full-name',
-            'useremail' => 'user-email-address',
-            'userpassword' => 'user-password',
-            'useraddress' => 'user-address',
+            'username' => $Data['user-full-name'],
+            'useremail' => strtolower($Data['user-email-address']),
+            'userpassword' => $Data['user-password'],
+            'useraddress' => $Data['user-address'],
         ];
 
         User::create($matchDetails);
-        return view('login-page');
+        return redirect()->route('user.login');
     }
 }
