@@ -25,6 +25,11 @@
                 mousewheel: true,
                 keyboard: true,
             });
+            let logoutMessage = "{{ session('logout') }}";
+            if (logoutMessage) {
+                let toastElement = new bootstrap.Toast(document.getElementById('liveToast'));
+                toastElement.show();
+            }
         });
     </script>
     @endsection
@@ -147,6 +152,6 @@
     </main>
     {{--main-content--}}
     <x-Footer />
-    <x-Modals/>
+    <x-Modals />
 
 </x-DefaultLayout>

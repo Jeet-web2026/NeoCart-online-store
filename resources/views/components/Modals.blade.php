@@ -78,3 +78,20 @@
     </div>
 </div>
 {{--cart offcanvas--}}
+
+{{--logout-popup--}}
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto fze-2">Logout</strong>
+            <small>0 mins ago</small>
+            <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            @if(session('logout'))
+            <p class="fze-1">{{ session('logout') }}</p>
+            @endif
+        </div>
+    </div>
+</div>
+{{--logout-popup--}}
