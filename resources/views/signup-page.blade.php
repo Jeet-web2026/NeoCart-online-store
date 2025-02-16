@@ -15,7 +15,8 @@
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <div class="border shadow w-50 p-4 rounded-3">
             <h3 class="text-center fze-4 fw-bold text-black text-uppercase my-3">signup</h3>
-            <form>
+            <form action="{{ route('user-signup') }}" method="POST" enctype="multipart/form-data">
+                @csrf
                 <div class="mb-3">
                     <label for="user-full-name" class="form-label fze-2 font-500 text-black">Full name</label>
                     <input type="email" class="form-control shadow-none" id="user-full-name" name="user-full-name">

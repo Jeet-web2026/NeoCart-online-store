@@ -11,4 +11,5 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::controller(AuthController::class)->group(function () {
     Route::get('user-signup', 'index')->name('sign-up');
     Route::get('user-login', 'login')->name('login');
+    Route::post('signup-verification', 'signupverifcation')->name('user-signup');
 });

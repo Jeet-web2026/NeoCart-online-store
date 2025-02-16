@@ -15,4 +15,16 @@ class AuthController extends Controller
     {
         return view('login-page');
     }
+
+    public function signupverifcation(Request $request){
+        $request->validate([
+            'user-full-name' => 'required|min:3',
+            'user-email-address' => 'required|email',
+            'user-password' => 'required|min:6',
+            'user-address' => 'required'
+        ]);
+        $matchDetails = [
+            
+        ];
+    }
 }
