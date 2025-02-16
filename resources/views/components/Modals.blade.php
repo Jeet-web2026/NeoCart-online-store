@@ -22,10 +22,10 @@
 {{--search modal--}}
 
 {{--wishlist offcanvas--}}
-<div class="offcanvas offcanvas-start bg-light shadow border-end-0" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="wishlist-section" aria-labelledby="wishlist-sectionLabel">
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="wishlist-section" aria-labelledby="wishlist-sectionLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="wishlist-sectionLabel">Offcanvas with body scrolling</h5>
-        <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h5 class="offcanvas-title" id="wishlist-sectionLabel">Backdrop with scrolling</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
         <p>Try scrolling the rest of the page to see this option in action.</p>
