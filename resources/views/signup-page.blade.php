@@ -19,28 +19,28 @@
                 @csrf
                 <div class="mb-3">
                     <label for="user-full-name" class="form-label fze-2 font-500 text-black">Full name</label>
-                    <input type="text" class="form-control shadow-none" id="user-full-name" name="user-full-name">
+                    <input type="text" class="form-control shadow-none" id="user-full-name" name="user-full-name" value="{{ old('user-full-name') }}">
                     @error('user-full-name')
                     <p class="text-danger fst-italic fze">{{ $message }}</p>
                     @enderror
                 </div>
                 <div class="mb-3">
                     <label for="user-email-address" class="form-label fze-2 font-500 text-black">Email address</label>
-                    <input type="email" class="form-control shadow-none" id="user-email-address" name="user-email-address">
+                    <input type="email" class="form-control shadow-none" id="user-email-address" name="user-email-address" value="{{ old('user-email-address') }}">
                     @error('user-email-address')
                     <p class="text-danger fst-italic fze">{{ $message }}</p>
                     @enderror
                 </div>
                 <div class="mb-3">
                     <label for="user-password" class="form-label fze-2 font-500 text-black">Password</label>
-                    <input type="password" class="form-control shadow-none" id="user-password" name="user-password">
+                    <input type="password" class="form-control shadow-none" id="user-password" name="user-password" value="{{ old('user-password') }}">
                     @error('user-password')
                     <p class="text-danger fst-italic fze">{{ $message }}</p>
                     @enderror
                 </div>
                 <div class="mb-3">
                     <label for="user-address" class="form-label fze-2 font-500 text-black">Address</label>
-                    <input type="text" class="form-control shadow-none" id="user-address" name="user-address">
+                    <input type="text" class="form-control shadow-none" id="user-address" name="user-address" value="{{ old('user-address') }}">
                     @error('user-address')
                     <p class="text-danger fst-italic fze">{{ $message }}</p>
                     @enderror

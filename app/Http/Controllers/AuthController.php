@@ -20,10 +20,19 @@ class AuthController extends Controller
     public function signupVerification(Request $request)
     {
         $userData = $request->validate([
-            'user-full-name' => 'required',
+            'user-full-name' => 'required|min:3',
             'user-email-address' => 'required|email|unique:users,useremail',
             'user-password' => 'required|min:6',
             'user-address' => 'required'
+        ], [
+            'user-full-name.required'     => 'Name is required.',
+            'user-full-name.min'     => 'Name must be at least 3 characters long.',
+            'user-email-address.required' => 'The email field cannot be empty.',
+            'user-email-address.email'    => 'Please enter a valid email address.',
+            'user-email-address.unique'   => 'This email is already registered.',
+            'user-password.required'      => 'Please enter a password.',
+            'user-password.min'           => 'Password must be at least 6 characters long.',
+            'user-address.required'       => 'The address field is required.'
         ]);
 
         User::create([
