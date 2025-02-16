@@ -58,7 +58,7 @@ class AuthController extends Controller
 
         $matchData = ([
             'useremail' => strtolower($userData['user-loginemail-address']),
-            'userpassword' => $userData['user-loginpassword'],
+            'password' => $userData['user-loginpassword'],
         ]);
 
         if (Auth::guard('web')->attempt($matchData)) {
