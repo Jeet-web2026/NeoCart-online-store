@@ -22,6 +22,11 @@
                     {{ session('success') }}
                 </div>
                 @endif
+                @if (session('loginerror'))
+                <div class="alert alert-danger text-center">
+                    {{ session('loginerror') }}
+                </div>
+                @endif
                 <div class="mb-3">
                     <label for="user-loginemail-address" class="form-label fze-2 font-500 text-black">Email address</label>
                     <input type="email" class="form-control shadow-none" id="user-loginemail-address" name="user-loginemail-address" value="{{ old('user-loginemail-address') }}">

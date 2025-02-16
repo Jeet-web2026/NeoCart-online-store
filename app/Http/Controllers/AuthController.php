@@ -63,9 +63,9 @@ class AuthController extends Controller
         ]);
 
         if (Auth::guard('web')->attempt($matchData)) {
-            return redirect()->route('home')->with('success', 'You are successfully logged in!');
+            return redirect()->route('home')->with('loginsuccess', 'You are successfully logged in!');
         };
 
-        return redirect()->route('user-login')->with('error', 'Invalid credentials!');
+        return redirect()->route('user-login')->with('loginerror', 'Invalid credentials!');
     }
 }
