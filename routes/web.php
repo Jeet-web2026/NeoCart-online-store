@@ -13,4 +13,5 @@ Route::controller(AuthController::class)->group(function () {
     Route::get('user-login', 'login')->name('user-login');
     Route::post('signup-verification', 'signupVerification')->name('user-signup-verification');
     Route::post('login-verification', 'loginVerification')->name('user-login-verification');
+    Route::post('user-logout', 'logout')->name('user-logout');
 });

@@ -41,7 +41,10 @@
                                 <ul class="dropdown-menu ms-3">
                                     <li><a class="dropdown-item" href="#">Profile</a></li>
                                     <li><a class="dropdown-item" href="#">Extra items</a></li>
-                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                    <form action="{{ route('user-logout') }}" method="POST">
+                                        @csrf
+                                        <li><button class="dropdown-item" type="submit">Logout</button></li>
+                                    </form>
                                 </ul>
                             </div>
                         </div>
