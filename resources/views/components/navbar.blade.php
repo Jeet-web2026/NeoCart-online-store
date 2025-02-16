@@ -68,7 +68,7 @@
                         <button class="nav-link text-black text-capitalize fze-1" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa-solid fa-magnifying-glass me-3"></i>search</button>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-black text-capitalize fze-1" href="{{ route('sign-up') }}"><i class="fa-solid fa-user"></i></a>
+                        <a class="nav-link text-black text-capitalize fze-1" href="{{ route('user.signup') }}"><i class="fa-solid fa-user"></i></a>
                     </li>
                     <li class="nav-item me-2">
                         <a class="nav-link text-black text-capitalize fze-1" data-bs-toggle="offcanvas" data-bs-target="#wishlist-section" aria-controls="wishlist-section" href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
