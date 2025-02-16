@@ -19,17 +19,17 @@ class AuthController extends Controller
 
     public function signupVerification(Request $request)
     {
-        $Data = $request->validate([
+        $userData = $request->validate([
             'user-full-name' => 'required|min:3',
             'user-email-address' => 'required|email',
             'user-password' => 'required|min:6',
             'user-address' => 'required'
         ]);
         $matchDetails = [
-            'username' => $Data['user-full-name'],
-            'useremail' => strtolower($Data['user-email-address']),
-            'userpassword' => $Data['user-password'],
-            'useraddress' => $Data['user-address'],
+            'username' => $userData['user-full-name'],
+            'useremail' => strtolower($userData['user-email-address']),
+            'userpassword' => $userData['user-password'],
+            'useraddress' => $userData['user-address'],
         ];
 
         User::create($matchDetails);
