@@ -34,7 +34,16 @@
                             <h3 class="text-capitalize fze-2 fw-bold">{{ Auth::guard('web')->user()->username }}</h3>
                         </div>
                         <div>
-                            <button class="btn shadow-none border-0"><i class="fa-solid fa-bars-staggered"></i></button>
+                            <div class="btn-group dropend">
+                                <button type="button" class="btn shadow-none border-0" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bars-staggered"></i>
+                                </button>
+                                <ul class="dropdown-menu ms-3">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Extra items</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     @else
