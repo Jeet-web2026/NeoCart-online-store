@@ -15,7 +15,7 @@
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <div class="border shadow w-50 p-4 rounded-3">
             <h3 class="text-center fze-4 fw-bold text-black text-uppercase my-3">signup</h3>
-            <form action="{{ route('user.signup.verification') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('user-signup-verification') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="mb-3">
                     <label for="user-full-name" class="form-label fze-2 font-500 text-black">Full name</label>
@@ -36,7 +36,7 @@
                 <button type="submit" class="btn btn-primary border-0 shadow-none">Submit</button>
                 <a class="btn btn-primary border-0 shadow-none" href="{{ url('/') }}">Back</a>
             </form>
-            <p class="text-center text-capitalize fze-1 mt-3">already have an account? <a href="{{ route('user.login') }}">login now</a></p>
+            <p class="text-center text-capitalize fze-1 mt-3">already have an account? <a href="{{ route('user-login') }}">login now</a></p>
         </div>
     </div>
     {{--login form end--}}
