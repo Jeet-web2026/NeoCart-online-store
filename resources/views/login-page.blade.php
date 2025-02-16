@@ -26,7 +26,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary border-0 shadow-none">Submit</button>
             </form>
-            <p class="text-center text-capitalize fze-1 mt-3">do't have any account? <a href="{{ route('sign-up') }}">signup now</a></p>
+            <p class="text-center text-capitalize fze-1 mt-3">do't have any account? <a href="{{ route('user-signup') }}">signup now</a></p>
         </div>
     </div>
     {{--login form end--}}
