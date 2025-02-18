@@ -2,6 +2,8 @@
 
     @section('extracsscdns')
     {{--swiper css cdn--}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     {{--swiper css cdn--}}
     @endsection
@@ -9,6 +11,9 @@
     {{--jquery js cdn--}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     {{--jquery js cdn--}}
+    {{--slick js cdn--}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    {{--slick js cdn--}}
     {{--swiper js cdn--}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     {{--swiper js cdn--}}
@@ -58,6 +63,18 @@
         #mainContent .swiper-button-prev {
             padding: 2.3%;
         }
+
+        /* showcase start */
+        #showcase .show-case-img {
+            height: 10vh;
+            width: 10vh;
+        }
+
+        #showcase {
+            background-color: #F8F3F0;
+        }
+
+        /* showcase end */
     </style>
     @endsection
 
@@ -149,45 +166,57 @@
 
     {{--showcase section--}}
     <section id="showcase">
-        <div class="container-fluid p-5">
+        <div class="container-fluid px-5 py-3">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="card border-0">
+                    <div class="card border-0 bg-transparent">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
+                            <div class="col-md-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-3">
+                                            <img src="https://img.freepik.com/free-photo/smart-looking-teacher_53876-23045.jpg" class="rounded-circle show-case-img" alt="show-case-img">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a wider card.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-9">
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
                                                 This is some text within a card body.
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
                                                 This is some text within a card body.
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
                                                 This is some text within a card body.
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
                                                 This is some text within a card body.
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
                                                 This is some text within a card body.
