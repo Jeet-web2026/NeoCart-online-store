@@ -146,6 +146,64 @@
         </div>
     </main>
     {{--main-content--}}
+
+    {{--showcase section--}}
+    <section id="showcase">
+        <div class="container-fluid p-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card border-0">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="..." class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card border-0">
+                                            <div class="card-body">
+                                                This is some text within a card body.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card border-0">
+                                            <div class="card-body">
+                                                This is some text within a card body.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card border-0">
+                                            <div class="card-body">
+                                                This is some text within a card body.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card border-0">
+                                            <div class="card-body">
+                                                This is some text within a card body.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card border-0">
+                                            <div class="card-body">
+                                                This is some text within a card body.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{--showcase section--}}
+
     <x-Footer />
     <x-Modals />
 
