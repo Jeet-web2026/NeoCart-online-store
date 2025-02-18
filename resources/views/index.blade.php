@@ -101,6 +101,7 @@
         #showcase .show-case-img {
             height: 10vh;
             width: 10vh;
+            object-fit: cover;
         }
 
         #showcase {
@@ -212,8 +213,12 @@
                                         </div>
                                         <div class="col-md-9">
                                             <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">This is a wider card.</p>
+                                                <h5 class="card-title fze-2 font-500">Hi 
+                                                    @if(Auth::guard('web')->check())
+                                                    {{ Auth::guard('web')->user()->username }}
+                                                    @endif
+                                                </h5>
+                                                <p class="card-text fze text-capitalize">recomendations for you!</p>
                                             </div>
                                         </div>
                                     </div>
