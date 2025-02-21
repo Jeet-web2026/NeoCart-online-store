@@ -213,11 +213,13 @@
                                         </div>
                                         <div class="col-md-9">
                                             <div class="card-body">
+                                            @if(Auth::guard('web')->check())
                                                 <h5 class="card-title fze-2 font-500">Hi 
-                                                    @if(Auth::guard('web')->check())
                                                     {{ Auth::guard('web')->user()->username }}
-                                                    @endif
                                                 </h5>
+                                                @else
+                                                <h5 class="card-title fze-2 font-500">Hi NeoCart user</h5>
+                                                @endif
                                                 <p class="card-text fze text-capitalize">recomendations for you!</p>
                                             </div>
                                         </div>
