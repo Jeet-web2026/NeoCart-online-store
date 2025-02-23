@@ -231,16 +231,15 @@
                                     <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
-                                                <div class="card mb-3">
+                                                <div class="card border-0">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
-                                                            <img src="..." class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                                <h5 class="card-title text-capitalize fze-1">your orders</h5>
+                                                                <p class="card-text text-capitalize fze">view your orders</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -251,16 +250,15 @@
                                     <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
-                                                <div class="card mb-3">
+                                                <div class="card border-0">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
-                                                            <img src="..." class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                                <h5 class="card-title text-capitalize fze-1">your orders</h5>
+                                                                <p class="card-text text-capitalize fze">view your orders</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -271,16 +269,15 @@
                                     <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
-                                                <div class="card mb-3">
+                                                <div class="card border-0">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
-                                                            <img src="..." class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                                <h5 class="card-title text-capitalize fze-1">your orders</h5>
+                                                                <p class="card-text text-capitalize fze">view your orders</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -291,16 +288,15 @@
                                     <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
-                                                <div class="card mb-3">
+                                                <div class="card border-0">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
-                                                            <img src="..." class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                                <h5 class="card-title text-capitalize fze-1">your orders</h5>
+                                                                <p class="card-text text-capitalize fze">view your orders</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -311,16 +307,15 @@
                                     <div class="col p-2">
                                         <div class="card border-0">
                                             <div class="card-body">
-                                                <div class="card mb-3">
+                                                <div class="card border-0">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
-                                                            <img src="..." class="img-fluid rounded-start" alt="...">
+                                                            <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                                <h5 class="card-title text-capitalize fze-1">your orders</h5>
+                                                                <p class="card-text text-capitalize fze">view your orders</p>
                                                             </div>
                                                         </div>
                                                     </div>
