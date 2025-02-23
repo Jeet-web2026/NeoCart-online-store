@@ -204,7 +204,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card border-0 bg-transparent">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-3">
                                 <div class="card border-0 bg-transparent">
                                     <div class="row g-0 align-items-center">
