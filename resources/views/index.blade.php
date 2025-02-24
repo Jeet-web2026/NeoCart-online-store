@@ -115,6 +115,10 @@
             background-color: #FCFAFB;
         }
 
+        #shopbyCategories .col-md-3 .card-img-top{
+            height: 40vh;
+        }
+
         /* shop by categories end */
     </style>
     @endsection
@@ -352,9 +356,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card border-0 shadow-sm">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://img.freepik.com/free-psd/beauty-sales-podium-background_23-2151644332.jpg" class="card-img-top" alt="products-img">
                         <div class="card-body">
-                            <h5 class="card-title text-capitalize fze-1">beauty products</h5>
+                            <h5 class="card-title text-capitalize fze-2">beauty products</h5>
                         </div>
                     </div>
                 </div>
