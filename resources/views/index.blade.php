@@ -333,6 +333,26 @@
     </section>
     {{--showcase section--}}
 
+    {{--shop by categories section--}}
+    <section id="shopbyCategories">
+        <div class="container-fluid px-5 py-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-between align-items-center">
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+    {{--shop by categories section--}}
+
     <x-Footer />
     <x-Modals />
 
