@@ -229,9 +229,9 @@
                             <div class="col-md-9">
                                 <div class="row showcase-products">
                                     <div class="col p-2">
-                                        <div class="card border-0">
+                                        <div class="card border-0 bg-transparent shadow-sm">
                                             <div class="card-body">
-                                                <div class="card border-0">
+                                                <div class="card border-0 bg-transparent">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
                                                             <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
@@ -248,9 +248,9 @@
                                         </div>
                                     </div>
                                     <div class="col p-2">
-                                        <div class="card border-0">
+                                        <div class="card border-0 border-0 bg-transparent shadow-sm">
                                             <div class="card-body">
-                                                <div class="card border-0">
+                                                <div class="card border-0 border-0 bg-transparent">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
                                                             <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
@@ -267,9 +267,9 @@
                                         </div>
                                     </div>
                                     <div class="col p-2">
-                                        <div class="card border-0">
+                                        <div class="card border-0 border-0 bg-transparent shadow-sm">
                                             <div class="card-body">
-                                                <div class="card border-0">
+                                                <div class="card border-0 border-0 bg-transparent">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
                                                             <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
@@ -286,9 +286,9 @@
                                         </div>
                                     </div>
                                     <div class="col p-2">
-                                        <div class="card border-0">
+                                        <div class="card border-0 border-0 bg-transparent shadow-sm">
                                             <div class="card-body">
-                                                <div class="card border-0">
+                                                <div class="card border-0 border-0 bg-transparent">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
                                                             <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
@@ -305,9 +305,9 @@
                                         </div>
                                     </div>
                                     <div class="col p-2">
-                                        <div class="card border-0">
+                                        <div class="card border-0 border-0 bg-transparent shadow-sm">
                                             <div class="card-body">
-                                                <div class="card border-0">
+                                                <div class="card border-0 border-0 bg-transparent">
                                                     <div class="row g-0">
                                                         <div class="col-md-4">
                                                             <img src="https://img.freepik.com/free-psd/3d-brown-parcel-box-shipping-online-delivery-concept-illustration-background_56104-2614.jpg" class="img-fluid rounded-start" alt="order-box-img">
