@@ -373,17 +373,17 @@
                 </div>
                 <div class="col-md-3 pe-2">
                     <div class="card border-0 shadow-sm">
-                        <img src="https://img.freepik.com/free-psd/beauty-sales-podium-background_23-2151644332.jpg" class="card-img-top" alt="products-img">
+                        <img src="https://img.freepik.com/free-vector/3d-realistic-collection-different-screens_1441-2741.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" class="card-img-top" alt="products-img">
                         <div class="card-body">
-                            <h5 class="card-title text-capitalize fze-2">beauty products</h5>
+                            <h5 class="card-title text-capitalize fze-2">best quality monitor</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card border-0 shadow-sm">
-                        <img src="https://img.freepik.com/free-psd/beauty-sales-podium-background_23-2151644332.jpg" class="card-img-top" alt="products-img">
+                        <img src="https://img.freepik.com/free-photo/business-desk-arrangement-with-itmes_23-2148128299.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" class="card-img-top" alt="products-img">
                         <div class="card-body">
-                            <h5 class="card-title text-capitalize fze-2">beauty products</h5>
+                            <h5 class="card-title text-capitalize fze-2">mouse</h5>
                         </div>
                     </div>
                 </div>
