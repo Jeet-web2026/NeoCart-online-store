@@ -109,6 +109,12 @@
         }
 
         /* showcase end */
+
+        /* shop by categories start */
+        #shopbyCategories{
+            background-color: #FCFAFB;
+        }
+        /* shop by categories end */
     </style>
     @endsection
 
@@ -339,7 +345,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="d-flex justify-content-between align-items-center">
-
+                        <p class="text-capitalize fze-2 font-500">shop by categories</p>
+                        <a href="javascript:void(0)" class="text-capitalize fze-2 font-500">all departments<i class="bi bi-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-md-3">
