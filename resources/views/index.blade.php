@@ -115,8 +115,9 @@
             background-color: #FCFAFB;
         }
 
-        #shopbyCategories .col-md-3 .card-img-top{
+        #shopbyCategories .col-md-3 .card-img-top {
             height: 40vh;
+            mix-blend-mode: multiply;
         }
 
         /* shop by categories end */
@@ -354,6 +355,30 @@
                         <a href="javascript:void(0)" class="text-capitalize fze-2 font-500 text-dark">all departments<i class="bi bi-arrow-right ms-2"></i></a>
                     </div>
                 </div>
+                <div class="col-md-3 pe-2">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714185.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" class="card-img-top" alt="products-img">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize fze-2">hardware accessories</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 pe-2">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://img.freepik.com/free-photo/computerchip-technology-electronics-industry_93675-128229.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" class="card-img-top" alt="products-img">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize fze-2">best quality ram's</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 pe-2">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://img.freepik.com/free-psd/beauty-sales-podium-background_23-2151644332.jpg" class="card-img-top" alt="products-img">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize fze-2">beauty products</h5>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-3">
                     <div class="card border-0 shadow-sm">
                         <img src="https://img.freepik.com/free-psd/beauty-sales-podium-background_23-2151644332.jpg" class="card-img-top" alt="products-img">
@@ -362,9 +387,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
             </div>
         </div>
     </section>
