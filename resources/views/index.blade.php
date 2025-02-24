@@ -111,9 +111,10 @@
         /* showcase end */
 
         /* shop by categories start */
-        #shopbyCategories{
+        #shopbyCategories {
             background-color: #FCFAFB;
         }
+
         /* shop by categories end */
     </style>
     @endsection
@@ -343,14 +344,19 @@
     <section id="shopbyCategories">
         <div class="container-fluid px-5 py-3">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 mb-2">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="text-capitalize fze-2 font-500">shop by categories</p>
-                        <a href="javascript:void(0)" class="text-capitalize fze-2 font-500">all departments<i class="bi bi-arrow-right ms-2"></i></a>
+                        <a href="javascript:void(0)" class="text-capitalize fze-2 font-500 text-dark">all departments<i class="bi bi-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-md-3">
-
+                    <div class="card border-0 shadow-sm">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize fze-1">beauty products</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-3"></div>
                 <div class="col-md-3"></div>
