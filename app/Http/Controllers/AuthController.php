@@ -81,7 +81,7 @@ class AuthController extends Controller
     public function checkGoogleauth()
     {
         $user = Socialite::driver('google')->user();
-        dump($user);
+        dump($user->email);
     }
 
     public function logout(Request $request)
