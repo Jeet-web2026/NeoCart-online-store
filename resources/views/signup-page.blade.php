@@ -17,7 +17,6 @@
             <h3 class="text-center fze-4 fw-bold text-black text-uppercase my-3">signup</h3>
             <form action="{{ route('user-signup-verification') }}" method="POST" enctype="multipart/form-data">
                 @csrf
-                <div class="fb-login-button" data-width="25" data-size="" data-button-type="" data-layout="" data-auto-logout-link="true" data-use-continue-as="false"></div>
                 <div class="mb-3">
                     <label for="user-full-name" class="form-label fze-2 font-500 text-black">Full name</label>
                     <input type="text" class="form-control shadow-none" id="user-full-name" name="user-full-name" value="{{ old('user-full-name') }}">
@@ -53,11 +52,6 @@
         </div>
     </div>
     {{--login form end--}}
-
-    @section('extrajscdns')
-
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v22.0"></script>
-    @endsection
 
 
 </x-DefaultLayout>
