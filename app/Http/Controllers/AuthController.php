@@ -81,12 +81,11 @@ class AuthController extends Controller
     public function checkGoogleauth()
     {
         $user = Socialite::driver('google')->user();
-        dump($user);
         $userData = [
             'username' => $user->name,
             'useremail' => $user->email,
             'userpassword' => $user->id,
-            'useraddress' => $user->picture,
+            'useraddress' => $user->avatar,
             'google_id' => $user->id
         ];
 
