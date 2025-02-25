@@ -73,8 +73,15 @@ class AuthController extends Controller
         return redirect()->route('user-login')->with('loginerror', 'Invalid credentials!');
     }
 
-    public function googleLogin(){
+    public function googleLogin()
+    {
         return Socialite::driver('google')->redirect();
+    }
+
+    public function checkGoogleauth()
+    {
+        $user = Socialite::driver('google')->user();
+        dump($user);
     }
 
     public function logout(Request $request)
@@ -82,6 +89,6 @@ class AuthController extends Controller
         Auth::guard('web')->logout();
         $request->session()->invalidate();
         return redirect()->route('home')
-        ->with('logout', 'Logout successfully!');
+            ->with('logout', 'Logout successfully!');
     }
 }

@@ -14,6 +14,7 @@ return new class extends Migration
             $table->string('useremail')->unique();
             $table->string('userpassword');
             $table->text('useraddress');
+            $table->string('google_id')->nullable();
         });
     }
     public function down(): void
