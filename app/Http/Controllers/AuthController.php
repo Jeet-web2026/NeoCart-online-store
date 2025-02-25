@@ -81,17 +81,17 @@ class AuthController extends Controller
     public function checkGoogleauth()
     {
         $user = Socialite::driver('google')->user();
-        $userCheck = User::where('google_id', $user->id)
-            ->where('useremail', $user->email)
-            ->first();
+        dump($user);
+        $userData = [
+            'username' => $user->name,
+            'useremail' => $user->email,
+            'userpassword' => $user->id,
+            'useraddress' => $user->picture,
+            'google_id' => $user->id
+        ];
 
-        if ($userCheck) {
-            Auth::login($userCheck);
-
-            return redirect()->route('user-login');
-        } else {
-            return redirect()->route('user-signup');
-        }
+        User::create($userData);
+        return redirect()->route('user-login')->with('success', 'Signedup successfully!');
     }
 
 
