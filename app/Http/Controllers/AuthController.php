@@ -81,14 +81,11 @@ class AuthController extends Controller
     public function checkGoogleauth()
     {
         $user = Socialite::driver('google')->user();
-
-        // Fetch the user object instead of a query builder
         $userCheck = User::where('google_id', $user->id)
             ->where('useremail', $user->email)
-            ->first(); // Use first() to get a single user object
+            ->first();
 
         if ($userCheck) {
-            // Use Auth::login() instead of Auth::attempt()
             Auth::login($userCheck);
 
             return redirect()->route('user-login');
