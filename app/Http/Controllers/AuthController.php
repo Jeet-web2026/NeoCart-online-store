@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Laravel\Socialite\Facades\Socialite;
 
 class AuthController extends Controller
 {
@@ -70,6 +71,10 @@ class AuthController extends Controller
         };
 
         return redirect()->route('user-login')->with('loginerror', 'Invalid credentials!');
+    }
+
+    public function googleLogin(){
+        return Socialite::driver('google')->redirect();
     }
 
     public function logout(Request $request)
