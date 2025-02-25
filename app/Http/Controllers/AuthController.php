@@ -81,17 +81,27 @@ class AuthController extends Controller
     public function checkGoogleauth()
     {
         $user = Socialite::driver('google')->user();
-        $userData = [
-            'username' => $user->name,
-            'useremail' => $user->email,
-            'userpassword' => $user->id,
-            'useraddress' => $user->avatar,
-            'google_id' => $user->id
-        ];
 
-        User::create($userData);
-        return redirect()->route('user-login')->with('success', 'Signedup successfully!');
+        $userCheck = User::where('google_id', $user->id)
+            ->orWhere('useremail', $user->email)
+            ->first();
+
+        if ($userCheck) {
+            Auth::login($userCheck);
+            return redirect()->route('user-login')->with('success', 'Logged in successfully!');
+        }
+        $newUser = User::create([
+            'username'       => $user->name,
+            'useremail'  => $user->email,
+            'google_id'  => $user->id,
+            'useraddress'     => $user->avatar,
+            'userpassword'   => bcrypt(str()->random(12)), 
+        ]);
+        Auth::login($newUser);
+
+        return redirect()->route('user-login')->with('success', 'Signed up successfully!');
     }
+
 
 
     public function logout(Request $request)
