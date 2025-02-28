@@ -88,7 +88,7 @@ class AuthController extends Controller
 
         if ($userCheck) {
             Auth::login($userCheck);
-            return redirect()->route('user-login')->with('success', 'Logged in successfully!');
+            return redirect()->route('home')->with('login', 'Logged in successfully!');
         }
         $newUser = User::create([
             'username'       => $user->name,
