@@ -167,7 +167,7 @@
 
 {{--logout-popup--}}
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
-    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div id="logout-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
             <strong class="me-auto fze-2">Logout</strong>
             <small>0 mins ago</small>
@@ -184,7 +184,7 @@
 
 {{--logout-popup--}}
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
-    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div id="login-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
             <strong class="me-auto fze-2">Login success!</strong>
             <small>0 mins ago</small>

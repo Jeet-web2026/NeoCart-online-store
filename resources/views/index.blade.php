@@ -63,6 +63,17 @@
                 ]
             });
             $('.showcase-products .slick-prev').hide();
+
+            let logoutMessage = "{{ session('logout') }}";
+            if (logoutMessage) {
+                let toastElement = new bootstrap.Toast(document.getElementById('logout-toast'));
+                toastElement.show();
+            }
+            let loginMessage = "{{ session('login') }}";
+            if (loginMessage) {
+                let toastElement = new bootstrap.Toast(document.getElementById('login-toast'));
+                toastElement.show();
+            }
         });
     </script>
     @endsection
