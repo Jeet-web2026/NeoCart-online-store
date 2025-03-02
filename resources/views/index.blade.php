@@ -140,6 +140,13 @@
         }
 
         /* notificationshowcase end */
+
+        /* neocartsspecial start */
+        #neocartsspecial .img-fluid{
+            height: 40vh;
+            width: 100%;
+        }
+        /* neocartsspecial end */
     </style>
     @endsection
 
@@ -455,7 +462,7 @@
     {{--neocartspecials section--}}
     <section id="neocartsspecial">
         <div class="container-fluid px-5 py-3">
-            <div class="card">
+            <div class="card border-0 shadow-sm">
                 <div class="row g-0">
                     <div class="col-md-8">
                         <div class="card-body">
@@ -465,7 +472,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
+                        <img src="https://img.freepik.com/free-photo/laptop-near-toy-sign-credit-card-supermarket-cart_23-2147949870.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" class="img-fluid rounded-end" alt="neocart-special">
                     </div>
                 </div>
             </div>
