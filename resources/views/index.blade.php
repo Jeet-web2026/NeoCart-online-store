@@ -170,7 +170,8 @@
         }
 
         #lastviewed .card-img-top:hover {
-            scale: 1px ;
+            transform: scale(105%);
+            transition: 0.4s ease-in-out;
         }
 
         #lastviewed .card .position-absolute{
@@ -186,6 +187,11 @@
             width: 100%;
             object-fit: cover;
             mix-blend-mode: multiply;
+        }
+
+        #neocarts-top-sellors .card-img-top:hover {
+            transform: scale(105%);
+            transition: 0.4s ease-in-out;
         }
 
         #neocarts-top-sellors .card .position-absolute{
