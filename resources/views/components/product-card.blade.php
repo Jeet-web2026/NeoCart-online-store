@@ -1,6 +1,7 @@
 <div class="col pe-2">
     <a href="javascript:void(0)">
-        <div class="card border-0 shadow-sm no-radius" style="background-color: #F3F3F5;">
+        <div class="card border-0 shadow-sm no-radius position-relative" style="background-color: #F3F3F5;">
+            <span class="text-light bg-warning position-absolute start-0 top-0 px-2 text-capitalize rounded-end-5">featured</span>
             <div class="d-flex justify-content-center align-items-center px-5">
                 <img src="https://img.freepik.com/free-psd/isolated-modern-laptop_23-2150629074.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" class="card-img-top no-radius" alt="...">
             </div>
