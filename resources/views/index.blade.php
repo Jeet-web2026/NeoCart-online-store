@@ -169,6 +169,10 @@
             mix-blend-mode: multiply;
         }
 
+        #lastviewed .card-img-top:hover {
+            scale: 1px ;
+        }
+
         #lastviewed .card .position-absolute{
             top: 3.5%;
             left: 3.5%;
