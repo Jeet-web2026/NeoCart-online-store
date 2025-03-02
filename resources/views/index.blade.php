@@ -427,8 +427,8 @@
                         <div class="row g-0">
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text my-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title text-black fze-2">Card title</h5>
+                                    <p class="card-text my-3 fze-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <a href="javascript:void(0)" class="text-dark text-capitalize fze-1">see more<i class="bi bi-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
@@ -443,8 +443,8 @@
                         <div class="row g-0">
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text my-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title text-black fze-2">Card title</h5>
+                                    <p class="card-text my-3 fze-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <a href="javascript:void(0)" class="text-dark text-capitalize fze-1">see more<i class="bi bi-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
@@ -464,11 +464,10 @@
         <div class="container-fluid px-5 py-3">
             <div class="card border-0 shadow-sm">
                 <div class="row g-0">
-                    <div class="col-md-8">
+                    <div class="col-md-8 ps-5 py-5">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title fze-1 text-capitalize text-secondary">NeoCarts special offers</h5>
+                            <h2 class="text-uppercase text-black fw-bold fze-4">NeoCart delivers to you</h2>
                         </div>
                     </div>
                     <div class="col-md-4">
