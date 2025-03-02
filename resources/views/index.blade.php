@@ -64,6 +64,40 @@
             });
             $('.showcase-products .slick-prev').hide();
 
+            $('.showcase-products-female').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                arrows: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+            $('.showcase-products-female .slick-prev').hide();
+
             let logoutMessage = "{{ session('logout') }}";
             if (logoutMessage) {
                 let toastElement = new bootstrap.Toast(document.getElementById('logout-toast'));
@@ -74,6 +108,9 @@
                 let toastElement = new bootstrap.Toast(document.getElementById('login-toast'));
                 toastElement.show();
             }
+
+            $('#lastviewed .row').find('.col').eq(4).removeClass('me-3');
+            $('#neocarts-top-sellors .row').find('.col').eq(4).removeClass('me-3');
         });
     </script>
     @endsection
@@ -174,7 +211,7 @@
             transition: 0.4s ease-in-out;
         }
 
-        #lastviewed .card .position-absolute{
+        #lastviewed .card .position-absolute {
             top: 3.5%;
             left: 3.5%;
         }
@@ -194,7 +231,7 @@
             transition: 0.4s ease-in-out;
         }
 
-        #neocarts-top-sellors .card .position-absolute{
+        #neocarts-top-sellors .card .position-absolute {
             top: 3.5%;
             left: 3.5%;
         }
@@ -577,6 +614,61 @@
         </div>
     </section>
     {{--neocartstopsellors section--}}
+
+    {{--viewdividebygender section--}}
+    <section id="viewdividedbygender">
+        <div class="container-fluid px-5 py-3">
+            <div class="row">
+                <div class="col-md-6 pe-2">
+                    <div class="card border-0 shadow-sm" style="background-color: #F8F3F0;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3 class="text-capitalize text-black fze-2">comfy styles for her</h3>
+                                    <p class="my-2 fze-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, minus dicta alias quos cumque aspernatur!</p>
+                                    <a href="javascript:void(0)" class="text-dark text-capitalize">see more<i class="bi bi-arrow-right ms-2"></i></a>
+                                    <div class="row showcase-products-female mt-4">
+                                        <div class="col pe-2">
+                                            <div class="card border-0 bg-transparent">
+                                                <div class="card-body ps-0">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <img src="" alt="" class="divided-img">
+                                                        </div>
+                                                        <div class="col-md-6">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col pe-2">
+                                            <div class="card border-0 bg-transparent">
+                                                <div class="card-body ps-0">
+                                                    This is some text within a card body.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ps-2">
+                    <div class="card border-0 shadow-sm" style="background-color: #F3F3F5;">
+                        <div class="card-body">
+                            This is some text within a card body.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{--viewdividebygender section--}}
 
     <x-Footer />
     <x-Modals />
