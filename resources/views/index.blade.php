@@ -132,6 +132,13 @@
         }
 
         /* shop by categories end */
+
+        /* notificationshowcase start */
+        #notificationshowcase .img-fluid{
+            height: 30vh;
+            width: 100%;
+        }
+        /* notificationshowcase end */
     </style>
     @endsection
 
@@ -410,15 +417,15 @@
                 <div class="col-md-6 pe-1">
                     <div class="card border-0 shadow-sm">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
-                            </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text my-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <a href="javascript:void(0)" class="text-dark text-capitalize fze-1">see more<i class="bi bi-arrow-right ms-2"></i></a>
                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="https://img.freepik.com/free-photo/still-life-books-versus-technology_23-2150062920.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" class="img-fluid rounded-end" alt="laptop-with-exciting-offers">
                             </div>
                         </div>
                     </div>
@@ -426,15 +433,15 @@
                 <div class="col-md-6 ps-1">
                     <div class="card border-0 shadow-sm">
                         <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
-                            </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text my-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <a href="javascript:void(0)" class="text-dark text-capitalize fze-1">see more<i class="bi bi-arrow-right ms-2"></i></a>
                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="https://img.freepik.com/free-photo/close-up-different-digital-devices_1232-776.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" class="img-fluid rounded-end" alt="...">
                             </div>
                         </div>
                     </div>
