@@ -401,7 +401,7 @@
                 <div class="col-md-12 mt-2 mb-3">
                     <div class="d-flex justify-content-between align-items-center">
                         <p class="text-capitalize fze-2 font-500">shop by categories</p>
-                        <a href="javascript:void(0)" class="text-capitalize fze-2 font-500 text-dark">all departments<i class="bi bi-arrow-right ms-2"></i></a>
+                        <a href="javascript:void(0)" class="text-capitalize fze-1 font-500 text-dark">view all departments<i class="bi bi-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-md-3 pe-2">

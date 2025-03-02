@@ -1,4 +1,4 @@
-<div class="col pe-2">
+<div class="col me-3">
     <a href="javascript:void(0)">
         <div class="card border-0 shadow-sm no-radius position-relative pb-2" style="background-color: #F3F3F5;">
             <span class="text-light bg-warning position-absolute start-0 top-0 px-2 text-capitalize rounded-end-5">featured</span>
@@ -8,7 +8,7 @@
             <div class="card-body">
                 <p class="text-capitalize fze-1 text-secondary mb-2">company name</p>
                 <h5 class="card-title fze-2 texe-capitalize tetx-black font-500">Card title</h5>
-                <div class="d-flex justify-content-start align-items-center mb-2">
+                <div class="d-flex justify-content-start align-items-center mb-3">
                     <i class="bi bi-star-fill fze text-warning"></i>
                     <i class="bi bi-star-fill fze text-warning"></i>
                     <i class="bi bi-star-fill fze text-warning"></i>
