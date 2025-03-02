@@ -169,7 +169,27 @@
             mix-blend-mode: multiply;
         }
 
+        #lastviewed .card .position-absolute{
+            top: 3.5%;
+            left: 3.5%;
+        }
+
         /* lastviewed end */
+
+        /* neocartstopsellors start */
+        #neocarts-top-sellors .card-img-top {
+            height: 25vh;
+            width: 100%;
+            object-fit: cover;
+            mix-blend-mode: multiply;
+        }
+
+        #neocarts-top-sellors .card .position-absolute{
+            top: 3.5%;
+            left: 3.5%;
+        }
+
+        /* neocartstopsellors end */
     </style>
     @endsection
 
@@ -533,7 +553,7 @@
                 <div class="col-md-12 mb-2">
                     <div class="card border-0 bg-transparent">
                         <div class="card-body d-flex justify-content-between align-items-center px-0">
-                            <h5 class="text-capitalize fze-2">last viewed</h5>
+                            <h5 class="text-capitalize fze-2">NeoCarts top sellors</h5>
                             <a href="javascript:void(0)" class="text-capitalize text-dark fze-1">view details<i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
