@@ -166,6 +166,7 @@
             height: 25vh;
             width: 100%;
             object-fit: cover;
+            mix-blend-mode: multiply;
         }
 
         /* lastviewed end */
