@@ -508,7 +508,7 @@
     <section id="lastviewed">
         <div class="container-fluid px-5 py-3">
             <div class="row">
-                <div class="col-md-12 mb-3">
+                <div class="col-md-12 mb-2">
                     <div class="card border-0 bg-transparent">
                         <div class="card-body d-flex justify-content-between align-items-center px-0">
                             <h5 class="text-capitalize fze-2">last viewed</h5>
@@ -525,6 +525,28 @@
         </div>
     </section>
     {{--lastviewed section--}}
+
+    {{--neocartstopsellors section--}}
+    <section id="neocarts-top-sellors">
+        <div class="container-fluid px-5 py-3">
+            <div class="row">
+                <div class="col-md-12 mb-2">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body d-flex justify-content-between align-items-center px-0">
+                            <h5 class="text-capitalize fze-2">last viewed</h5>
+                            <a href="javascript:void(0)" class="text-capitalize text-dark fze-1">view details<i class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
+            </div>
+        </div>
+    </section>
+    {{--neocartstopsellors section--}}
 
     <x-Footer />
     <x-Modals />
