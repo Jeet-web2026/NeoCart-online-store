@@ -143,7 +143,7 @@
 
         /* neocartsspecial start */
         #neocartsspecial .img-fluid{
-            height: 40vh;
+            height: 45vh;
             width: 100%;
         }
         /* neocartsspecial end */
@@ -424,7 +424,7 @@
             <div class="row">
                 <div class="col-md-6 pe-1">
                     <div class="card border-0 shadow-sm">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title text-black fze-2">Card title</h5>
@@ -440,7 +440,7 @@
                 </div>
                 <div class="col-md-6 ps-1">
                     <div class="card border-0 shadow-sm">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title text-black fze-2">Card title</h5>
@@ -463,11 +463,13 @@
     <section id="neocartsspecial">
         <div class="container-fluid px-5 py-3">
             <div class="card border-0 shadow-sm">
-                <div class="row g-0">
-                    <div class="col-md-8 ps-5 py-5">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-8 px-5">
                         <div class="card-body">
                             <h5 class="card-title fze-1 text-capitalize text-secondary">NeoCarts special offers</h5>
-                            <h2 class="text-uppercase text-black fw-bold fze-4">NeoCart delivers to you</h2>
+                            <h2 class="text-uppercase text-black fw-bold fze-4 my-3">NeoCart delivers to you</h2>
+                            <p class="fze-1 mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nemo nisi vel iusto! Consectetur unde fugiat facilis possimus placeat mollitia?</p>
+                            <a href="javascript:void(0)" class="btn btn-outline-dark shadow-none text-capitalize">view more</a>
                         </div>
                     </div>
                     <div class="col-md-4">
