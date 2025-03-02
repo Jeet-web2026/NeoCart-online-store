@@ -131,6 +131,10 @@
             mix-blend-mode: multiply;
         }
 
+        #shopbyCategories .col-md-3 .card {
+            background-color: #F2F2F2;
+        }
+
         /* shop by categories end */
 
         /* notificationshowcase start */
@@ -139,14 +143,32 @@
             width: 100%;
         }
 
+        #notificationshowcase .col-md-6 .card {
+            background-color: #F8F3F0;
+        }
+
         /* notificationshowcase end */
 
         /* neocartsspecial start */
-        #neocartsspecial .img-fluid{
+        #neocartsspecial .img-fluid {
             height: 45vh;
             width: 100%;
         }
+
+        #neocartsspecial .card{
+            background-color: #F3F3F5;
+        }
+
         /* neocartsspecial end */
+
+        /* lastviewed start */
+        #lastviewed .card-img-top {
+            height: 25vh;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        /* lastviewed end */
     </style>
     @endsection
 
@@ -422,7 +444,7 @@
     <section id="notificationshowcase">
         <div class="container-fluid px-5 py-3">
             <div class="row">
-                <div class="col-md-6 pe-1">
+                <div class="col-md-6 pe-2">
                     <div class="card border-0 shadow-sm">
                         <div class="row g-0 align-items-center">
                             <div class="col-md-8">
@@ -462,7 +484,7 @@
     {{--neocartspecials section--}}
     <section id="neocartsspecial">
         <div class="container-fluid px-5 py-3">
-            <div class="card border-0 shadow-sm">
+            <div class="card border-0 shadow-sm no-radius">
                 <div class="row g-0 align-items-center">
                     <div class="col-md-8 px-5">
                         <div class="card-body">
@@ -480,6 +502,20 @@
         </div>
     </section>
     {{--neocartspecials section--}}
+
+    {{--lastviewed section--}}
+    <section id="lastviewed">
+        <div class="container-fluid px-5 py-3">
+            <div class="row">
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
+            </div>
+        </div>
+    </section>
+    {{--lastviewed section--}}
 
     <x-Footer />
     <x-Modals />
