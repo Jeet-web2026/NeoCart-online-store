@@ -204,6 +204,11 @@
             color: #111;
         }
 
+        #showcase .slick-current{
+            border-bottom: 2px solid #ddaeb3;
+            padding-bottom: 10px;
+        }
+
         /* showcase end */
 
         /* shop by categories start */
@@ -374,6 +379,11 @@
             color: #111;
         }
 
+        #specialised-products .slick-current{
+            border-bottom: 2px solid #ddaeb3;
+            padding-bottom: 10px;
+        }
+
         /* specialised-products end */
     </style>
     @endsection
@@ -466,7 +476,7 @@
 
     {{--showcase section--}}
     <section id="showcase">
-        <div class="container-fluid px-5 py-3">
+        <div class="container-fluid px-5 pt-3">
             <div class="row">
                 <div class="col-md-12">
                     <div class="card border-0 bg-transparent">
@@ -495,7 +505,7 @@
                             <div class="col-md-9">
                                 <div class="row showcase-products">
                                     <div class="col p-2">
-                                        <div class="card border-0 bg-transparent shadow-sm">
+                                        <div class="card border-0 bg-transparent">
                                             <div class="card-body">
                                                 <div class="card border-0 bg-transparent">
                                                     <div class="row g-0">
@@ -514,7 +524,7 @@
                                         </div>
                                     </div>
                                     <div class="col p-2">
-                                        <div class="card border-0 border-0 bg-transparent shadow-sm">
+                                        <div class="card border-0 border-0 bg-transparent">
                                             <div class="card-body">
                                                 <div class="card border-0 border-0 bg-transparent">
                                                     <div class="row g-0">
@@ -533,7 +543,7 @@
                                         </div>
                                     </div>
                                     <div class="col p-2">
-                                        <div class="card border-0 border-0 bg-transparent shadow-sm">
+                                        <div class="card border-0 border-0 bg-transparent">
                                             <div class="card-body">
                                                 <div class="card border-0 border-0 bg-transparent">
                                                     <div class="row g-0">
@@ -552,7 +562,7 @@
                                         </div>
                                     </div>
                                     <div class="col p-2">
-                                        <div class="card border-0 border-0 bg-transparent shadow-sm">
+                                        <div class="card border-0 border-0 bg-transparent">
                                             <div class="card-body">
                                                 <div class="card border-0 border-0 bg-transparent">
                                                     <div class="row g-0">
@@ -571,7 +581,7 @@
                                         </div>
                                     </div>
                                     <div class="col p-2">
-                                        <div class="card border-0 border-0 bg-transparent shadow-sm">
+                                        <div class="card border-0 border-0 bg-transparent">
                                             <div class="card-body">
                                                 <div class="card border-0 border-0 bg-transparent">
                                                     <div class="row g-0">
@@ -884,7 +894,7 @@
     <section id="specialised-products">
         <div class="container-fluid py-3 px-5">
             <div class="card border-0" style="background-color: #F8F3F0;">
-                <div class="card-body px-5 py-4">
+                <div class="card-body px-5 pt-4 pb-0">
                     <div class="row specialised-products-showcase px-3">
                         <div class="col pe-2">
                             <div class="d-flex align-items-center">
