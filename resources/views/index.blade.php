@@ -112,6 +112,39 @@
             $('#lastviewed .row').find('.col').eq(4).removeClass('me-3');
             $('#neocarts-top-sellors .row').find('.col').eq(4).removeClass('me-3');
             $('#customer-recomandtion .row').find('.col').eq(4).removeClass('me-3');
+
+            $('.specialised-products-showcase').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                arrows: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
         });
     </script>
     @endsection
@@ -825,29 +858,50 @@
         <div class="container-fluid py-3 px-5">
             <div class="card border-0" style="background-color: #F8F3F0;">
                 <div class="card-body">
-                    <div class="row">
+                    <div class="row specialised-products-showcase">
                         <div class="col pe-2">
                             <div class="d-flex align-items-center">
-                                <img src="https://img.freepik.com/free-photo/black-friday-elements-white-background_23-2148665518.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
-                                <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
+                                <div>
+                                    <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                                    <p class="text-capitalize fze mt-2">flat 20% off</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col pe-2">
                             <div class="d-flex align-items-center">
-                                <img src="https://img.freepik.com/free-photo/black-friday-elements-white-background_23-2148665518.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
-                                <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
+                                <div>
+                                    <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                                    <p class="text-capitalize fze mt-2">flat 20% off</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col pe-2">
                             <div class="d-flex align-items-center">
-                                <img src="https://img.freepik.com/free-photo/black-friday-elements-white-background_23-2148665518.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
-                                <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
+                                <div>
+                                    <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                                    <p class="text-capitalize fze mt-2">flat 20% off</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col pe-2">
+                            <div class="d-flex align-items-center">
+                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
+                                <div>
+                                    <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                                    <p class="text-capitalize fze mt-2">flat 20% off</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="d-flex align-items-center">
-                                <img src="https://img.freepik.com/free-photo/black-friday-elements-white-background_23-2148665518.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
-                                <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
+                                <div>
+                                    <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                                    <p class="text-capitalize fze mt-2">flat 20% off</p>
+                                </div>
                             </div>
                         </div>
                     </div>
