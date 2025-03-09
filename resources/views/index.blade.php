@@ -305,6 +305,16 @@
         }
 
         /* customer-recomandtion end */
+
+        /* specialised-products start */
+        #specialised-products .specialised-products-img {
+            height: 15vh;
+            width: 100%;
+            object-fit: cover;
+            mix-blend-mode: multiply;
+        }
+
+        /* specialised-products end */
     </style>
     @endsection
 
@@ -809,6 +819,43 @@
         </div>
     </section>
     {{--customer recomandition section--}}
+
+    {{--specilised products section--}}
+    <section id="specialised-products">
+        <div class="container-fluid py-3 px-5">
+            <div class="card border-0" style="background-color: #F8F3F0;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col pe-2">
+                            <div class="d-flex align-items-center">
+                                <img src="https://img.freepik.com/free-photo/black-friday-elements-white-background_23-2148665518.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
+                                <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                            </div>
+                        </div>
+                        <div class="col pe-2">
+                            <div class="d-flex align-items-center">
+                                <img src="https://img.freepik.com/free-photo/black-friday-elements-white-background_23-2148665518.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
+                                <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                            </div>
+                        </div>
+                        <div class="col pe-2">
+                            <div class="d-flex align-items-center">
+                                <img src="https://img.freepik.com/free-photo/black-friday-elements-white-background_23-2148665518.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
+                                <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex align-items-center">
+                                <img src="https://img.freepik.com/free-photo/black-friday-elements-white-background_23-2148665518.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2">
+                                <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{--specilised products section--}}
 
     <x-Footer />
     <x-Modals />
