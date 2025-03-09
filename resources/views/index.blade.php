@@ -111,6 +111,7 @@
 
             $('#lastviewed .row').find('.col').eq(4).removeClass('me-3');
             $('#neocarts-top-sellors .row').find('.col').eq(4).removeClass('me-3');
+            $('#customer-recomandtion .row').find('.col').eq(4).removeClass('me-3');
         });
     </script>
     @endsection
