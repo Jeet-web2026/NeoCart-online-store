@@ -252,6 +252,20 @@
             bottom: 0;
             object-fit: cover;
         }
+        #viewdividedbygender .slick-next{
+            right: 0;
+            border: 1px solid #111;
+            border-radius: 50%;
+            height: 22px;
+            width: 22px;
+        }
+
+        #viewdividedbygender .slick-next:before{
+            font-family: normal;
+            font-size: 12px;
+            line-height: .6;
+            color: #111;
+        }
 
         /* viewdividebygender end */
     </style>
