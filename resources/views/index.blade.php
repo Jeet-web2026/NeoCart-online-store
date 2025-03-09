@@ -791,19 +791,19 @@
     <section id="customer-recomandtion">
         <div class="container-fluid px-5 py-3">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 mb-2">
                     <div class="card border-0 bg-transparent">
-                        <div class="card-body p-0 d-flex justify-content-between align-items-center">
+                        <div class="card-body px-0 d-flex justify-content-between align-items-center">
                             <h5 class="text-capitalize fze-2">NeoCart's user, this must have you 👇</h5>
                             <a href="javascript:void(0)" class="text-capitalize fze-1 text-dark">view more<i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
-                    <x-product-card />
-                    <x-product-card />
-                    <x-product-card />
-                    <x-product-card />
-                    <x-product-card />
                 </div>
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
             </div>
         </div>
     </section>
