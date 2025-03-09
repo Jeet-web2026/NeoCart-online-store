@@ -238,10 +238,12 @@
 
         /* neocartstopsellors end */
         /* viewdividebygender start */
-        #viewdividedbygender .divided-img{
-            height: 20vh;
+        #viewdividedbygender .divided-img {
+            height: 15vh;
             mix-blend-mode: multiply;
+            width: 100%;
         }
+
         /* viewdividebygender end */
     </style>
     @endsection
@@ -633,16 +635,17 @@
                                     <h3 class="text-capitalize text-black fze-2">comfy styles for your office</h3>
                                     <p class="my-2 fze-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, minus dicta alias quos cumque aspernatur!</p>
                                     <a href="javascript:void(0)" class="text-dark text-capitalize">see more<i class="bi bi-arrow-right ms-2"></i></a>
-                                    <div class="row showcase-products-female mt-4">
+                                    <div class="row showcase-products-female mt-2">
                                         <div class="col pe-2">
                                             <div class="card border-0 bg-transparent">
                                                 <div class="card-body ps-0">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <img src="https://img.freepik.com/free-photo/workplace-with-keyboard-near-monitor-computer-mouse-headphones_23-2148040487.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="computer-image" class="divided-img">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-md-4">
+                                                            <img src="https://img.freepik.com/free-photo/workplace-with-keyboard-near-monitor-computer-mouse-headphones_23-2148040487.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="computer-image" class="divided-img rounded-2">
                                                         </div>
-                                                        <div class="col-md-6">
-
+                                                        <div class="col-md-8 ps-3">
+                                                            <h5 class="fze-1 font-500 text-black mb-2 text-capitalize">top laptops</h5>
+                                                            <p class="fze text-capitalize">with 20% discount</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -658,7 +661,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-5">
-
+                                    <img src="https://img.freepik.com/free-photo/young-blonde-woman-pointing-her-laptop_329181-12335.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="">
                                 </div>
                             </div>
                         </div>
