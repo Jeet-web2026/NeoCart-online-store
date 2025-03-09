@@ -766,6 +766,10 @@
     </section>
     {{--viewdividebygender section--}}
 
+    {{--customer recomandition section--}}
+    
+    {{--customer recomandition section--}}
+
     <x-Footer />
     <x-Modals />
 
