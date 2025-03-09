@@ -347,6 +347,33 @@
             mix-blend-mode: multiply;
         }
 
+        #specialised-products .slick-next {
+            border: 1px solid #111;
+            border-radius: 50%;
+            height: 22px;
+            width: 22px;
+        }
+
+        #specialised-products .slick-next:before {
+            font-family: normal;
+            font-size: 12px;
+            line-height: .6;
+            color: #111;
+        }
+        #specialised-products .slick-prev {
+            border: 1px solid #111;
+            border-radius: 50%;
+            height: 22px;
+            width: 22px;
+        }
+
+        #specialised-products .slick-prev:before {
+            font-family: normal;
+            font-size: 12px;
+            line-height: .6;
+            color: #111;
+        }
+
         /* specialised-products end */
     </style>
     @endsection
