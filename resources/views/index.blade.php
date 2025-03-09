@@ -888,7 +888,7 @@
                     <div class="row specialised-products-showcase px-3">
                         <div class="col pe-2">
                             <div class="d-flex align-items-center">
-                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
+                                <img src="{{ asset('essentials/images/special-product.png') }}" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
                                 <div class="w-50">
                                     <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
                                     <p class="text-capitalize fze mt-2">flat 20% off</p>
@@ -897,7 +897,7 @@
                         </div>
                         <div class="col pe-2">
                             <div class="d-flex align-items-center">
-                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
+                                <img src="{{ asset('essentials/images/special-product.png') }}" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
                                 <div class="w-50">
                                     <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
                                     <p class="text-capitalize fze mt-2">flat 20% off</p>
@@ -906,7 +906,7 @@
                         </div>
                         <div class="col pe-2">
                             <div class="d-flex align-items-center">
-                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
+                                <img src="{{ asset('essentials/images/special-product.png') }}" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
                                 <div class="w-50">
                                     <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
                                     <p class="text-capitalize fze mt-2">flat 20% off</p>
@@ -915,7 +915,7 @@
                         </div>
                         <div class="col pe-2">
                             <div class="d-flex align-items-center">
-                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
+                                <img src="{{ asset('essentials/images/special-product.png') }}" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
                                 <div class="w-50">
                                     <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
                                     <p class="text-capitalize fze mt-2">flat 20% off</p>
@@ -924,7 +924,7 @@
                         </div>
                         <div class="col pe-2">
                             <div class="d-flex align-items-center">
-                                <img src="https://img.freepik.com/free-vector/isolated-latop-with-ribbon_1368-386.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
+                                <img src="{{ asset('essentials/images/special-product.png') }}" alt="specialised-products-img" class="specialised-products-img me-2 w-50">
                                 <div class="w-50">
                                     <h5 class="text-capitalize fze-1 text-black font-500">best computer & laptops</h5>
                                     <p class="text-capitalize fze mt-2">flat 20% off</p>
