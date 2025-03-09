@@ -283,6 +283,27 @@
         }
 
         /* viewdividebygender end */
+
+        /* customer-recomandtion start */
+
+        #customer-recomandtion .card-img-top {
+            height: 25vh;
+            width: 100%;
+            object-fit: cover;
+            mix-blend-mode: multiply;
+        }
+
+        #customer-recomandtion .card-img-top:hover {
+            transform: scale(105%);
+            transition: 0.4s ease-in-out;
+        }
+
+        #customer-recomandtion .card .position-absolute {
+            top: 3.5%;
+            left: 3.5%;
+        }
+
+        /* customer-recomandtion end */
     </style>
     @endsection
 
@@ -714,7 +735,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 ps-2">
-                <div class="card border-0 shadow-sm" style="background-color: #F3F3F5;">
+                    <div class="card border-0 shadow-sm" style="background-color: #F3F3F5;">
                         <div class="card-body p-0">
                             <div class="row">
                                 <div class="col-md-7 p-3">
@@ -767,7 +788,25 @@
     {{--viewdividebygender section--}}
 
     {{--customer recomandition section--}}
-    
+    <section id="customer-recomandtion">
+        <div class="container-fluid px-5 py-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body p-0 d-flex justify-content-between align-items-center">
+                            <h5 class="text-capitalize fze-2">NeoCart's user, this must have you 👇</h5>
+                            <a href="javascript:void(0)" class="text-capitalize fze-1 text-dark">view more<i class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                    <x-product-card />
+                    <x-product-card />
+                    <x-product-card />
+                    <x-product-card />
+                    <x-product-card />
+                </div>
+            </div>
+        </div>
+    </section>
     {{--customer recomandition section--}}
 
     <x-Footer />
