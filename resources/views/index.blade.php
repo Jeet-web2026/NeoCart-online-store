@@ -244,6 +244,15 @@
             width: 100%;
         }
 
+        #viewdividedbygender .product-img{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            object-fit: cover;
+        }
+
         /* viewdividebygender end */
     </style>
     @endsection
@@ -629,9 +638,9 @@
             <div class="row">
                 <div class="col-md-6 pe-2">
                     <div class="card border-0 shadow-sm" style="background-color: #F8F3F0;">
-                        <div class="card-body">
+                        <div class="card-body p-0">
                             <div class="row">
-                                <div class="col-md-7">
+                                <div class="col-md-7 p-3">
                                     <h3 class="text-capitalize text-black fze-2">comfy styles for your office</h3>
                                     <p class="my-2 fze-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, minus dicta alias quos cumque aspernatur!</p>
                                     <a href="javascript:void(0)" class="text-dark text-capitalize">see more<i class="bi bi-arrow-right ms-2"></i></a>
@@ -660,8 +669,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-5">
-                                    <img src="https://img.freepik.com/free-photo/young-blonde-woman-pointing-her-laptop_329181-12335.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="">
+                                <div class="col-md-5 position-relative">
+                                    <img src="https://img.freepik.com/free-photo/young-blonde-woman-pointing-her-laptop_329181-12335.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="product-img" class="product-img rounded-end-2">
                                 </div>
                             </div>
                         </div>
