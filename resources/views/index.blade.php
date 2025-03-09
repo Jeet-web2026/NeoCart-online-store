@@ -237,6 +237,12 @@
         }
 
         /* neocartstopsellors end */
+        /* viewdividebygender start */
+        #viewdividedbygender .divided-img{
+            height: 20vh;
+            mix-blend-mode: multiply;
+        }
+        /* viewdividebygender end */
     </style>
     @endsection
 
@@ -624,7 +630,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-7">
-                                    <h3 class="text-capitalize text-black fze-2">comfy styles for her</h3>
+                                    <h3 class="text-capitalize text-black fze-2">comfy styles for your office</h3>
                                     <p class="my-2 fze-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, minus dicta alias quos cumque aspernatur!</p>
                                     <a href="javascript:void(0)" class="text-dark text-capitalize">see more<i class="bi bi-arrow-right ms-2"></i></a>
                                     <div class="row showcase-products-female mt-4">
@@ -633,7 +639,7 @@
                                                 <div class="card-body ps-0">
                                                     <div class="row">
                                                         <div class="col-md-6">
-                                                            <img src="" alt="" class="divided-img">
+                                                            <img src="https://img.freepik.com/free-photo/workplace-with-keyboard-near-monitor-computer-mouse-headphones_23-2148040487.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid" alt="computer-image" class="divided-img">
                                                         </div>
                                                         <div class="col-md-6">
 
