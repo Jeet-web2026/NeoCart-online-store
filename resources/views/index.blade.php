@@ -396,8 +396,11 @@
 
         /* user-subscribe start */
         #user-subscribe .subscribe-now {
-            height: 30vh;
+            height: 40vh;
             mix-blend-mode: multiply;
+            bottom: -8%;
+            width: 25vw;
+            object-fit: cover;
         }
 
         /* user-subscribe end */
@@ -979,8 +982,8 @@
                                     <a href="javascript:void(0)" class="btn btn-outline-dark shadow-none fze text-capitalize mt-3">subscribe now</a>
                                 </div>
                             </div>
-                            <div class="col-md-5 d-flex justify-content-center align-items-center">
-                                <img src="https://img.freepik.com/free-photo/confident-young-woman-presenting-side-isolated-white-background_23-2147838696.jpg" class="subscribe-now" alt="subscribe-now">
+                            <div class="col-md-5 d-flex justify-content-center align-items-center position-relative">
+                                <img src="https://img.freepik.com/free-photo/confident-young-woman-presenting-side-isolated-white-background_23-2147838696.jpg" class="subscribe-now position-absolute" alt="subscribe-now">
                             </div>
                         </div>
                     </div>
