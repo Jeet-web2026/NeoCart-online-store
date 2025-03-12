@@ -204,7 +204,7 @@
             color: #111;
         }
 
-        #showcase .slick-current{
+        #showcase .slick-current {
             border-bottom: 2px solid #ddaeb3;
             padding-bottom: 10px;
         }
@@ -365,6 +365,7 @@
             line-height: .6;
             color: #111;
         }
+
         #specialised-products .slick-prev {
             border: 1px solid #111;
             border-radius: 50%;
@@ -379,7 +380,7 @@
             color: #111;
         }
 
-        #specialised-products .slick-current{
+        #specialised-products .slick-current {
             border-bottom: 2px solid #ddaeb3;
             padding-bottom: 10px;
         }
@@ -947,6 +948,31 @@
         </div>
     </section>
     {{--specilised products section--}}
+
+    {{--subscribe section--}}
+    <section id="user-subscribe">
+        <div class="container-fluid px-4 py-3">
+            <div class="card border-0 shadow-sm" style="background-color: #F3F3F5;">
+                <div class="card-body">
+                    <div class="card border-0 bg-transparent">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="..." class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{--subscribe section--}}
 
     <x-Footer />
     <x-Modals />
