@@ -393,6 +393,13 @@
         }
 
         /* specialised-products end */
+
+        /* user-subscribe start */
+        #user-subscribe .subscribe-now{
+            height: 30vh;
+            mix-blend-mode: multiply;
+        }
+        /* user-subscribe end */
     </style>
     @endsection
 
@@ -970,8 +977,8 @@
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
-                            <div class="col-md-5">
-                                <img src="..." class="img-fluid rounded-start" alt="...">
+                            <div class="col-md-5 d-flex justify-content-center align-items-center">
+                                <img src="https://img.freepik.com/free-photo/confident-young-woman-presenting-side-isolated-white-background_23-2147838696.jpg" class="subscribe-now" alt="subscribe-now">
                             </div>
                         </div>
                     </div>
