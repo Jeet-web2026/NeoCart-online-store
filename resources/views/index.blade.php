@@ -973,7 +973,7 @@
             <div class="card border-0 shadow-sm" style="background-color: #F3F3F5;">
                 <div class="card-body">
                     <div class="card border-0 bg-transparent">
-                        <div class="row g-0">
+                        <div class="row g-0 px-5">
                             <div class="col-md-7">
                                 <div class="card-body">
                                     <p class="fze text-secondary text-capitalize mb-2">subscribe for updates</p>
