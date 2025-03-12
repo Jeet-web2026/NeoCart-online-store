@@ -17,9 +17,6 @@
             <h3 class="text-center fze-4 fw-bold text-black text-uppercase my-3">signup</h3>
             <form action="{{ route('user-signup-verification') }}" method="POST" enctype="multipart/form-data">
                 @csrf
-                <div class="d-flex justify-content-center align-items-center mb-2">
-                    <a href="{{ route('google-login') }}" class="btn btn-outline-primary text-center fze-1 rounded-pill text-capitalize"><i class="fa-brands fa-google me-2"></i>login with google</a>
-                </div>
                 <div class="mb-3">
                     <label for="user-full-name" class="form-label fze-2 font-500 text-black">Full name</label>
                     <input type="text" class="form-control shadow-none" id="user-full-name" name="user-full-name" value="{{ old('user-full-name') }}">
