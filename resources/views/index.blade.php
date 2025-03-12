@@ -145,6 +145,13 @@
                     }
                 ]
             });
+
+            $(document).on('click', '.backtop', function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 'slow');
+            });
+
         });
     </script>
     @endsection
