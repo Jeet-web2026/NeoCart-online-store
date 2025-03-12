@@ -951,7 +951,7 @@
 
     {{--subscribe section--}}
     <section id="user-subscribe">
-        <div class="container-fluid px-4 py-3">
+        <div class="container-fluid px-4 pb-4 pt-2">
             <div class="card border-0 shadow-sm" style="background-color: #F3F3F5;">
                 <div class="card-body">
                     <div class="card border-0 bg-transparent">
