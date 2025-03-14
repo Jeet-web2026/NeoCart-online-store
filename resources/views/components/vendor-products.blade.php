@@ -6,7 +6,7 @@
         
         ]" />
     <div class="vendor-products overflow-hidden" style="height: 100vh;">
-        <div class="all-products">
+        <div class="all-products" style="height: 100vh; overflow-y: scroll;">
             <div class="container-fluid" style="padding-top: 10vh;">
                 <div class="row">
                     <div class="col-md-3 p-2">
