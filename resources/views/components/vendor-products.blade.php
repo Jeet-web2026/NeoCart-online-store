@@ -3,6 +3,7 @@
         
         ['name' => 'all products', 'idname' => 'vendor-all-products'],
         ['name' => 'add products', 'idname' => 'vendor-add-products'],
+        ['name' => 'remove products', 'idname' => 'vendor-remove-products'],
         
         ]"/>
 </div>

@@ -65,18 +65,7 @@
     @section('extrajs')
     <script>
         $(document).ready(function() {
-            $("#dashboard #v-pills-products .nav-item").eq(0).addClass('bg-light rounded-2');
-            $("#dashboard #v-pills-products .nav-item").eq(0).find('.nav-link').removeClass('text-light').addClass('text-dark');
-
-            function navLinkManage(li) {
-                $(li).on('click', '.nav-link', function() {
-                    $(li).
-                    $(li).addClass('bg-light rounded-2');
-                    $(this).removeClass('text-light').addClass('text-dark');
-                });
-            }
-
-            navLinkManage("#dashboard #v-pills-products .nav-item");
+            $("#dashboard #v-pills-products .nav-item").eq(0).find('.nav-link').addClass('bg-light text-dark rounded-2');
         });
     </script>
     @endsection
