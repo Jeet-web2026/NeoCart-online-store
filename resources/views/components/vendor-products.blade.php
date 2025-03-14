@@ -2,8 +2,7 @@
     <x-vendor-inner-nav :links="[
         
         ['name' => 'all products', 'idname' => 'vendor-all-products'],
-        ['name' => 'add products', 'idname' => 'vendor-add-products'],
-        ['name' => 'remove products', 'idname' => 'vendor-remove-products'],
+        ['name' => 'manage products', 'idname' => 'vendor-manage-products'],
         
         ]"/>
 </div>

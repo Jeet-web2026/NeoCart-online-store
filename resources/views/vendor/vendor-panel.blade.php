@@ -65,7 +65,7 @@
     @section('extrajs')
     <script>
         $(document).ready(function() {
-            $("#dashboard #v-pills-products .nav-item").eq(0).find('.nav-link').addClass('bg-light text-dark rounded-2');
+            $("#dashboard #v-pills-products .nav-item .nav-link").eq(0).addClass('bg-light text-dark rounded-2');
         });
     </script>
     @endsection
