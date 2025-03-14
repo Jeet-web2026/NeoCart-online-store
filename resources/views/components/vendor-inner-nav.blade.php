@@ -11,7 +11,7 @@
                 @if(!empty($links))
                 @foreach($links as $singleLink)
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="{{ $singleLink['link'] }}">{{ $singleLink['name'] }}</a>
+                    <a id="{{ $singleLink['idname'] }}" class="nav-link text-light text-capitalize" href="javascript:void(0)">{{ $singleLink['name'] }}</a>
                 </li>
                 @endforeach
                 @endif
