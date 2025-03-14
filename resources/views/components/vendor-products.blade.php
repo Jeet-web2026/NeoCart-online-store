@@ -32,6 +32,14 @@
                         <label for="product-name" class="form-label text-capitalize fze-1 text-black">product name</label>
                         <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" id="product-name" name="product-name">
                     </div>
+                    <div class="row mb-3">
+                        <div class="col pe-2">
+                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Product price" aria-label="First name">
+                        </div>
+                        <div class="col ps-1">
+                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Available discount" aria-label="Last name">
+                        </div>
+                    </div>
                     <div class="mb-3">
                         <label for="product-description" class="form-label text-capitalize fze-1 text-black">product description</label>
                         <textarea class="form-control shadow-none fze-1 text-black text-capitalize" id="product-description" rows="3" name="product-description"></textarea>
