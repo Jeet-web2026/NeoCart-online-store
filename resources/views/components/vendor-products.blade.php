@@ -36,18 +36,18 @@
                     </div>
                     <div class="row mb-3">
                         <div class="col pe-2">
-                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Product price">
+                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Product price" id="product-price" name="product-price">
                         </div>
                         <div class="col ps-1">
-                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Available discount">
+                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Available discount" id="product-discount" name="product-discount">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col pe-2">
-                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Company name">
+                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Company name" id="product-company" name="product-company">
                         </div>
                         <div class="col ps-1">
-                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Available products count">
+                            <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" placeholder="Available products count" id="available-product" name="available-product">
                         </div>
                     </div>
                     <div class="mb-3">
