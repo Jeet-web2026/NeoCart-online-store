@@ -90,8 +90,19 @@
 
             tabs.forEach(tab => manageTab(tab.nav, tab.view));
 
-            $(document).on('submit', '#vendor-product-add-form', function(e){
+            $(document).on('submit', '#vendor-product-add-form', function(e) {
                 e.preventDefault();
+                let ProductImage = $(this).find('#product-image')[0].files[0];
+                if(!ProductImage){
+                    $('#vendor-product-add-form .vendor-product-form-result').html(`
+                    
+                    <div class="alert alert-danger alert-dismissible fade show fze-1 text-center text-capitalize" role="alert">
+                        <strong><i class="bi bi-exclamation-diamond me-2"></i>All fields required!</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    
+                    `);
+                }
             });
 
         });
