@@ -5,7 +5,7 @@
         ['name' => 'manage products', 'idname' => 'vendor-manage-products'],
         
         ]" />
-    <div class="vendor-products">
+    <div class="vendor-products overflow-hidden" style="height: 100vh;">
         <div class="all-products">
             <div class="container-fluid" style="padding-top: 10vh;">
                 <div class="row">
