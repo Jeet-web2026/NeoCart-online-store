@@ -7,12 +7,12 @@
         ]" />
     <div class="vendor-products">
         <div class="all-products">
-            <div class="container-fluid pt-5">
+            <div class="container-fluid" style="padding-top: 10vh;">
                 <p>all</p>
             </div>
         </div>
         <div class="manage-products">
-            <div class="container-fluid pt-5">
+            <div class="container-fluid" style="padding-top: 10vh;">
                 <p>manage</p>
             </div>
         </div>

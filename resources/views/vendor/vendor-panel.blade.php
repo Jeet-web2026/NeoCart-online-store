@@ -84,7 +84,6 @@
 
             tabs.forEach(tab => manageTab(tab.nav, tab.view));
 
-
         });
     </script>
     @endsection
