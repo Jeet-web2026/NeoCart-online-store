@@ -36,7 +36,7 @@
                         <label for="product-description" class="form-label text-capitalize fze-1 text-black">product description</label>
                         <textarea class="form-control shadow-none fze-1 text-black text-capitalize" id="product-description" rows="3" name="product-description"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-outline-success shadow-none fze-1">Save</button>
+                    <button type="submit" class="btn btn-outline-success shadow-none fze-1 px-4">Save</button>
                 </form>
             </div>
         </div>
