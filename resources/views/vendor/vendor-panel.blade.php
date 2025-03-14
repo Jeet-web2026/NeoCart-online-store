@@ -22,7 +22,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="tab-content" id="v-pills-tabContent" style="width: 100%;">
+                        <div class="tab-content h-100 position-relative" id="v-pills-tabContent" style="width: 100%;">
                             <x-vendor-home />
                             <x-vendor-products />
                             <x-vendor-orders />
