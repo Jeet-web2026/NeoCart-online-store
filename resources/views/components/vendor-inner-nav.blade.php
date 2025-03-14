@@ -1,4 +1,4 @@
-@props(['link' => ''])
+@props(['links' => []])
 
 <nav class="navbar navbar-expand-lg bg-dark position-absolute w-100">
     <div class="container-fluid">
@@ -9,10 +9,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                @if($link)
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="{{ url($link['link']) }}">{{ $link['name'] }}</a>
-                    </li>
+                @if(!empty($links))
+                @foreach($links as $singleLink)
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ $singleLink['link'] }}">{{ $singleLink['name'] }}</a>
+                </li>
+                @endforeach
                 @endif
             </ul>
             <form class="d-flex" role="search">
@@ -22,4 +24,3 @@
         </div>
     </div>
 </nav>
-
