@@ -55,6 +55,12 @@
         #dashboard .col-md-12 .nav-link {
             color: #ffffff;
         }
+
+        #dashboard #v-pills-products .all-products .card-img-top {
+            height: 18vh;
+            width: 100%;
+            object-fit: cover;
+        }
     </style>
     @endsection
 
