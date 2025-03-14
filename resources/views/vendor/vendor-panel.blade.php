@@ -24,10 +24,10 @@
                         </div>
                         <div class="tab-content" id="v-pills-tabContent" style="width: 75%;">
                             <x-vendor-home />
-                            <div class="tab-pane fade" id="v-pills-products" role="tabpanel" aria-labelledby="v-pills-products-tab" tabindex="0">products</div>
-                            <div class="tab-pane fade" id="v-pills-orders" role="tabpanel" aria-labelledby="v-pills-orders-tab" tabindex="0">orders</div>
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">profile</div>
-                            <div class="tab-pane fade" id="v-pills-subscriptions" role="tabpanel" aria-labelledby="v-pills-subscriptions-tab" tabindex="0">subscriptions</div>
+                            <x-vendor-products />
+                            <x-vendor-orders />
+                            <x-vendor-profile />
+                            <x-vendor-subscription />
                         </div>
                     </div>
                 </div>
