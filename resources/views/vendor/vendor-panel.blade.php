@@ -90,6 +90,10 @@
 
             tabs.forEach(tab => manageTab(tab.nav, tab.view));
 
+            $(document).on('submit', '#vendor-product-add-form', function(e){
+                e.preventDefault();
+            });
+
         });
     </script>
     @endsection

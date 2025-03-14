@@ -24,6 +24,8 @@
         <div class="manage-products overflow-auto" style="height: 100vh;">
             <div class="container-fluid" style="padding-top: 10vh;">
                 <form class="p-3" enctype="multipart/form-data" id="vendor-product-add-form">
+                    @csrf
+                    <div class="vendor-product-form-result"></div>
                     <div class="mb-3">
                         <label for="product-image" class="form-label text-capitalize fze-1 text-black">product image</label>
                         <input type="file" class="form-control shadow-none fze-1 text-black text-capitalize" id="product-image" name="product-image">
