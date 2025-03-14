@@ -23,7 +23,21 @@
         </div>
         <div class="manage-products">
             <div class="container-fluid" style="padding-top: 10vh;">
-                <p>manage</p>
+                <form class="p-3">
+                    <div class="mb-3">
+                        <label for="product-image" class="form-label text-capitalize fze-1 text-black">product image</label>
+                        <input type="file" class="form-control shadow-none fze-1 text-black text-capitalize" id="product-image" name="product-image">
+                    </div>
+                    <div class="mb-3">
+                        <label for="product-name" class="form-label text-capitalize fze-1 text-black">product name</label>
+                        <input type="text" class="form-control shadow-none fze-1 text-black text-capitalize" id="product-name" name="product-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="product-description" class="form-label text-capitalize fze-1 text-black">product description</label>
+                        <textarea class="form-control shadow-none fze-1 text-black text-capitalize" id="product-description" rows="3" name="product-description"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-success shadow-none fze-1">Save</button>
+                </form>
             </div>
         </div>
     </div>
