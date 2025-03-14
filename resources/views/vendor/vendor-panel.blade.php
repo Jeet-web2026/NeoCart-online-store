@@ -65,10 +65,14 @@
     @section('extrajs')
     <script>
         $(document).ready(function() {
-            $("#dashboard #v-pills-products .nav-item").eq(0).addClass('bg-light text-dark rounded-2');
-            $("#dashboard #v-pills-products .nav-item").on('click', function(){
-                $(this).siblings().removeClass('bg-light text-dark rounded-2');
-                $(this).addClass('bg-light text-dark rounded-2');
+            $("#dashboard #v-pills-products .navbar .nav-item").eq(0).addClass("bg-light rounded-2")
+                .find(".nav-link").addClass("text-dark");
+
+            $("#dashboard #v-pills-products .navbar .nav-item").on("click", function() {
+                $(this).siblings().removeClass("bg-light rounded-2")
+                    .find(".nav-link").removeClass("text-dark").addClass("text-light");
+                $(this).addClass("bg-light rounded-2")
+                    .find(".nav-link").removeClass("text-light").addClass("text-dark");
             });
         });
     </script>
