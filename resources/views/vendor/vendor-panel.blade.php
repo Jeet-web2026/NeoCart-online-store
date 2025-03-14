@@ -109,7 +109,13 @@
                     </div>
                     
                     `);
+
+                    setTimeout(() => {
+                        $('#vendor-product-add-form .btn-close').click();
+                    }, 1500);
                 }
+
+                
             });
 
         });
