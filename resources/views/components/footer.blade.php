@@ -66,7 +66,16 @@
             <div class="col-md-12">
                 <div class="card border-0 bg-transparent">
                     <div class="card-body">
-                        <h6 class="fze-1"><a href="javascript:void(0)" class="text-black">View more information<i class="fa-solid fa-chevron-down ms-2"></i></a></h6>
+                        <div class="dropdown dropend">
+                            <button class="btn bg-transparent border-0 shadow-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            View more information<i class="fa-solid fa-angles-right ms-2"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
