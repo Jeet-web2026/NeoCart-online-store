@@ -10,7 +10,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 @if(!empty($links))
                 @foreach($links as $singleLink)
-                <li class="nav-item">
+                <li class="nav-item me-2">
                     <a id="{{ $singleLink['idname'] }}" class="nav-link text-light text-capitalize" href="javascript:void(0)">{{ $singleLink['name'] }}</a>
                 </li>
                 @endforeach
