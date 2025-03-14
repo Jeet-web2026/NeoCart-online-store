@@ -4,7 +4,7 @@
             <div class="row h-100">
                 <div class="col-md-12">
                     <div class="d-flex align-items-start h-100">
-                        <div class="nav flex-column nav-pills px-3 pt-4 bg-dark h-100 position-relative shadow-sm" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="width: 17%;">
+                        <div class="nav flex-column nav-pills px-3 pt-4 bg-dark h-100 position-relative shadow-sm" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="width: 18%;">
                             <a href="{{ route('vendor-dashboard') }}" class="mb-4">
                                 <center>
                                     <img src="https://img.freepik.com/free-vector/follow-me-social-business-theme-design_24877-52233.jpg" alt="vendor-name" class="rounded-circle shadow-sm">

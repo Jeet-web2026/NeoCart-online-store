@@ -9,7 +9,7 @@
         <div class="all-products">
             <div class="container-fluid" style="padding-top: 10vh;">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 p-2">
                         <div class="card border-0 shadow-sm">
                             <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
                             <div class="card-body">
@@ -18,9 +18,132 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <div class="card border-0 shadow-sm">
+                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                <a href="#" class="btn btn-outline-info text-capitalize fze">view product</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
