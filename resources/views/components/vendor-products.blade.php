@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="manage-products">
+        <div class="manage-products overflow-auto" style="height: 100vh;">
             <div class="container-fluid" style="padding-top: 10vh;">
                 <form class="p-3">
                     <div class="mb-3">
