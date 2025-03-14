@@ -4,5 +4,17 @@
         ['name' => 'all products', 'idname' => 'vendor-all-products'],
         ['name' => 'manage products', 'idname' => 'vendor-manage-products'],
         
-        ]"/>
+        ]" />
+    <div class="vendor-products">
+        <div class="all-products">
+            <div class="container-fluid pt-5">
+                <p>all</p>
+            </div>
+        </div>
+        <div class="manage-products">
+            <div class="container-fluid pt-5">
+                <p>manage</p>
+            </div>
+        </div>
+    </div>
 </div>

@@ -65,7 +65,26 @@
     @section('extrajs')
     <script>
         $(document).ready(function() {
-            
+            $('#v-pills-products .vendor-products').find('.all-products').show().siblings().hide();
+
+            function manageTab(NavLink, ViewTab) {
+                $(document).on('click', NavLink, function() {
+                    $('#v-pills-products .vendor-products').find(ViewTab).show().siblings().hide();
+                });
+            }
+            const tabs = [{
+                    nav: "#vendor-all-products",
+                    view: ".all-products"
+                },
+                {
+                    nav: "#vendor-manage-products",
+                    view: ".manage-products"
+                }
+            ];
+
+            tabs.forEach(tab => manageTab(tab.nav, tab.view));
+
+
         });
     </script>
     @endsection
