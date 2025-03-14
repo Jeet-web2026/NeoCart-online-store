@@ -39,12 +39,12 @@
             width: 15vh;
         }
 
-        #dashboard .col-md-12 .nav .active{
+        #dashboard .col-md-12 .nav .active {
             background-color: #ffffff;
             color: #111111;
         }
 
-        #dashboard .col-md-12 .nav-link{
+        #dashboard .col-md-12 .nav-link {
             color: #ffffff;
         }
     </style>
