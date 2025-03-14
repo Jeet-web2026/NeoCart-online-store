@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\VendorController;
 use Illuminate\Support\Facades\Route;
 
 // Home routes
@@ -17,4 +18,8 @@ Route::controller(AuthController::class)->group(function () {
 
     Route::get('google-login', 'googleLogin')->name('google-login');
     Route::get('admin-dashboard', 'checkGoogleauth')->name('google-check');
+});
+
+Route::controller(VendorController::class)->group(function () {
+    Route::get('dashboard', 'index')->name('vendor-dashboard');
 });

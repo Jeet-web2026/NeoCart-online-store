@@ -66,14 +66,13 @@
             <div class="col-md-12">
                 <div class="card border-0 bg-transparent">
                     <div class="card-body">
-                        <div class="dropdown dropend">
-                            <button class="btn bg-transparent border-0 shadow-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="dropdown-center">
+                            <button class="btn bg-transparent border-0 shadow-none" type="button" data-bs-toggle="dropdown" aria-expanded="true">
                             View more information<i class="fa-solid fa-angles-right ms-2"></i>
                             </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="dropdown-menu no-radius border-0 shadow-sm">
+                                <li><a class="dropdown-item" href="{{ route('vendor-dashboard') }}">Vendor Login</a></li>
+                                <li><a class="dropdown-item" href="#">Vendor Subscription</a></li>
                             </ul>
                         </div>
                     </div>
