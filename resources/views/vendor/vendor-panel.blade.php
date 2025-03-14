@@ -65,7 +65,11 @@
     @section('extrajs')
     <script>
         $(document).ready(function() {
-            $("#dashboard #v-pills-products .nav-item .nav-link").eq(0).addClass('bg-light text-dark rounded-2');
+            $("#dashboard #v-pills-products .nav-item").eq(0).addClass('bg-light text-dark rounded-2');
+            $("#dashboard #v-pills-products .nav-item").on('click', function(){
+                $(this).siblings().removeClass('bg-light text-dark rounded-2');
+                $(this).addClass('bg-light text-dark rounded-2');
+            });
         });
     </script>
     @endsection
