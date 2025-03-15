@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="manage-products overflow-auto" style="height: 100v">
+        <div class="manage-products overflow-auto" style="height: 100vh;">
             <div class="container-fluid" style="padding-top: 10vh;">
                 <form class="p-3" enctype="multipart/form-data" id="vendor-product-add-form">
                     @csrf
