@@ -22,6 +22,7 @@ Route::controller(AuthController::class)->group(function () {
 
 Route::controller(VendorController::class)->group(function () {
     Route::get('dashboard', 'index')->name('vendor-dashboard');
+    Route::post('add-products', 'AddVendorProducts')->name('add-products');
 });
 
 Route::fallback(function(){

@@ -10,4 +10,11 @@ class VendorController extends Controller
     {
         return view('vendor.vendor-panel');
     }
+
+    public function AddVendorProducts(Request $request)
+    {
+        $getData = $request->validate([
+            
+        ]);
+    }
 }

@@ -26,7 +26,7 @@
         </div>
         <div class="manage-products overflow-auto" style="height: 100vh;">
             <div class="container-fluid" style="padding-top: 10vh;">
-                <form class="p-3" enctype="multipart/form-data" id="vendor-product-add-form">
+                <form class="p-3" enctype="multipart/form-data" action="{{ route('add-products') }}" method="POST" id="vendor-product-add-form">
                     @csrf
                     <div class="vendor-product-form-result"></div>
                     <div class="mb-3">

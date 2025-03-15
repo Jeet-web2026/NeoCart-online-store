@@ -91,7 +91,6 @@
             tabs.forEach(tab => manageTab(tab.nav, tab.view));
 
             $(document).on('submit', '#vendor-product-add-form', function(e) {
-                e.preventDefault();
                 let ProductImage = $(this).find('#product-image')[0].files[0];
                 let ProductName = $(this).find('#product-name').val();
                 let ProductPrice = $(this).find('#product-price').val();
@@ -101,6 +100,8 @@
                 let ProductDescription = $(this).find('#product-description').val();
                 let formData = new FormData(this);
                 if (!ProductImage || ProductName == "" || ProductPrice == "" || ProductDiscount == "" || ProductCompany == "" || ProductAvailProduct == "" || ProductDescription == "") {
+
+                    e.preventDefault();
                     $('#vendor-product-add-form .vendor-product-form-result').html(`
                     
                     <div class="alert alert-danger alert-dismissible fade show fze-1 text-center text-capitalize" role="alert">
