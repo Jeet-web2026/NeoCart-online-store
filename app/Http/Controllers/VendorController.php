@@ -27,6 +27,14 @@ class VendorController extends Controller
             'product-image.max' => 'Image file is must be under 295KB.',
             'product-name.required' => 'Name is required!',
             'product-name.min' => 'Name is must be 2 characters long!',
+            'product-price.required' => 'Product price is required!',
+            'product-price.numeric' => 'Product price must be a number!',
+            'product-discount.required' => 'Product discount is required!',
+            'product-discount.numeric' => 'Product discount must be a number!',
+            'product-company.required' => 'Company is required!',
+            'product-company.min' => 'Company is must be 2 characters long!',
+            'product-product.min' => 'Product is required!',
+            'product-product.numeric' => 'Product is must be 2 characters long!',
         ]);
     }
 }
