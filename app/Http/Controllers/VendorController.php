@@ -33,8 +33,10 @@ class VendorController extends Controller
             'product-discount.numeric' => 'Product discount must be a number!',
             'product-company.required' => 'Company is required!',
             'product-company.min' => 'Company is must be 2 characters long!',
-            'product-product.min' => 'Product is required!',
-            'product-product.numeric' => 'Product is must be 2 characters long!',
+            'available-product.min' => 'Product is required!',
+            'available-product.numeric' => 'Product is must be 2 characters long!',
+            'product-description.required' => 'Product description is required!',
+            'product-description.numeric' => 'Product description is must be 2 characters long!',
         ]);
     }
 }
