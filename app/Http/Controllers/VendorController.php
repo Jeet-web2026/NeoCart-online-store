@@ -49,7 +49,7 @@ class VendorController extends Controller
             'product_description' => $getData['product-description'],
         ];
 
-        if ($request->hash_file('product-image')) {
+        if ($request->hasFile('product-image')) {
             $matchData['product_image'] = $request->file('product-image')->store('products', 'public');
         }
 
