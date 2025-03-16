@@ -8,4 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class Vendor extends Model
 {
     use HasFactory;
+    public $timestamsps = false;
+    public $table = 'vendors';
+
+    protected $fillable = [
+        'product_image',
+        'product_name',
+        'product_price',
+        'product_discount',
+        'product_company_name',
+        'product_available',
+        'product_description',
+    ];
 }
