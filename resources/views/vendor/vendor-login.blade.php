@@ -40,7 +40,10 @@
                         </span>
                         @enderror
                     </div>
-                    <button type="submit" class="btn btn-primary w-100 fze-1">Submit</button>
+                    <span class="d-flex align-items-center">
+                        <button type="submit" class="btn btn-primary w-25 fze-1 me-1">Submit</button>
+                        <a href="{{ route('home') }}" class="btn btn-secondary w-25 fze-1 ms-1">Back</a>
+                    </span>
                 </form>
             </div>
         </div>
