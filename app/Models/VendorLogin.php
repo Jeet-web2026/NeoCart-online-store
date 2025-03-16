@@ -14,15 +14,10 @@ class VendorLogin extends Authenticatable
 
     protected $fillable = [
         'vendor_login_id',
-        'vendor_login_password'
+        'password'
     ];
 
     protected $hidden = [
-        'vendor_login_password',
+        'password',
     ];
-
-    public function getAuthPassword()
-    {
-        return $this->vendor_login_password;
-    }
 }

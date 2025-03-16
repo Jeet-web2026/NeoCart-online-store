@@ -11,7 +11,7 @@ return new class extends Migration
         Schema::create('vendor_logins', function (Blueprint $table) {
             $table->id();
             $table->string('vendor_login_id')->unique();
-            $table->string('vendor_login_password');
+            $table->string('password');
             $table->timestamp('used_at')->useCurrent()->useCurrentOnUpdate();
         });
     }

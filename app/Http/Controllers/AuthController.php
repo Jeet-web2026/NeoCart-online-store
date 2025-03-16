@@ -121,7 +121,7 @@ class AuthController extends Controller
 
         $matchData = [
             'vendor_login_id' => $getData['vendor-login-email'],
-            'vendor_login_password' => $getData['vendor-login-password'],
+            'password' => $getData['vendor-login-password'],
         ];
 
         if (Auth::guard('vendor')->attempt($matchData)) {
