@@ -138,6 +138,7 @@
 
                         NotificationHandle('#vendor-product-add-form');
                         $('#vendor-product-add-form').trigger("reset");
+                        $('#vendor-product-add-form input[type="file"]').val(null);
 
                     },
                     error: function(xhr) {
