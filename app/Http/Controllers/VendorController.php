@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Vendor;
 use Illuminate\Http\Request;
 
 class VendorController extends Controller
@@ -21,7 +22,7 @@ class VendorController extends Controller
             'product-company' => 'required|min:2',
             'available-product' => 'required|numeric',
             'product-description' => 'required|min:5'
-        ],[
+        ], [
             'product-image.required' => 'Image file is required!',
             'product-image.mimes' => 'Image file should be must PNG, JPG or JPEG file.',
             'product-image.max' => 'Image file is must be under 295KB.',
@@ -38,5 +39,21 @@ class VendorController extends Controller
             'product-description.required' => 'Product description is required!',
             'product-description.numeric' => 'Product description is must be 2 characters long!',
         ]);
+
+        $matchData = [
+            'product_name' => $getData['product-name'],
+            'product_price' => $getData['product-price'],
+            'product_discount' => $getData['product-discount'],
+            'product_company_name' => $getData['product-company'],
+            'product_available' => $getData['available-product'],
+            'product_description' => $getData['product-description'],
+        ];
+
+        if ($request->hash_file('product-image')) {
+            $matchData['product_image'] = $request->file('product-image')->store('products', 'public');
+        }
+
+        Vendor::create($matchData);
+        return response()->json('success', 'Prducts added successfully!');
     }
 }

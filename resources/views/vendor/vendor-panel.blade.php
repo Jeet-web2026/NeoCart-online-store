@@ -116,7 +116,26 @@
                     }, 1500);
                 }
 
-                
+                $.ajax({
+                    url: "{{ route('add-products') }}",
+                    method: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        if (response == 'success') {
+                            $(this).find('.vendor-product-form-result').html(`                            
+                            
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>${response.message}</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            
+                            `);
+                        }
+                    }
+                });
+
             });
 
         });
