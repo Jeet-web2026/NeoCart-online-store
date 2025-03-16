@@ -26,21 +26,9 @@
         </div>
         <div class="manage-products overflow-auto" style="height: 100vh;">
             <div class="container-fluid" style="padding-top: 10vh;">
-                <form class="p-3" enctype="multipart/form-data" action="{{ route('add-products') }}" method="POST" id="vendor-product-add-form">
+                <form class="p-3" enctype="multipart/form-data" id="vendor-product-add-form">
                     @csrf
                     <div class="vendor-product-form-result"></div>
-                    @if (session('success'))
-                    <div class="alert alert-success text-center">
-                        {{ session('success') }}
-                    </div>
-                    @endif
-                    @if ($errors->any())
-                    @foreach($errors->all() as $error)
-                    <div class="alert alert-danger text-center">
-                        {{ $error }}
-                    </div>
-                    @endforeach
-                    @endif
                     <div class="mb-3">
                         <label for="product-image" class="form-label text-capitalize fze-1 text-black">product image</label>
                         <input type="file" class="form-control shadow-none fze-1 text-black text-capitalize" id="product-image" name="product-image">

@@ -91,7 +91,7 @@
             tabs.forEach(tab => manageTab(tab.nav, tab.view));
 
             $(document).on('submit', '#vendor-product-add-form', function(e) {
-                // e.preventDefault();
+                e.preventDefault();
                 let ProductImage = $(this).find('#product-image')[0].files[0];
                 let ProductName = $(this).find('#product-name').val();
                 let ProductPrice = $(this).find('#product-price').val();
@@ -116,25 +116,25 @@
                     }, 1500);
                 }
 
-                // $.ajax({
-                //     url: "{{ route('add-products') }}",
-                //     method: 'POST',
-                //     data: formData,
-                //     processData: false,
-                //     contentType: false,
-                //     success: function(response) {
-                //         if (response == 'success') {
-                //             $(this).find('.vendor-product-form-result').html(`                            
+                $.ajax({
+                    url: "{{ route('add-products') }}",
+                    method: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        if (response == 'success') {
+                            $(this).find('.vendor-product-form-result').html(`                            
                             
-                //             <div class="alert alert-success alert-dismissible fade show" role="alert">
-                //                 <strong>${response.success}</strong>
-                //                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                //             </div>
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>${response.success}</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
                             
-                //             `);
-                //         }
-                //     }
-                // });
+                            `);
+                        }
+                    }
+                });
 
             });
 
