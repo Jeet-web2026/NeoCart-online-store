@@ -34,6 +34,13 @@
                         {{ session('success') }}
                     </div>
                     @endif
+                    @if ($errors->any())
+                    @foreach($errors->all() as $error)
+                    <div class="alert alert-danger text-center">
+                        {{ $error }}
+                    </div>
+                    @endforeach
+                    @endif
                     <div class="mb-3">
                         <label for="product-image" class="form-label text-capitalize fze-1 text-black">product image</label>
                         <input type="file" class="form-control shadow-none fze-1 text-black text-capitalize" id="product-image" name="product-image">
