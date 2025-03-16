@@ -118,21 +118,26 @@
 
                 $.ajax({
                     url: "{{ route('add-products') }}",
-                    method: 'POST',
+                    method: "POST",
                     data: formData,
                     processData: false,
                     contentType: false,
                     success: function(response) {
-                        if (response == 'success') {
-                            $(this).find('.vendor-product-form-result').html(`                            
+                        $('#vendor-product-add-form').find('.vendor-product-form-result').html(`                          
                             
-                            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                <strong>${response.success}</strong>
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
+                        <div class="alert alert-success text-center fze-1 alert-dismissible fade show" role="alert">
+                            <strong>${response.success}</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
                             
-                            `);
-                        }
+                        `);
+
+                        setTimeout(() => {
+                            $('#vendor-product-add-form .btn-close').click();
+                        }, 2000);
+                    },
+                    error: function(xhr) {
+
                     }
                 });
 

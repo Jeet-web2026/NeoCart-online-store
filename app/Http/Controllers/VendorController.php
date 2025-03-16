@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Vendor;
+use GuzzleHttp\Psr7\Response;
 use Illuminate\Http\Request;
 
 class VendorController extends Controller
@@ -54,6 +55,6 @@ class VendorController extends Controller
         }
 
         Vendor::create($matchData);
-        return redirect()->route('vendor-dashboard')->with('success', 'Account created successfully, login now!');
+        return response()->json(['success' => 'Product added successfully!']);
     }
 }
