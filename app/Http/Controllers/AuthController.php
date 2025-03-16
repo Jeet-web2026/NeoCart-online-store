@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Models\VendorLogin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
@@ -110,9 +111,22 @@ class AuthController extends Controller
     public function VendorCheck(Request $request)
     {
         $getData = $request->validate([
-            'vendor-login-email' => 'required|email',
+            'vendor-login-email' => 'required|email|unique:vendor_logins,vendor_login_id',
             'vendor-login-password' => 'required'
+        ],[
+            'vendor-login-email.required' => 'Login email is required!',
+            'vendor-login-email.email' => 'Please enter a valid email address.',
+            'vendor-login-email.unique' => 'Login email is required!',
+            'vendor-login-password' => 'Password is required!'
         ]);
+
+        $matchData = [
+            'vendor_login_id' => $getData['vendor-login-email'],
+            'vendor_login_password' => $getData['vendor-login-password'],
+        ];
+
+        VendorLogin::create($matchData);
+        return redirect()->route('vendor-login')->with('vendorloginsuccess', 'Login Successfully!');
     }
 
     public function logout(Request $request)
