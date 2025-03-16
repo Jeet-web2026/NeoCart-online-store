@@ -57,4 +57,10 @@ class VendorController extends Controller
         Vendor::create($matchData);
         return response()->json(['success' => 'Product added successfully!']);
     }
+
+    public function FetchVendorProducts()
+    {
+        $fetchProducts = Vendor::all();
+        return response()->json($fetchProducts);
+    }
 }

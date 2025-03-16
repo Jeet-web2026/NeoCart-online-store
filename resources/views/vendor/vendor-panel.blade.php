@@ -159,6 +159,21 @@
 
             });
 
+            $.ajax({
+                url: "{{ route('fetch-products') }}",
+                method: "GET",
+                success: function(response)
+                {
+                    $("#product-view").html("");
+                    $each(response.products)
+                    
+                },
+                error: function(xhr)
+                {
+
+                }
+            });
+
         });
     </script>
     @endsection

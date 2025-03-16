@@ -8,19 +8,19 @@
     <div class="vendor-products overflow-hidden" style="height: 100vh;">
         <div class="all-products overflow-auto" style="height: 100vh;">
             <div class="container-fluid" style="padding-top: 10vh;">
-                <div class="row">
-                    <div class="col-md-3 p-2">
-                        <div class="card border shadow-sm">
-                            <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
-                            <div class="card-body">
-                                <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
-                                <div class="d-flex align-items-center">
-                                    <a href="#" class="btn btn-primary text-capitalize fze me-2"><i class="bi bi-eye me-2"></i>view</a>
-                                    <a href="#" class="btn btn-danger text-capitalize fze"><i class="bi bi-trash me-2"></i>delete</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div id="product-view" class="row">
+                    <!-- // <div class="col-md-3 p-2">
+                        // <div class="card border shadow-sm">
+                            // <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                            // <div class="card-body">
+                                // <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
+                                // <div class="d-flex align-items-center">
+                                    // <a href="#" class="btn btn-primary text-capitalize fze me-2"><i class="bi bi-eye me-2"></i>view</a>
+                                    // <a href="#" class="btn btn-danger text-capitalize fze"><i class="bi bi-trash me-2"></i>delete</a>
+                                    // </div>
+                                // </div>
+                            // </div>
+                        // </div> -->
                 </div>
             </div>
         </div>
