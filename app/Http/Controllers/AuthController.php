@@ -113,7 +113,7 @@ class AuthController extends Controller
         $getData = $request->validate([
             'vendor-login-email' => 'required|email|unique:vendor_logins,vendor_login_id',
             'vendor-login-password' => 'required'
-        ],[
+        ], [
             'vendor-login-email.required' => 'Login email is required!',
             'vendor-login-email.email' => 'Please enter a valid email address.',
             'vendor-login-email.unique' => 'This email is already exsists!',
@@ -125,8 +125,10 @@ class AuthController extends Controller
             'vendor_login_password' => $getData['vendor-login-password'],
         ];
 
-        VendorLogin::create($matchData);
-        return redirect()->route('vendor-login')->with('vendorloginsuccess', 'Login Successfully!');
+        if (Auth::guard('vendor')->attempt($matchData)) {
+            return redirect()->route('vendor-login')->with('vendorloginsuccess', 'Login Successfully!');
+        }
+        return redirect()->route('vendor-login')->with('vendorloginfailed', 'Login Failed!');
     }
 
     public function logout(Request $request)

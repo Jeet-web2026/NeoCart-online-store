@@ -10,6 +10,12 @@
                         <button type="button" class="btn-close shadow-none" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                     @endif
+                    @if(session('vendorloginfailed'))
+                    <div class="alert alert-danger alert-dismissible text-center fade show" role="alert">
+                        <strong><i class="bi bi-x-circle me-2"></i>{{ session('vendorloginfailed') }}</strong>
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    @endif
                     <div class="mb-3">
                         <label for="vendor-login-email" class="form-label">Email address</label>
                         <input type="email" class="form-control shadow-none fze-1" id="vendor-login-email" name="vendor-login-email" value="{{ old('vendor-login-email') }}">
