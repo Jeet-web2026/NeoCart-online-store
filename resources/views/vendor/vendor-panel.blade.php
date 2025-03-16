@@ -90,6 +90,12 @@
 
             tabs.forEach(tab => manageTab(tab.nav, tab.view));
 
+            function NotificationHandle(FormId) {
+                setTimeout(() => {
+                    $(FormId).find('.btn-close').click();
+                }, 2000);
+            }
+
             $(document).on('submit', '#vendor-product-add-form', function(e) {
                 e.preventDefault();
                 let ProductImage = $(this).find('#product-image')[0].files[0];
@@ -111,9 +117,7 @@
                     
                     `);
 
-                    setTimeout(() => {
-                        $('#vendor-product-add-form .btn-close').click();
-                    }, 1500);
+                    NotificationHandle('#vendor-product-add-form');
                 }
 
                 $.ajax({
@@ -132,12 +136,27 @@
                             
                         `);
 
-                        setTimeout(() => {
-                            $('#vendor-product-add-form .btn-close').click();
-                        }, 2000);
+                        NotificationHandle('#vendor-product-add-form');
+                        $('#vendor-product-add-form').trigger("reset");
+
                     },
                     error: function(xhr) {
-
+                        if (xhr.status === 422) {
+                            let errors = xhr.responseJSON.errors;
+                            Object.values(errors).forEach(errorArray => {
+                                errorArray.forEach(errorText => {
+                                    $('#vendor-product-add-form').find('.vendor-product-form-result').html(`        
+                            
+                                        <div class="alert alert-danger text-center fze-1 alert-dismissible fade show" role="alert">
+                                            <strong><i class="bi bi-exclamation-octagon fs-5 me-2"></i>${errorText}</strong>
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                        </div>
+                            
+                                `);
+                                    NotificationHandle('#vendor-product-add-form');
+                                });
+                            });
+                        };
                     }
                 });
 
