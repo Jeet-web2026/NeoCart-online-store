@@ -145,24 +145,35 @@
                             let Modal = `
 
                                     <div class="modal fade" id="${letModalId}" tabindex="-1" aria-labelledby="${letModalId}Label" aria-hidden="true">
-                                        <div class="modal-dialog">
+                                        <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="${letModalId}Label">Modal title</h1>
-                                                <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
                                             <div class="modal-body">
-                                                <img style="height: 15vh; width: 15vh;" src="${ImgUrl}" alt="${product.product_name}">
+                                                <div class="card border-0">
+                                                    <div class="row g-0 align-items-center">
+                                                        <div class="col-md-4">
+                                                            <img class="border p-2 rounded" style="height: 33vh; width: 100%;" src="${ImgUrl}" alt="${product.product_name}">
+                                                        </div>
+                                                        <div class="col-md-8">
+                                                            <div class="card-body">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item"><h5 class="card-title fze-1 fw-bold text-capitalize fw-bold text-truncate">${product.product_name}</h5></li>
+                                                                    <li class="list-group-item">${product.product_price}/-</li>
+                                                                    <li class="list-group-item">${product.product_discount}%</li>
+                                                                    <li class="list-group-item text-capitalize text-truncate">${product.product_company_name}</li>
+                                                                    <li class="list-group-item">${product.product_available} pcs.</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="text-capitalize fze-1">${product.product_description}</p>
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Close</button>
                                             </div>
                                             </div>
                                         </div>
                                     </div>
-
-
                             `;
                             $('#product-view-modals').append(Modal);
                         });
