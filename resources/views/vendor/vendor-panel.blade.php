@@ -16,7 +16,7 @@
                             <button class="nav-link text-start fze-1" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-person-circle me-4"></i>Profile</button>
                             <button class="nav-link text-start fze-1" id="v-pills-subscriptions-tab" data-bs-toggle="pill" data-bs-target="#v-pills-subscriptions" type="button" role="tab" aria-controls="v-pills-subscriptions" aria-selected="false"><i class="bi bi-award me-4"></i>Subscriptions</button>
                             <div class="position-absolute" style="left: 25%; bottom: 2%;">
-                                <form>
+                                <form action="{{ route('vendor-logout') }}" method="POST">
                                     @csrf
                                     <button type="submit" class="btn boreder-0 shadow-none text-light fze-1"><i class="bi bi-power me-2"></i>Logout</button>
                                 </form>

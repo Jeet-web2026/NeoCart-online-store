@@ -16,6 +16,7 @@ Route::controller(AuthController::class)->group(function () {
     Route::post('user-logout', 'logout')->name('user-logout');
     Route::get('vendor-login', 'VendorLogin')->name('login');
     Route::post('vendor-login-verify', 'VendorCheck')->name('vendor-login-verify');
+    Route::post('vendor-logout', 'Vendorlogout')->name('vendor-logout');
     Route::get('google-login', 'googleLogin')->name('google-login');
     Route::get('admin-dashboard', 'checkGoogleauth')->name('google-check');
 });

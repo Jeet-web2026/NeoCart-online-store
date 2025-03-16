@@ -137,4 +137,12 @@ class AuthController extends Controller
         return redirect()->route('home')
             ->with('logout', 'Logout successfully!');
     }
+
+    public function Vendorlogout(Request $request)
+    {
+        Auth::guard('vendor')->logout();
+        $request->session()->invalidate();
+        return redirect()->route('login')
+            ->with('logoutvendor', 'Logout successfully!');
+    }
 }
