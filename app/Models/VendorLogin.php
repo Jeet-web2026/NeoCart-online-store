@@ -15,11 +15,4 @@ class VendorLogin extends Model
         'vendor_login_id',
         'vendor_login_password'
     ];
-
-    protected function casts()
-    {
-        return [
-            'vendor_login_password' => 'hashed'
-        ];
-    }
 }
