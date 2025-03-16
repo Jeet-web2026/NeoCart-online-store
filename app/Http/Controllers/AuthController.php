@@ -102,7 +102,10 @@ class AuthController extends Controller
         return redirect()->route('user-login')->with('success', 'Signed up successfully!');
     }
 
-
+    public function VendorLogin()
+    {
+        return view('vendor.vendor-login');
+    }
 
     public function logout(Request $request)
     {

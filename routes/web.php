@@ -15,13 +15,13 @@ Route::controller(AuthController::class)->group(function () {
     Route::post('signup-verification', 'signupVerification')->name('user-signup-verification');
     Route::post('login-verification', 'loginVerification')->name('user-login-verification');
     Route::post('user-logout', 'logout')->name('user-logout');
-
+    Route::get('vendor-login', 'VendorLogin')->name('vendor-login');
+    Route::post('vendor-login-verify', 'VendorCheck')->name('vendor-login-verify');
     Route::get('google-login', 'googleLogin')->name('google-login');
     Route::get('admin-dashboard', 'checkGoogleauth')->name('google-check');
 });
 
 Route::controller(VendorController::class)->group(function () {
-    Route::get('vendor-login', 'index')->name('vendor-login');
     Route::get('dashboard', 'VendorDashboard')->name('vendor-dashboard');
     Route::post('add-products', 'AddVendorProducts')->name('add-products');
     Route::get('fetch-products', 'FetchVendorProducts')->name('fetch-products');
