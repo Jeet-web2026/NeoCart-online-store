@@ -111,12 +111,12 @@ class AuthController extends Controller
     public function VendorCheck(Request $request)
     {
         $getData = $request->validate([
-            'vendor-login-email' => 'required|email|unique:VendorLogin,vendor_login_id',
+            'vendor-login-email' => 'required|email|unique:vendor_logins,vendor_login_id',
             'vendor-login-password' => 'required'
         ],[
             'vendor-login-email.required' => 'Login email is required!',
             'vendor-login-email.email' => 'Please enter a valid email address.',
-            'vendor-login-email.unique' => 'Login email is required!',
+            'vendor-login-email.unique' => 'This email is already exsists!',
             'vendor-login-password' => 'Password is required!'
         ]);
 
