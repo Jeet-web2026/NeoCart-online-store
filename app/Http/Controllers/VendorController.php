@@ -54,6 +54,6 @@ class VendorController extends Controller
         }
 
         Vendor::create($matchData);
-        return response()->json('success', 'Prducts added successfully!');
+        return redirect()->route('vendor-dashboard')->with('success', 'Account created successfully, login now!');
     }
 }
