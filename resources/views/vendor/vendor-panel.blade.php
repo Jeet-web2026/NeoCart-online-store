@@ -164,12 +164,12 @@
                 method: "GET",
                 success: function(response) {
                     $("#product-view").html("");
-                    $each(response.products, function(index, product) {
+                    $.each(response.products, function(index, product) {
                         let ProductCard = `
                         
                         <div class="col-md-3 p-2">
                             <div class="card border shadow-sm">
-                                <img src="https://img.freepik.com/free-photo/laptop-with-blank-white-screen-books-eyeglasses-pencil-holders-paperclip-wooden-desk_23-2147979131.jpg" class="card-img-top" alt="product-image">
+                                <img src="${product.product_image}" class="card-img-top" alt="product-image">
                              <div class="card-body">
                                  <h5 class="card-title text-capitalize fze-1 text-black mb-2">product name</h5>
                                  <div class="d-flex align-items-center">
@@ -182,8 +182,8 @@
                         
                         
                         `;
+                        $("#product-view").html(ProductCard);
                     });
-                    $("#product-view").html(ProductCard);
                 },
                 error: function(xhr) {
 
