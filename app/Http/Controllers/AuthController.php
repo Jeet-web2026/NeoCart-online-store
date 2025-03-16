@@ -107,6 +107,14 @@ class AuthController extends Controller
         return view('vendor.vendor-login');
     }
 
+    public function VendorCheck(Request $request)
+    {
+        $getData = $request->validate([
+            'vendor-login-email' => 'required|email',
+            'vendor-login-password' => 'required'
+        ]);
+    }
+
     public function logout(Request $request)
     {
         Auth::guard('web')->logout();
