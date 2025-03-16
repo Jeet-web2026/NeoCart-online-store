@@ -152,7 +152,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="${ImgUrl}" alt="">
+                                                <img style="height: 15vh; width: 15vh;" src="${ImgUrl}" alt="${product.product_name}">
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -216,6 +216,7 @@
                         NotificationHandle('#vendor-product-add-form');
                         $('#vendor-product-add-form').trigger("reset");
                         FetchProducts();
+                        FetchProductsforView();
                     },
                     error: function(xhr) {
                         let errors = xhr.responseJSON.errors;
