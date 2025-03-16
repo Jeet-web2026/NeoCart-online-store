@@ -1,2 +1,2 @@
-# EduMall-E-learning-website
-E-learning website
+# EduMall-Online-Store
+Online Store
