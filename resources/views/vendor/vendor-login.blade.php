@@ -24,7 +24,7 @@
                     @endif
                     <div class="mb-3">
                         <label for="vendor-login-email" class="form-label">Email address</label>
-                        <input type="email" class="form-control shadow-none fze-1" id="vendor-login-email" name="vendor-login-email" value="{{ old('vendor-login-email') }}">
+                        <input type="email" class="form-control shadow-none fze-1 @error('vendor-login-email') is-invalid @enderror" id="vendor-login-email" name="vendor-login-email" value="{{ old('vendor-login-email') }}">
                         @error('vendor-login-email')
                         <span>
                             <p class="text-danger fze">{{ $message }}</p>
@@ -33,7 +33,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="vendor-login-password" class="form-label">Password</label>
-                        <input type="password" class="form-control shadow-none fze-1" id="vendor-login-password" name="vendor-login-password">
+                        <input type="password" class="form-control shadow-none fze-1 @error('vendor-login-password') is-invalid @enderror" id="vendor-login-password" name="vendor-login-password">
                         @error('vendor-login-password')
                         <span>
                             <p class="text-danger fze">{{ $message }}</p>
