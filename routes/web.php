@@ -20,12 +20,13 @@ Route::controller(AuthController::class)->group(function () {
     Route::get('admin-dashboard', 'checkGoogleauth')->name('google-check');
 });
 
-Route::controller(VendorController::class)->group(function () {
+
+Route::middleware(['auth:vendor'])->controller(VendorController::class)->group(function () {
     Route::get('dashboard', 'VendorDashboard')->name('vendor-dashboard');
     Route::post('add-products', 'AddVendorProducts')->name('add-products');
     Route::get('fetch-products', 'FetchVendorProducts')->name('fetch-products');
 });
 
-Route::fallback(function(){
+Route::fallback(function () {
     return redirect()->route('home');
 });
