@@ -14,7 +14,7 @@ Route::controller(AuthController::class)->group(function () {
     Route::post('signup-verification', 'signupVerification')->name('user-signup-verification');
     Route::post('login-verification', 'loginVerification')->name('user-login-verification');
     Route::post('user-logout', 'logout')->name('user-logout');
-    Route::get('vendor-login', 'VendorLogin')->name('vendor-login');
+    Route::get('vendor-login', 'VendorLogin')->name('login');
     Route::post('vendor-login-verify', 'VendorCheck')->name('vendor-login-verify');
     Route::get('google-login', 'googleLogin')->name('google-login');
     Route::get('admin-dashboard', 'checkGoogleauth')->name('google-check');

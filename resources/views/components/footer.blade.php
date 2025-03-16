@@ -71,7 +71,7 @@
                             View more information<i class="fa-solid fa-angles-right ms-2"></i>
                             </button>
                             <ul class="dropdown-menu no-radius border-0 shadow-sm">
-                                <li><a class="dropdown-item" href="{{ route('vendor-login') }}">Vendor Login</a></li>
+                                <li><a class="dropdown-item" href="{{ route('login') }}">Vendor Login</a></li>
                                 <li><a class="dropdown-item" href="#">Vendor Subscription</a></li>
                             </ul>
                         </div>
