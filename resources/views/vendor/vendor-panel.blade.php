@@ -105,6 +105,7 @@
                         $.each(response.products, function(index, product) {
                             let baseUrl = "{{ url('/') }}";
                             const ImageUrl = baseUrl + "/storage/" + product.product_image;
+                            const ViewId = "product" + product.id;
                             let ProductCard = `
                         
                             <div class="col-md-3 p-2">
@@ -113,7 +114,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title text-capitalize fze-1 text-black mb-2">${product.product_name}</h5>
                                     <div class="d-flex align-items-center">
-                                        <a href="#" class="btn btn-primary text-capitalize fze me-2"><i class="bi bi-eye me-2"></i>view</a>
+                                        <button class="btn btn-primary text-capitalize fze me-2"  data-bs-toggle="modal" data-bs-target="#${ViewId}"><i class="bi bi-eye me-2"></i>view</button>
                                         <a href="#" class="btn btn-danger text-capitalize fze"><i class="bi bi-trash me-2"></i>delete</a>
                                         </div>
                                     </div>
@@ -126,7 +127,48 @@
                         });
                     },
                     error: function(xhr) {
+                        $("#product-view").html('No data found!');
+                    }
+                });
+            }
 
+            function FetchProductsforView() {
+                $.ajax({
+                    url: "{{ route('fetch-products') }}",
+                    method: "GET",
+                    success: function(response) {
+                        $('#product-view-modals').html("");
+                        $.each(response.products, function(index, product) {
+                            let BaseUrl = "{{ url('/') }}";
+                            let ImgUrl = BaseUrl + "/storage/" + product.product_image;
+                            letModalId = "product" + product.id;
+                            let Modal = `
+
+                                    <div class="modal fade" id="${letModalId}" tabindex="-1" aria-labelledby="${letModalId}Label" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="${letModalId}Label">Modal title</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="${ImgUrl}" alt="">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                            `;
+                            $('#product-view-modals').append(Modal);
+                        });
+                    },
+                    error: function(xhr) {
+                        $("#product-view").html('No data found!');
                     }
                 });
             }
@@ -197,6 +239,7 @@
 
             setTimeout(() => {
                 FetchProducts();
+                FetchProductsforView();
             }, 1000);
 
         });

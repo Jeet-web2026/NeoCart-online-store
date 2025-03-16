@@ -10,6 +10,9 @@
             <div class="container-fluid" style="padding-top: 10vh;">
                 <div id="product-view" class="row">
                 </div>
+                <div id="product-view-modals">
+                    
+                </div>
             </div>
         </div>
         <div class="manage-products overflow-auto" style="height: 100vh;">
