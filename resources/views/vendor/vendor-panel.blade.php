@@ -141,11 +141,10 @@
 
                     },
                     error: function(xhr) {
-                        if (xhr.status === 422) {
-                            let errors = xhr.responseJSON.errors;
-                            Object.values(errors).forEach(errorArray => {
-                                errorArray.forEach(errorText => {
-                                    $('#vendor-product-add-form').find('.vendor-product-form-result').html(`        
+                        let errors = xhr.responseJSON.errors;
+                        Object.values(errors).forEach(errorArray => {
+                            errorArray.forEach(errorText => {
+                                $('#vendor-product-add-form').find('.vendor-product-form-result').html(`        
                             
                                         <div class="alert alert-danger text-center fze-1 alert-dismissible fade show" role="alert">
                                             <strong><i class="bi bi-exclamation-octagon fs-5 me-2"></i>${errorText}</strong>
@@ -153,10 +152,9 @@
                                         </div>
                             
                                 `);
-                                    NotificationHandle('#vendor-product-add-form');
-                                });
+                                NotificationHandle('#vendor-product-add-form');
                             });
-                        };
+                        });
                     }
                 });
 
