@@ -7,6 +7,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'vendor' => [
+            'driver' => 'session',
+            'provider' => 'vendor_logins',
+        ],
     ],
 
 
@@ -14,6 +18,10 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => env('AUTH_MODEL', App\Models\User::class),
+        ],
+        'vendor_logins' => [
+            'driver' => 'eloquent',
+            'model' => env('AUTH_MODEL', App\Models\VendorLogin::class),
         ],
     ],
 
