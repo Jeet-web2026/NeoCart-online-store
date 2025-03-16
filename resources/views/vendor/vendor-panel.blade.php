@@ -122,7 +122,7 @@
                         
                         
                         `;
-                            $("#product-view").html(ProductCard);
+                            $("#product-view").append(ProductCard);
                         });
                     },
                     error: function(xhr) {
