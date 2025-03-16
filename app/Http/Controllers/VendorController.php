@@ -61,6 +61,6 @@ class VendorController extends Controller
     public function FetchVendorProducts()
     {
         $fetchProducts = Vendor::all();
-        return response()->json($fetchProducts);
+        return response()->json(['products' => $fetchProducts]);
     }
 }
