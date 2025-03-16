@@ -107,18 +107,18 @@
                             const ImageUrl = baseUrl + "/storage/" + product.product_image;
                             let ProductCard = `
                         
-                        <div class="col-md-3 p-2">
-                            <div class="card border shadow-sm">
-                                <img src="${ImageUrl}" class="card-img-top" alt="product-image">
-                             <div class="card-body">
-                                 <h5 class="card-title text-capitalize fze-1 text-black mb-2">${product.product_name}</h5>
-                                 <div class="d-flex align-items-center">
-                                     <a href="#" class="btn btn-primary text-capitalize fze me-2"><i class="bi bi-eye me-2"></i>view</a>
-                                     <a href="#" class="btn btn-danger text-capitalize fze"><i class="bi bi-trash me-2"></i>delete</a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div> 
+                            <div class="col-md-3 p-2">
+                                <div class="card border shadow-sm">
+                                    <img src="${ImageUrl}" class="card-img-top" alt="product-image">
+                                <div class="card-body">
+                                    <h5 class="card-title text-capitalize fze-1 text-black mb-2">${product.product_name}</h5>
+                                    <div class="d-flex align-items-center">
+                                        <a href="#" class="btn btn-primary text-capitalize fze me-2"><i class="bi bi-eye me-2"></i>view</a>
+                                        <a href="#" class="btn btn-danger text-capitalize fze"><i class="bi bi-trash me-2"></i>delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
                         
                         
                         `;

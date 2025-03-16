@@ -10,6 +10,11 @@ class VendorController extends Controller
 {
     public function index()
     {
+        return view('vendor.vendor-login');
+    }
+
+    public function VendorDashboard()
+    {
         return view('vendor.vendor-panel');
     }
 
