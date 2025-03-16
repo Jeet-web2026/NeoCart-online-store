@@ -125,9 +125,9 @@ class AuthController extends Controller
         ];
 
         if (Auth::guard('vendor')->attempt($matchData)) {
-            return redirect()->route('vendor-login')->with('vendorloginsuccess', 'Login Successfully!');
+            return redirect()->route('vendor-dashboard')->with('vendorloginsuccess', 'Login Successfully!');
         }
-        return redirect()->route('vendor-login')->with('vendorloginfailed', 'Login Failed!');
+        return redirect()->route('vendor-login')->withInput()->with('vendorloginfailed', 'Login Failed!');
     }
 
     public function logout(Request $request)
