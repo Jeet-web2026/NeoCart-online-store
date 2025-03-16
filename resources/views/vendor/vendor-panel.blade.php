@@ -126,7 +126,7 @@
                         $('#vendor-product-add-form').find('.vendor-product-form-result').html(`                          
                             
                         <div class="alert alert-success text-center fze-1 alert-dismissible fade show" role="alert">
-                            <strong>${response.success}</strong>
+                            <strong><i class="bi bi-check2-circle fs-5 me-2"></i>${response.success}</strong>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                             
