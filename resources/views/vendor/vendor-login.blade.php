@@ -36,7 +36,7 @@
                         <input type="password" class="form-control shadow-none fze-1 @error('vendor-login-password') is-invalid @enderror" id="vendor-login-password" name="vendor-login-password">
                         @error('vendor-login-password')
                         <span>
-                            <p class="text-danger fze">{{ $messag }}</p>
+                            <p class="text-danger fze">{{ $message }}</p>
                         </span>
                         @enderror
                     </div>
