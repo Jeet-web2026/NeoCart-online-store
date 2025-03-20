@@ -8,8 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-
-        $TopSellors = Vendor::where('id', 'desc')->take(5)->get();
+        $TopSellors = Vendor::latest()->take(5)->get();
         return view('index', compact('TopSellors'));
     }
 }
