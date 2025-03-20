@@ -6,7 +6,8 @@ use App\Http\Controllers\VendorController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', [HomeController::class, 'index'])->name('login');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('login', [AuthController::class, 'VendorLogin'])->name('login');
 
 Route::controller(AuthController::class)->group(function () {
     Route::get('user-signup', 'index')->name('user-signup');
