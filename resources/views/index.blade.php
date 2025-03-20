@@ -772,11 +772,11 @@
                         </div>
                     </div>
                 </div>
+                @forelse($TopSellors as $TopSellor)
+                <x-product-card-dyn companyname="{{ $TopSellor->product_company_name }}" productName="{{ $TopSellor->product_name }}" productPrice="{{ $TopSellor->product_price }}" />
+                @empty
                 <x-product-card />
-                <x-product-card />
-                <x-product-card />
-                <x-product-card />
-                <x-product-card />
+                @endforelse
             </div>
         </div>
     </section>
