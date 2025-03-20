@@ -261,7 +261,7 @@
         /* lastviewed start */
         #lastviewed .card-img-top {
             height: 25vh;
-            width: 100%;
+            width: 25vh;
             object-fit: cover;
             mix-blend-mode: multiply;
         }
