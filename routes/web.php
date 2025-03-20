@@ -6,7 +6,7 @@ use App\Http\Controllers\VendorController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('login');
 
 Route::controller(AuthController::class)->group(function () {
     Route::get('user-signup', 'index')->name('user-signup');
@@ -14,7 +14,7 @@ Route::controller(AuthController::class)->group(function () {
     Route::post('signup-verification', 'signupVerification')->name('user-signup-verification');
     Route::post('login-verification', 'loginVerification')->name('user-login-verification');
     Route::post('user-logout', 'logout')->name('user-logout');
-    Route::get('vendor-login', 'VendorLogin')->name('login');
+    Route::get('vendor-login', 'VendorLogin')->name('vendor-login');
     Route::post('vendor-login-verify', 'VendorCheck')->name('vendor-login-verify');
     Route::post('vendor-logout', 'Vendorlogout')->name('vendor-logout');
     Route::get('google-login', 'googleLogin')->name('google-login');
