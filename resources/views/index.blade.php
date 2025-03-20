@@ -261,7 +261,7 @@
         /* lastviewed start */
         #lastviewed .card-img-top {
             height: 25vh;
-            width: 25vh;
+            width: 100%;
             object-fit: cover;
             mix-blend-mode: multiply;
         }
@@ -281,7 +281,7 @@
         /* neocartstopsellors start */
         #neocarts-top-sellors .card-img-top {
             height: 25vh;
-            width: 100%;
+            width: 25vh;
             object-fit: cover;
             mix-blend-mode: multiply;
         }
@@ -774,11 +774,10 @@
                 </div>
                 @forelse($TopSellors as $TopSellor)
                 <x-product-card-dyn
-                 companyName="{{ $TopSellor->product_company_name }}"
-                 productName="{{ $TopSellor->product_name }}" 
-                 productPrice="{{ $TopSellor->product_price }}" 
-                 image="{{ asset('storage') . '/' . $TopSellor->product_image }}"
-                 />
+                    companyName="{{ $TopSellor->product_company_name }}"
+                    productName="{{ $TopSellor->product_name }}"
+                    productPrice="{{ $TopSellor->product_price }}"
+                    image="{{ asset('storage') . '/' . $TopSellor->product_image }}" />
                 @empty
                 <x-product-card />
                 @endforelse
