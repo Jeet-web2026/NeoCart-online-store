@@ -773,7 +773,12 @@
                     </div>
                 </div>
                 @forelse($TopSellors as $TopSellor)
-                <x-product-card-dyn companyname="{{ $TopSellor->product_company_name }}" productName="{{ $TopSellor->product_name }}" productPrice="{{ $TopSellor->product_price }}" />
+                <x-product-card-dyn
+                 companyName="{{ $TopSellor->product_company_name }}"
+                 productName="{{ $TopSellor->product_name }}" 
+                 productPrice="{{ $TopSellor->product_price }}" 
+                 image="{{ asset('storage') . '/' . $TopSellor->product_image }}"
+                 />
                 @empty
                 <x-product-card />
                 @endforelse

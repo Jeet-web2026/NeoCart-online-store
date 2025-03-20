@@ -7,7 +7,7 @@
             <span class="text-light bg-warning position-absolute px-2 fze text-capitalize no-radius">featured</span>
             @endif
             <div class="d-flex justify-content-center align-items-center px-5">
-                @if(!empty($companyName)) {{-- Fixed: companyname to companyName --}}
+                @if(!empty($companyName))
                 <img src="{{ $image }}" class="card-img-top no-radius" alt="{{ $companyName }}">
                 @endif
             </div>
