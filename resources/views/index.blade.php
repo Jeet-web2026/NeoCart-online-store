@@ -982,7 +982,7 @@
                                 <div class="card-body">
                                     <p class="fze text-secondary text-capitalize mb-2">subscribe for updates</p>
                                     <h3 class="card-title text-uppercase fze-4 text-dark fw-bold">subscribe to the news</h3>
-                                    <p class="card-text fze-1 text-black">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text fze-1 text-black"></p>
                                     <a href="javascript:void(0)" class="btn btn-outline-dark shadow-none fze text-capitalize mt-3">subscribe now</a>
                                 </div>
                             </div>
