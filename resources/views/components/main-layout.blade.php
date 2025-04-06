@@ -1,4 +1,4 @@
-@props(['subheading' => '', 'metadata' => '', 'metadescription' => '', 'tailwind' => '', 'bootstrap' => '', 'jQuery' => '', 'slickcarousel' => ''])
+@props(['subheading' => '', 'metadata' => '', 'metadescription' => '', 'tailwind' => '', 'bootstrap' => '', 'jQuery' => '', 'slickcarousel' => '', 'font2nd' => ''])
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 
@@ -21,6 +21,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     @endif
+    {{--figtree (google fonts)--}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    {{--figtree (google fonts)--}}
+    @if($font2nd)
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    @endif
+
+    {{--default css--}}
+    <style>
+        * {
+            font-family: "Figtree", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    {{--default css--}}
+
+    @if($font2nd)
+    <style>
+        .font-mont {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+        }
+    </style>
+    @endif
+
 </head>
 
 <body>
