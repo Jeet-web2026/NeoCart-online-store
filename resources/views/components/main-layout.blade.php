@@ -32,6 +32,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     @endif
 
+    @yield('extracsscdns')
+
     {{--default css--}}
     <style>
         * {
@@ -56,6 +58,8 @@
     </style>
     @endif
 
+    @yield('extracss')
+
 </head>
 
 <body>
@@ -66,9 +70,14 @@
     @if($slickcarousel)
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     @endif
+
+    @yield('extrajscdns')
+
     @if($bootstrap)
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     @endif
+
+    @yield('extrajs')
 </body>
 
 </html>
