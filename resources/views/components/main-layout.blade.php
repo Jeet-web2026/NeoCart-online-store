@@ -1,6 +1,6 @@
 @props(['subheading' => '', 'metadata' => '', 'metadescription' => '', 'tailwind' => '', 'bootstrap' => '', 'jQuery' => ''])
 <!DOCTYPE html>
-<html lang="">
+<html lang="{{ app()->getLocale() }}">
 
 <head>
     <meta charset="UTF-8">
