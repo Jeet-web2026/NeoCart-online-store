@@ -46,6 +46,14 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+        /* navbar css */
+        header .main-web-side-logo {
+            height: 15vh;
+            width: 100%;
+        }
+
+        /* navbar css */
     </style>
     {{--default css--}}
 
