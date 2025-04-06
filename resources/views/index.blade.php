@@ -1,3 +1,3 @@
-<x-MainLayout>
+<x-MainLayout bootstrap="active">
 
 </x-MainLayout>
