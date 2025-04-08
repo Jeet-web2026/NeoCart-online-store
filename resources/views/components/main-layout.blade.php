@@ -1,4 +1,4 @@
-@props(['subheading' => '', 'metadata' => '', 'metadescription' => '', 'tailwind' => '', 'bootstrap' => '', 'jQuery' => '', 'slickcarousel' => '', 'font2nd' => ''])
+@props(['subheading' => '', 'metadata' => '', 'metadescription' => '', 'tailwind' => '', 'bootstrap' => '', 'jQuery' => '', 'slickcarousel' => '', 'font2nd' => '', 'bIcons' => ''])
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 
@@ -32,6 +32,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     @endif
 
+    @if($bIcons)
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    @endif
+
     @yield('extracsscdns')
 
     {{--default css--}}
@@ -51,6 +55,12 @@
         header .main-web-side-logo {
             height: 15vh;
             width: 100%;
+        }
+
+        header .contact-section .bi-telephone-fill {
+            background-color: #5404f5;
+            padding-inline: .5rem;
+            padding-block: .3rem;
         }
 
         /* navbar css */
