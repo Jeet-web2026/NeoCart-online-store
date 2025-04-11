@@ -38,7 +38,7 @@
                     <span class="d-flex justify-content-center align-items-center">
                         <i class="bi bi-telephone-fill rounded-circle"></i>
                         <span>
-                            <p class="text-decoration-none">make a call</p>
+                            <p class="text-decoration-none text-black text-capitalize">make a call</p>
                         </span>
                     </span>
                 </a>
