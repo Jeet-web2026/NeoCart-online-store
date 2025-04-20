@@ -1,4 +1,4 @@
-<x-MainLayout bootstrap="active" bIcons="active">
+<x-MainLayout bootstrap="active" bIcons="active" jQuery="active" slickcarousel="active">
     <x-Navbar />
 
     {{--main content start--}}
@@ -67,14 +67,89 @@
     {{--main content start--}}
 
     {{--what we offer section--}}
-    <section id="we-offer">
-        <div class="row p-5">
-            <div class="col">
-
+    <section id="we-offer" class="p-5">
+        <h4 class="text-capitalize fs-5 text-light text-center mb-5">preparing for your business success with it solution</h4>
+        <div class="row px-3 we-offer-showcase">
+            <div class="col px-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+            <div class="col px-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col px-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col px-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     {{--what we offer section--}}
@@ -147,5 +222,46 @@
 
         /* what we offer section css end */
     </style>
+    @endsection
+
+    @section('extrajs')
+    <script>
+        $(document).ready(function() {
+            $('.we-offer-showcase').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                arrows: false,
+                // autoplay: true,
+                // autoplaySpeed: 2000,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
     @endsection
 </x-MainLayout>
