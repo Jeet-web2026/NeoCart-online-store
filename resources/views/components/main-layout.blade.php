@@ -79,6 +79,10 @@
             --bs-gutter-x: 0rem !important;
         }
 
+        ul li{
+            list-style: none;
+        }
+
         /* navbar css */
     </style>
     {{--default css--}}
