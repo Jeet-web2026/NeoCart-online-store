@@ -63,6 +63,14 @@
             padding-block: .3rem;
         }
 
+        .no-radius {
+            border-radius: 0 !important;
+        }
+
+        header .navbar .dropdown-menu{
+            margin-top: 2.1rem;
+        }
+
         /* navbar css */
     </style>
     {{--default css--}}
