@@ -74,7 +74,7 @@
             width: 100%;
             background-image: url('https://img.freepik.com/free-photo/group-people-working-team_23-2147656716.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740');
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 100%;
             position: relative;
             padding-top: 10vh;
         }
