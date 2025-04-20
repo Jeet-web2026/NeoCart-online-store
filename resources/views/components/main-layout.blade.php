@@ -67,12 +67,16 @@
             border-radius: 0 !important;
         }
 
-        header .navbar .dropdown-menu{
+        header .navbar .dropdown-menu {
             margin-top: 2.1rem;
         }
 
-        .font-500{
+        .font-500 {
             font-weight: 500;
+        }
+
+        .row {
+            --bs-gutter-x: 0rem !important;
         }
 
         /* navbar css */
