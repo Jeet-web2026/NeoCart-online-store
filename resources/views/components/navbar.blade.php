@@ -1,5 +1,5 @@
 <header class="w-100 fixed-top shadow">
-    <nav class="navbar navbar-expand-lg py-0">
+    <nav class="navbar navbar-expand-lg py-0" style="background-color: #000046;">
         <div class="container-fluid px-5">
             <a class="navbar-brand text-light" href="{{ url('/') }}">
                 <img src="{{ asset('essentials/images/main-logo.png') }}" alt="main-website-logo" class="main-web-side-logo">
@@ -10,11 +10,11 @@
             <div class="collapse navbar-collapse" id="NeoCartNavbar">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-black" aria-current="page" href="{{ url('/') }}">Home</a>
+                        <a class="nav-link active text-light" aria-current="page" href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            About
+                        <a class="nav-link font-500 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About<i class="bi bi-plus ms-2"></i>
                         </a>
                         <ul class="dropdown-menu no-radius border-0 shadow-sm">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -23,36 +23,30 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
+                        <a class="nav-link font-500 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services<i class="bi bi-plus ms-2"></i>
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu no-radius border-0 shadow-sm">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Pages
+                        <a class="nav-link font-500 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages<i class="bi bi-plus ms-2"></i>
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu no-radius border-0 shadow-sm">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blogs</a>
+                        <a class="nav-link text-light" href="#">Blogs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link text-light" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,14 +55,14 @@
                     <span class="d-flex justify-content-center align-items-center">
                         <i class="bi bi-telephone-fill rounded-circle me-2"></i>
                         <span>
-                            <p class="text-decoration-none text-black mb-0">Make a call</p>
-                            <p class="text-decoration-none text-black mb-0">+91 9163715179</p>
+                            <p class="text-decoration-none text-light mb-0">Make a call</p>
+                            <p class="text-decoration-none text-light mb-0">+91 9163715179</p>
                         </span>
                     </span>
                 </a>
             </div>
             <button class="btn border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#hamburger-menu" aria-controls="hamburger-menu">
-                <i class="bi bi-list text-black fs-5"></i>
+                <i class="bi bi-list text-light fs-5"></i>
             </button>
         </div>
     </nav>

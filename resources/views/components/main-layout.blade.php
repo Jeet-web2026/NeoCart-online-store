@@ -71,6 +71,10 @@
             margin-top: 2.1rem;
         }
 
+        .font-500{
+            font-weight: 500;
+        }
+
         /* navbar css */
     </style>
     {{--default css--}}
