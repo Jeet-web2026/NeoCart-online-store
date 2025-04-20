@@ -8,11 +8,16 @@
             <div class="col-md-6">
                 <div class="card h-100 w-100 border-0 px-5 bg-transparent">
                     <div class="card-body d-flex justify-content-center align-items-center">
-                        <div style="margin-top: 3.5rem;">
+                        <div class="mt-5">
                             <h1 class="text-capitalize fw-bold text-light lh-sm">we take care of your IT solutions & provide best services</h1>
                             <div class="d-flex justify-content-start align-items-center mt-5">
                                 <a href="javascript:void(0)" class="btn shadow-sm border-0 text-light text-capitalize contact-now px-4 py-2 me-3">get contact now<i class="bi bi-phone-flip ms-2"></i></a>
                                 <a href="javascript:void(0)" class="text-capitalize text-light text-decoration-none border-light view-services border rounded px-4 py-2">view services<i class="bi bi-box-arrow-in-up-right ms-2"></i></a>
+                            </div>
+                            <div class="d-flex justify-content-start mt-4 align-items-center position-relative customer-details">
+                                <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img">
+                                <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img position-absolute">
+                                <img src="https://img.freepik.com/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img position-absolute">
                             </div>
                         </div>
                     </div>
@@ -63,6 +68,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
+            padding-top: 10vh;
         }
 
         #main-content .bg-overlay {
@@ -90,6 +96,20 @@
 
         #main-content .enquiry-btn {
             background-color: #5404f5;
+        }
+
+        #main-content .customer-info-img {
+            height: 2.5rem;
+            width: 2.5rem;
+            object-fit: cover;
+        }
+
+        #main-content .customer-details img:nth-child(2) {
+            left: 5%;
+        }
+
+        #main-content .customer-details img:nth-child(3) {
+            left: 10%;
         }
     </style>
     @endsection
