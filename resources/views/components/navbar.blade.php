@@ -9,11 +9,11 @@
             </button>
             <div class="collapse navbar-collapse" id="NeoCartNavbar">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                    <li class="nav-item me-3">
                         <a class="nav-link active text-light" aria-current="page" href="{{ url('/') }}">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link font-500 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link font-500 text-light" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About<i class="bi bi-plus ms-2"></i>
                         </a>
                         <ul class="dropdown-menu no-radius border-0 shadow-sm">
@@ -22,8 +22,8 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link font-500 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link font-500 text-light" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Services<i class="bi bi-plus ms-2"></i>
                         </a>
                         <ul class="dropdown-menu no-radius border-0 shadow-sm">
@@ -32,8 +32,8 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link font-500 text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link font-500 text-light" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Pages<i class="bi bi-plus ms-2"></i>
                         </a>
                         <ul class="dropdown-menu no-radius border-0 shadow-sm">
@@ -42,11 +42,11 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Blogs</a>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-light" href="javascript:void(0)">Blogs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contact</a>
+                        <a class="nav-link text-light" href="javascript:void(0)">Contact</a>
                     </li>
                 </ul>
             </div>

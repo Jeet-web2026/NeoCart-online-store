@@ -66,9 +66,23 @@
     </main>
     {{--main content start--}}
 
+    {{--what we offer section--}}
+    <section id="we-offer">
+        <div class="row p-5">
+            <div class="col">
+
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </section>
+    {{--what we offer section--}}
+
     <x-HomePopups />
     @section('extracss')
     <style>
+        /* main content css start */
         #main-content {
             height: 100vh;
             width: 100%;
@@ -119,9 +133,19 @@
         #main-content .customer-details .third-cm {
             left: 40%;
         }
+
         #main-content .customer-details .fourth-cm {
             left: 60%;
         }
+
+        /* main content css end */
+
+        /* what we offer section css start */
+        #we-offer {
+            background-color: #00000c;
+        }
+
+        /* what we offer section css end */
     </style>
     @endsection
 </x-MainLayout>
