@@ -154,6 +154,31 @@
     </section>
     {{--what we offer section--}}
 
+    {{--aboutus-inshort--}}
+    <section id="aboutus-inshort" class="p-5">
+        <div class="row px-5">
+            <div class="col-md-6 ps-5">
+                <div class="d-flex align-items-center">
+                    <img src="https://img.freepik.com/free-photo/people-office-analyzing-checking-finance-graphs_23-2150377131.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="it-consulting-img" class="it-consulting-img rounded-2 shadow me-3">
+                    <img src="https://img.freepik.com/free-photo/industrial-designers-working-office-medium-shot_23-2149307801.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="it-consulting-img-second" class="it-consulting-img-second rounded-2 shadow">
+                </div>
+            </div>
+            <div class="col-md-6 pe-5">
+                <div class="w-25 mb-3">
+                    <p class="text-uppercase mb-0 fs-5 shadow text-center fw-bold rounded-pill" style="color: #5404f5;">about us</p>
+                </div>
+                <h2 class="text-capitalize fs-1 text-black font-500">preparing your success trusted IT services</h2>
+                <p class="mb-0 text-capitalize font-500 text-secondary">At NeoPrime, we're committed to preparing your success with trusted IT services tailored to your business goals. Our solutions ensure innovation, security, and long-term growth in today's competitive digital world.</p>
+                <ul class="ps-0 mt-3">
+                    <li>Scalable and secure IT solutions to fuel your business success.</li>
+                    <li>Reliable support from certified and experienced professionals.</li>
+                    <li>Customized strategies aligned with your company's unique needs.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    {{--aboutus-inshort--}}
+
     <x-HomePopups />
     @section('extracss')
     <style>
@@ -226,6 +251,25 @@
         }
 
         /* what we offer section css end */
+
+        /* aboutus-inshort start */
+        #aboutus-inshort {
+            background-color: #f7f7f7;
+        }
+
+        #aboutus-inshort .it-consulting-img {
+            height: 50vh;
+            width: 35vh;
+            object-fit: cover;
+        }
+
+        #aboutus-inshort .it-consulting-img-second {
+            height: 60vh;
+            width: 33vh;
+            object-fit: cover;
+        }
+
+        /* aboutus-inshort end */
     </style>
     @endsection
 
