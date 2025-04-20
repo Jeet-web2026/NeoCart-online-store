@@ -71,19 +71,19 @@
         <h4 class="text-capitalize fs-5 text-light text-center mb-5">preparing for your business success with it solution</h4>
         <div class="row px-3 we-offer-showcase">
             <div class="col px-2">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card">
+                <div class="card border-0 shadow">
+                    <div class="card-body p-2">
+                        <div class="card border-0 rounded-2 overflow-hidden">
                             <div class="row g-0">
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <p class="card-text mb-1">01</p>
+                                        <h5 class="card-title fs-5 text-capitalize text-black fw-bold">website designing</h5>
+                                        <a href="javascript:void(0)" class="text-black text-decoration-none mb-0"><i class="bi bi-arrow-up-right fs-5"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                    <img src="https://img.freepik.com/free-photo/web-design_53876-167070.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="website-design" class="we-offer-img">
                                 </div>
                             </div>
                         </div>
@@ -91,19 +91,19 @@
                 </div>
             </div>
             <div class="col px-2">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card">
+                <div class="card border-0 shadow">
+                    <div class="card-body p-2">
+                        <div class="card border-0 rounded-2 overflow-hidden">
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
-                                </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <p class="card-text mb-1">02</p>
+                                        <h5 class="card-title fs-5 text-capitalize text-black fw-bold">website development</h5>
+                                        <a href="javascript:void(0)" class="text-black text-decoration-none mb-0"><i class="bi bi-arrow-up-right fs-5"></i></a>
                                     </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" class="we-offer-img" alt="web-development">
                                 </div>
                             </div>
                         </div>
@@ -111,19 +111,19 @@
                 </div>
             </div>
             <div class="col px-2">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card">
+                <div class="card border-0 shadow">
+                    <div class="card-body p-2">
+                        <div class="card border-0 rounded-2 overflow-hidden">
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
-                                </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <p class="card-text mb-1">03</p>
+                                        <h5 class="card-title fs-5 text-capitalize text-black fw-bold">app development</h5>
+                                        <a href="javascript:void(0)" class="text-black text-decoration-none mb-0"><i class="bi bi-arrow-up-right fs-5"></i></a>
                                     </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="https://img.freepik.com/free-vector/app-development-mobile-template_23-2148681251.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" class="we-offer-img" alt="app-development">
                                 </div>
                             </div>
                         </div>
@@ -131,19 +131,19 @@
                 </div>
             </div>
             <div class="col px-2">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card">
+                <div class="card border-0 shadow">
+                    <div class="card-body p-2">
+                        <div class="card border-0 rounded-2 overflow-hidden">
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
-                                </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <p class="card-text mb-1">04</p>
+                                        <h5 class="card-title fs-5 text-capitalize text-black fw-bold">cms development</h5>
+                                        <a href="javascript:void(0)" class="text-black text-decoration-none mb-0"><i class="bi bi-arrow-up-right fs-5"></i></a>
                                     </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="https://img.freepik.com/free-vector/flat-design-cms-concept-illustration_23-2148796509.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="cms-development" class="we-offer-img">
                                 </div>
                             </div>
                         </div>
@@ -220,6 +220,11 @@
             background-color: #00000c;
         }
 
+        #we-offer .we-offer-showcase .we-offer-img {
+            height: 19vh;
+            width: 100%;
+        }
+
         /* what we offer section css end */
     </style>
     @endsection
@@ -232,8 +237,8 @@
                 infinite: true,
                 speed: 300,
                 arrows: false,
-                // autoplay: true,
-                // autoplaySpeed: 2000,
+                autoplay: true,
+                autoplaySpeed: 2000,
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 responsive: [{
