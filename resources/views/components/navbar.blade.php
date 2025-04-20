@@ -1,5 +1,5 @@
 <header class="w-100 fixed-top shadow">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg py-0">
         <div class="container-fluid px-5">
             <a class="navbar-brand text-light" href="{{ url('/') }}">
                 <img src="{{ asset('essentials/images/main-logo.png') }}" alt="main-website-logo" class="main-web-side-logo">
