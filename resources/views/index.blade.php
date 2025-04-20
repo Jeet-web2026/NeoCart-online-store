@@ -12,7 +12,7 @@
                             <h1 class="text-capitalize fw-bold text-light lh-sm">we take care of your IT solutions & provide best services</h1>
                             <div class="d-flex justify-content-start align-items-center mt-4">
                                 <a href="javascript:void(0)" class="btn shadow-sm border-0 text-light text-capitalize contact-now px-4 py-2 me-3">get contact now<i class="bi bi-phone-flip ms-2"></i></a>
-                                <a href="javascript:void(0)" class="text-capitalize text-light text-decoration-none border-light view-services border rounded px-4 py-2">view services<i class="bi bi-box-arrow-in-up-right ms-2"></i></a>
+                                <a href="javascript:void(0)" class="text-capitalize text-decoration-none view-services btn btn-outline-light rounded px-4 py-2">view services<i class="bi bi-box-arrow-in-up-right ms-2"></i></a>
                             </div>
                             <div class="row mt-5 w-50 align-items-center">
                                 <div class="col-md-6 pe-1">
@@ -156,7 +156,7 @@
 
     {{--aboutus-inshort--}}
     <section id="aboutus-inshort" class="p-5">
-        <div class="row px-5">
+        <div class="row px-5 align-items-center">
             <div class="col-md-6 ps-5">
                 <div class="d-flex align-items-center">
                     <img src="https://img.freepik.com/free-photo/people-office-analyzing-checking-finance-graphs_23-2150377131.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="it-consulting-img" class="it-consulting-img rounded-2 shadow me-3">
@@ -165,19 +165,46 @@
             </div>
             <div class="col-md-6 pe-5">
                 <div class="w-25 mb-3">
-                    <p class="text-uppercase mb-0 fs-5 shadow text-center fw-bold rounded-pill" style="color: #5404f5;">about us</p>
+                    <p class="text-capitalize mb-0 fs-5 shadow text-center fw-bold rounded-pill text-primary">about us</p>
                 </div>
                 <h2 class="text-capitalize fs-1 text-black font-500">preparing your success trusted IT services</h2>
                 <p class="mb-0 text-capitalize font-500 text-secondary">At NeoPrime, we're committed to preparing your success with trusted IT services tailored to your business goals. Our solutions ensure innovation, security, and long-term growth in today's competitive digital world.</p>
                 <ul class="ps-0 mt-3">
-                    <li>Scalable and secure IT solutions to fuel your business success.</li>
-                    <li>Reliable support from certified and experienced professionals.</li>
-                    <li>Customized strategies aligned with your company's unique needs.</li>
+                    <li class="text-capitalize"><i class="bi bi-check2-square me-2 text-primary"></i>Scalable and secure IT solutions to fuel your business success.</li>
+                    <li class="text-capitalize"><i class="bi bi-check2-square me-2 text-primary"></i>Reliable support from certified and experienced professionals.</li>
+                    <li class="text-capitalize"><i class="bi bi-check2-square me-2 text-primary"></i>Customized strategies aligned with your company's unique needs.</li>
                 </ul>
+                <div class="d-flex align-items-center w-100">
+                    <a href="javascript:void(0)" class="btn hire-us px-4 py-2 text-capitalize text-light me-3">hire our experts<i class="bi bi-arrow-right ms-2"></i></a>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card border-0 bg-transparent">
+                                <div class="row g-0">
+                                    <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                        <img src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" class="experts-img rounded-circle" alt="developers-img">
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="card-body py-2">
+                                            <p class="mb-0 text-capitalize text-truncate font-500">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     {{--aboutus-inshort--}}
+
+    {{--popular services--}}
+    <section id="populer-services">
+        <div class="d-flex justify-content-center align-items-center">
+            <h5 class="rounded-pill text-center text-primary fw-bold py-2 px-3 shadow text-capitalize fs-5">popular services</h5>
+        </div>
+    </section>
+    {{--popular services--}}
 
     <x-HomePopups />
     @section('extracss')
@@ -258,18 +285,34 @@
         }
 
         #aboutus-inshort .it-consulting-img {
-            height: 50vh;
+            height: 60vh;
             width: 35vh;
             object-fit: cover;
         }
 
         #aboutus-inshort .it-consulting-img-second {
-            height: 60vh;
+            height: 70vh;
             width: 33vh;
             object-fit: cover;
         }
 
+        #aboutus-inshort .hire-us {
+            background-color: #5404f5;
+        }
+
+        #aboutus-inshort .experts-img {
+            height: 5vh;
+            width: 5vh;
+        }
+
         /* aboutus-inshort end */
+
+        /* populer-services start */
+        #populer-services {
+            background-color: #f7f7f7;
+        }
+
+        /* populer-services end */
     </style>
     @endsection
 
