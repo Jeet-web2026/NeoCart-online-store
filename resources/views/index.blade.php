@@ -10,14 +10,22 @@
                     <div class="card-body d-flex justify-content-center align-items-center">
                         <div class="mt-5">
                             <h1 class="text-capitalize fw-bold text-light lh-sm">we take care of your IT solutions & provide best services</h1>
-                            <div class="d-flex justify-content-start align-items-center mt-5">
+                            <div class="d-flex justify-content-start align-items-center mt-4">
                                 <a href="javascript:void(0)" class="btn shadow-sm border-0 text-light text-capitalize contact-now px-4 py-2 me-3">get contact now<i class="bi bi-phone-flip ms-2"></i></a>
                                 <a href="javascript:void(0)" class="text-capitalize text-light text-decoration-none border-light view-services border rounded px-4 py-2">view services<i class="bi bi-box-arrow-in-up-right ms-2"></i></a>
                             </div>
-                            <div class="d-flex justify-content-start mt-4 align-items-center position-relative customer-details">
-                                <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img">
-                                <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img position-absolute">
-                                <img src="https://img.freepik.com/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img position-absolute">
+                            <div class="row mt-5 w-50 align-items-center">
+                                <div class="col-md-6 pe-1">
+                                    <div class="d-flex justify-content-start align-items-center position-relative customer-details">
+                                        <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img">
+                                        <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img position-absolute second-cm">
+                                        <img src="https://img.freepik.com/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img position-absolute third-cm">
+                                        <img src="https://img.freepik.com/free-photo/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray_171337-629.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="profile-img" class="rounded-circle shadow-sm customer-info-img position-absolute fourth-cm">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ps-1">
+                                    <p class="text-capitalize text-light mb-0">transfer 1600+ ideas to reality</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -104,12 +112,15 @@
             object-fit: cover;
         }
 
-        #main-content .customer-details img:nth-child(2) {
-            left: 5%;
+        #main-content .customer-details .second-cm {
+            left: 20%;
         }
 
-        #main-content .customer-details img:nth-child(3) {
-            left: 10%;
+        #main-content .customer-details .third-cm {
+            left: 40%;
+        }
+        #main-content .customer-details .fourth-cm {
+            left: 60%;
         }
     </style>
     @endsection

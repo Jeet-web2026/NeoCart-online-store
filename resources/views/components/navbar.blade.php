@@ -53,7 +53,7 @@
             <div class="d-flex contact-section me-5">
                 <a href="tel:+919163715179" class="text-light text-decoration-none">
                     <span class="d-flex justify-content-center align-items-center">
-                        <i class="bi bi-telephone-fill rounded-circle me-2"></i>
+                        <i class="bi bi-telephone-fill rounded-circle me-3"></i>
                         <span>
                             <p class="text-decoration-none text-light mb-0">Make a call</p>
                             <p class="text-decoration-none text-light mb-0">+91 9163715179</p>
