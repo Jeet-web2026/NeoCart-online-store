@@ -34,20 +34,20 @@
             <div class="col-md-6">
                 <div class="card h-100 w-100 bg-transparent border-0">
                     <div class="card-body d-flex justify-content-center align-items-center">
-                        <div class="card contact-form mt-5 shadow bg-gradient bg-light">
+                        <div class="card contact-form mt-5 shadow bg-white">
                             <div class="card-body">
-                                <h3 class="text-capitalize fs-4 fw-bold">get callback</h3>
+                                <h3 class="text-capitalize fs-4 fw-bold text-black">get callback</h3>
                                 <form>
                                     <div class="mb-3">
-                                        <label for="connection-name" class="form-label font-500">Name</label>
+                                        <label for="connection-name" class="form-label font-500 text-black">Name</label>
                                         <input type="password" class="form-control shadow-none" id="connection-name" name="connection-name">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="connection-email" class="form-label">Email address</label>
+                                        <label for="connection-email" class="form-label font-500 text-black">Email address</label>
                                         <input type="email" class="form-control shadow-none" id="connection-email" name="connection-email">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Project topic</label>
+                                        <label for="exampleInputEmail1" class="form-label font-500 text-black">Project topic</label>
                                         <select class="form-select shadow-none">
                                             <option value="0">Open this select menu</option>
                                             <option value="1">One</option>
