@@ -204,6 +204,49 @@
             <h5 class="rounded-pill text-center text-primary fw-bold py-2 px-3 shadow text-capitalize fs-5">popular services</h5>
         </div>
         <h2 class="text-capitalize fs-1 text-black font-500 text-center my-2">we provide best quality service <br>for your business</h2>
+        <div class="px-5">
+            <div class="row p-5">
+                <div class="col-md-3 p-2">
+                    <div class="card border-0 shadow-sm secondary-card p-3">
+                        <div class="card-body">
+                            <i class="bi bi-aspect-ratio fs-2"></i>
+                            <h4 class="text-capitalize text-black fs-3 mb-3 mt-2">website design & development</h4>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="https://img.freepik.com/free-photo/close-up-hands-typing-desk_23-2148994165.jpg?uid=R126305893&ga=GA1.1.1378415623.1732413357&semt=ais_hybrid&w=740" alt="web-site-design" class="my-3">
+                            </div>
+                            <a href="javascript:void(0)" class="btn border-0 shadow-none text-black text-uppercase">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card border-0 shadow-sm main-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card border-0 shadow-sm secondary-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card border-0 shadow-sm secondary-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     {{--popular services--}}
 
@@ -311,6 +354,21 @@
         /* populer-services start */
         #populer-services {
             background-color: #f7f7f7;
+        }
+
+        #populer-services .main-card {
+            background-color: #5404f5;
+        }
+
+        #populer-services .secondary-card {
+            background-color: #5404f529;
+        }
+
+        #populer-services .card img {
+            height: 13rem;
+            width: 13rem;
+            border-radius: 50%;
+            object-fit: cover;
         }
 
         /* populer-services end */
