@@ -203,6 +203,7 @@
         <div class="d-flex justify-content-center align-items-center">
             <h5 class="rounded-pill text-center text-primary fw-bold py-2 px-3 shadow text-capitalize fs-5">popular services</h5>
         </div>
+        <h2 class="text-capitalize fs-1 text-black font-500 text-center my-2">we provide best quality service <br>for your business</h2>
     </section>
     {{--popular services--}}
 
