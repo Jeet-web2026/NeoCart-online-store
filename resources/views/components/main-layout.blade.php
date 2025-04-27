@@ -1,4 +1,4 @@
-@props(['subtitle' => '', 'metaname' => '', 'metaDescription' => '', 'bootstrap' => ''])
+@props(['subtitle' => '', 'metaname' => '', 'metaDescription' => '', 'bootstrap' => '', 'jquery' => ''])
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 
@@ -9,7 +9,7 @@
     @if($metaname)
     <meta name="{{ $metaname }}" content="{{ $metaDescription }}">
     @endif
-    <title>@if($subtitle) {{ $subtitle }} | @endif {{ config('app.name') }} - The Best Ecommerce Platform for your needs</title>
+    <title>@if($subtitle) {{ $subtitle }} | @endif {{ config('app.name') }} - The Best Ecommerce Platform for Your Needs</title>
 
     {{--booststrap css cdn--}}
     @if($bootstrap)
@@ -29,11 +29,20 @@
 <body>
     {{ $slot }}
 
+    {{--jquery js cdn--}}
+    @if($jquery)
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    @endif
+    {{--jquery js cdn--}}
     {{--booststrap js cdn--}}
     @if($bootstrap)
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     @endif
     {{--booststrap js cdn--}}
+
+    {{--custom page wise js--}}
+    @yield('customjs')
+    {{--custom page wise js--}}
 
 </body>
 
